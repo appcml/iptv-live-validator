@@ -1,31 +1,29 @@
 #!/usr/bin/env python3
 """
-Generador de archivos M3U
-Crea listas finales desde los JSON validados
+Generador de archivos M3U y JSON API
 """
 
 import json
 import time
 
 def generate_m3u(channels, title="Lista IPTV"):
-    """Genera contenido M3U estándar"""
+    """Genera contenido M3U estandar"""
     lines = [
         "#EXTM3U",
-        f'#PLAYLIST:{title}',
-        f'## Generado: {time.strftime("%Y-%m-%d %H:%M:%S")}',
-        f'## Total canales: {len(channels)}',
-        f'## Fuente: github.com/tu-usuario/iptv-live-validator',
+        '#PLAYLIST:' + title,
+        '## Generado: ' + time.strftime("%Y-%m-%d %H:%M:%S"),
+        '## Total canales: ' + str(len(channels)),
+        '## Fuente: github.com/appcml/iptv-live-validator',
         ""
     ]
     
     for ch in channels:
-        # Atributos EXTINF
         name = ch.get("name", "Sin nombre").replace('"', "'")
         logo = ch.get("logo", "")
         group = ch.get("group", "General").replace('"', "'")
         country = ch.get("country", "XX")
         
-        extinf = f'#EXTINF:-1 tvg-id="" tvg-name="{name}" tvg-logo="{logo}" group-title="{group}" tvg-country="{country}",{name}'
+        extinf = '#EXTINF:-1 tvg-id="" tvg-name="' + name + '" tvg-logo="' + logo + '" group-title="' + group + '" tvg-country="' + country + '",' + name
         lines.append(extinf)
         lines.append(ch.get("url", ""))
         lines.append("")
@@ -70,22 +68,22 @@ def main():
     m3u_tv = generate_m3u(tv, "TV Channels - Solo Online")
     with open('output/lista_tv.m3u', 'w', encoding='utf-8') as f:
         f.write(m3u_tv)
-    print(f"✅ output/lista_tv.m3u ({len(tv)} canales)")
+    print("✅ output/lista_tv.m3u (" + str(len(tv)) + " canales)")
     
     # Generar M3U Radio
     m3u_radio = generate_m3u(radio, "Radio Stations - Solo Online")
     with open('output/lista_radio.m3u', 'w', encoding='utf-8') as f:
         f.write(m3u_radio)
-    print(f"✅ output/lista_radio.m3u ({len(radio)} radios)")
+    print("✅ output/lista_radio.m3u (" + str(len(radio)) + " radios)")
     
     # Generar M3U Completa
     all_channels = tv + radio
     m3u_all = generate_m3u(all_channels, "TV + Radio - Solo Online")
     with open('output/lista_completa.m3u', 'w', encoding='utf-8') as f:
         f.write(m3u_all)
-    print(f"✅ output/lista_completa.m3u ({len(all_channels)} total)")
+    print("✅ output/lista_completa.m3u (" + str(len(all_channels)) + " total)")
     
-    # Generar JSON API para tu app
+    # Generar JSON API
     api_tv = generate_json_api(tv, "tv")
     with open('output/api_tv.json', 'w', encoding='utf-8') as f:
         json.dump(api_tv, f, ensure_ascii=False, indent=2)
@@ -98,35 +96,39 @@ def main():
     with open('output/api_all.json', 'w', encoding='utf-8') as f:
         json.dump(api_all, f, ensure_ascii=False, indent=2)
     
-    print(f"✅ Archivos API JSON generados")
+    print("✅ Archivos API JSON generados")
     
-    # Generar README con estadísticas
-    readme = f"""# 📺 Canales Activos M3U
+    # Generar README con string concatenacion (evita f-string rota)
+    updated = time.strftime("%Y-%m-%d %H:%M:%S")
+    readme = "# 📺 Canales Activos M3U\n\n"
+    readme += "**Actualizado:** " + updated + "\n"
+    readme += "**Estado:** ✅ Todos los streams verificados y online\n\n"
+    readme += "## 📊 Estadísticas\n"
+    readme += "- **TV:** " + str(len(tv)) + " canales funcionando\n"
+    readme += "- **Radio:** " + str(len(radio)) + " estaciones funcionando\n"
+    readme += "- **Total:** " + str(len(all_channels)) + " streams activos\n\n"
+    readme += "## 📥 Descargas\n\n"
+    readme += "| Lista | Canales | Link |\n"
+    readme += "|-------|---------|------|\n"
+    readme += "| TV | " + str(len(tv)) + " | [lista_tv.m3u](lista_tv.m3u) |\n"
+    readme += "| Radio | " + str(len(radio)) + " | [lista_radio.m3u](lista_radio.m3u) |\n"
+    readme += "| Completa | " + str(len(all_channels)) + " | [lista_completa.m3u](lista_completa.m3u) |\n\n"
+    readme += "## 🔗 API JSON (para tu app)\n\n"
+    readme += "```javascript\n"
+    readme += "// TV\n"
+    readme += "fetch('https://raw.githubusercontent.com/appcml/iptv-live-validator/main/output/api_tv.json')\n\n"
+    readme += "// Radio\n"
+    readme += "fetch('https://raw.githubusercontent.com/appcml/iptv-live-validator/main/output/api_radio.json')\n\n"
+    readme += "// Todo\n"
+    readme += "fetch('https://raw.githubusercontent.com/appcml/iptv-live-validator/main/output/api_all.json')\n"
+    readme += "```\n\n"
+    readme += "## ⏰ Actualizacion\n"
+    readme += "Bot automatico verifica cada 3 horas. Solo canales online.\n"
+    
+    with open('README.md', 'w', encoding='utf-8') as f:
+        f.write(readme)
+    
+    print("✅ README.md actualizado")
 
-**Actualizado:** {time.strftime("%Y-%m-%d %H:%M:%S")}  
-**Estado:** ✅ Todos los streams verificados y online
-
-## 📊 Estadísticas
-- **TV:** {len(tv)} canales funcionando
-- **Radio:** {len(radio)} estaciones funcionando
-- **Total:** {len(all_channels)} streams activos
-
-## 📥 Descargas
-
-| Lista | Canales | Link |
-|-------|---------|------|
-| TV | {len(tv)} | [lista_tv.m3u](lista_tv.m3u) |
-| Radio | {len(radio)} | [lista_radio.m3u](lista_radio.m3u) |
-| Completa | {len(all_channels)} | [lista_completa.m3u](lista_completa.m3u) |
-
-## 🔗 API JSON (para tu app)
-
-```javascript
-// TV
-fetch('https://raw.githubusercontent.com/TU-USUARIO/iptv-live-validator/main/output/api_tv.json')
-
-// Radio  
-fetch('https://raw.githubusercontent.com/TU-USUARIO/iptv-live-validator/main/output/api_radio.json')
-
-// Todo
-fetch('https://raw.githubusercontent.com/TU-USUARIO/iptv-live-validator/main/output/api_all.json')
+if __name__ == "__main__":
+    main()
