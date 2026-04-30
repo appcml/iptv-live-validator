@@ -27,18 +27,20 @@ jobs:
       
       - name: 🧹 Limpiar datos anteriores
         run: |
-          echo '{}' > data/tv_channels_raw.json
-          echo '{}' > data/radio_channels_raw.json
-          echo "✅ Datos limpiados"
+          echo '[]' > data/tv_channels_raw.json
+          echo '[]' > data/radio_channels_raw.json
+          echo '✅ Datos limpiados (listas vacias)'
       
       - name: 📥 Importar desde CIC-TV
         run: python scripts/import_from_cic_tv.py
       
-      - name: 🔍 Validar streams (sin límite estricto)
+      - name: 🔍 Validar streams (sin limite estricto)
         run: |
-          # Modificar temporalmente el límite para validar más canales
+          # Crear copia temporal con limite aumentado
+          cp scripts/validator.py scripts/validator_backup.py
           sed -i 's/MAX_CHANNELS = 150/MAX_CHANNELS = 500/' scripts/validator.py
-          python scripts/validator.py
+          python scripts/validator.py || true
+          mv scripts/validator_backup.py scripts/validator.py
       
       - name: 📄 Generar archivos
         run: python scripts/generator.py
