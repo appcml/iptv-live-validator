@@ -1,9 +1,9 @@
 {
-  "imported_at": "2026-04-30 17:02:20",
+  "imported_at": "2026-04-30 17:11:25",
   "source": "CIC-TV",
   "total_found": 8002,
-  "new_tv": 2331,
-  "new_radio": 49,
+  "new_tv": 7749,
+  "new_radio": 253,
   "channels": [
     {
       "name": "DW Español",
