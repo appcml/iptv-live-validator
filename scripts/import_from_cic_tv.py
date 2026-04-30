@@ -1,38 +1,25 @@
 #!/usr/bin/env python3
 """
-Importador manual desde CIC-TV
-Lee canales del otro repositorio y los agrega para validacion
+Importador desde CIC-TV - SOLO para carga inicial
+No se ejecuta en auto-update
 """
 
 import requests
 import json
-import sys
+import re
 
-# URL del repo CIC-TV (raw github)
 CIC_TV_REPO = "https://raw.githubusercontent.com/appcml/CIC-TV/main"
 
-def fetch_json(url):
-    """Descarga JSON desde URL"""
-    try:
-        r = requests.get(url, timeout=15)
-        if r.status_code == 200:
-            return r.json()
-    except Exception as e:
-        print(f"❌ Error descargando {url}: {e}")
-    return None
-
 def fetch_m3u(url):
-    """Descarga M3U desde URL"""
     try:
         r = requests.get(url, timeout=15)
         if r.status_code == 200:
             return r.text
-    except Exception as e:
-        print(f"❌ Error descargando {url}: {e}")
+    except:
+        pass
     return None
 
-def parse_m3u_to_channels(content, default_group="CIC-TV"):
-    """Convierte M3U a lista de canales"""
+def parse_m3u(content):
     if not content:
         return []
     
@@ -44,26 +31,23 @@ def parse_m3u_to_channels(content, default_group="CIC-TV"):
         line = line.strip()
         
         if line.startswith('#EXTINF:'):
-            # Extraer nombre despues de la coma
             name = "Canal"
             if ',' in line:
                 name = line.split(',')[-1].strip()
             
-            # Extraer atributos
-            import re
             logo_match = re.search(r'tvg-logo="([^"]*)"', line)
             logo = logo_match.group(1) if logo_match else ""
             
             group_match = re.search(r'group-title="([^"]*)"', line)
-            group = group_match.group(1) if group_match else default_group
+            group = group_match.group(1) if group_match else "CIC-TV"
             
             current = {
-                "name": name,
+                "name": name.replace('"', '').strip(),
                 "url": "",
                 "logo": logo,
                 "group": group,
                 "country": "CL",
-                "source": "cic-tv-import"
+                "source": "cic-tv"
             }
             
         elif line.startswith('http') and current:
@@ -73,117 +57,40 @@ def parse_m3u_to_channels(content, default_group="CIC-TV"):
     
     return channels
 
-def import_from_cic_tv():
-    """Importa canales desde CIC-TV"""
+def import_cic_tv():
     print("="*60)
-    print("IMPORTANDO CANALES DESDE CIC-TV")
+    print("📥 IMPORTANDO DESDE CIC-TV (carga inicial)")
     print("="*60)
     
-    all_channels = []
+    # Buscar playlist.m3u
+    url = f"{CIC_TV_REPO}/playlist.m3u"
+    print(f"🔍 {url}")
     
-    # Opcion 1: Intentar leer JSON si existe en CIC-TV
-    json_urls = [
-        f"{CIC_TV_REPO}/channels.json",
-        f"{CIC_TV_REPO}/data/channels.json",
-        f"{CIC_TV_REPO}/api/channels.json"
-    ]
+    content = fetch_m3u(url)
+    if not content:
+        print("❌ No se encontró playlist.m3u en CIC-TV")
+        return
     
-    for url in json_urls:
-        print(f"\n🔍 Buscando JSON: {url}")
-        data = fetch_json(url)
-        if data:
-            print(f"✅ JSON encontrado!")
-            if isinstance(data, list):
-                channels = data
-            elif isinstance(data, dict) and 'channels' in data:
-                channels = data['channels']
-            else:
-                channels = []
-            
-            for ch in channels:
-                if 'url' in ch:
-                    all_channels.append({
-                        "name": ch.get("name", "Canal"),
-                        "url": ch["url"],
-                        "logo": ch.get("logo", ""),
-                        "group": ch.get("group", "CIC-TV"),
-                        "country": ch.get("country", "CL"),
-                        "source": "cic-tv-json"
-                    })
-            print(f"📊 {len(all_channels)} canales desde JSON")
-            break
+    channels = parse_m3u(content)
+    print(f"✅ {len(channels)} canales importados")
     
-    # Opcion 2: Intentar leer M3U si existe en CIC-TV
-    m3u_urls = [
-        f"{CIC_TV_REPO}/lista.m3u",
-        f"{CIC_TV_REPO}/channels.m3u",
-        f"{CIC_TV_REPO}/playlist.m3u",
-        f"{CIC_TV_REPO}/tv.m3u"
-    ]
+    # Separar TV y Radio
+    tv = []
+    radio = []
     
-    for url in m3u_urls:
-        print(f"\n🔍 Buscando M3U: {url}")
-        content = fetch_m3u(url)
-        if content:
-            print(f"✅ M3U encontrado!")
-            channels = parse_m3u_to_channels(content)
-            all_channels.extend(channels)
-            print(f"📊 {len(channels)} canales desde M3U")
-            break
-    
-    # Opcion 3: Buscar cualquier archivo .m3u en el repo (listando)
-    print(f"\n🔍 Buscando archivos en CIC-TV...")
-    try:
-        # Intentar leer el tree del repo
-        tree_url = "https://api.github.com/repos/appcml/CIC-TV/git/trees/main?recursive=1"
-        r = requests.get(tree_url, timeout=10)
-        if r.status_code == 200:
-            tree = r.json()
-            m3u_files = [f for f in tree.get('tree', []) if f['path'].endswith('.m3u') or f['path'].endswith('.m3u8')]
-            
-            print(f"📁 Archivos M3U encontrados en CIC-TV: {len(m3u_files)}")
-            for f in m3u_files:
-                print(f"   - {f['path']}")
-                
-                # Descargar cada M3U encontrado
-                file_url = f"{CIC_TV_REPO}/{f['path']}"
-                content = fetch_m3u(file_url)
-                if content:
-                    channels = parse_m3u_to_channels(content, f['path'])
-                    all_channels.extend(channels)
-    except Exception as e:
-        print(f"⚠️ No se pudo listar archivos: {e}")
-    
-    # Eliminar duplicados por URL
-    seen = set()
-    unique = []
-    for ch in all_channels:
-        if ch["url"] not in seen:
-            seen.add(ch["url"])
-            unique.append(ch)
-    
-    print(f"\n{'='*60}")
-    print(f"📊 TOTAL IMPORTADO: {len(unique)} canales unicos")
-    print(f"{'='*60}")
-    
-    # Separar TV y Radio (heuristico: si tiene 'radio' en nombre o grupo)
-    tv_channels = []
-    radio_channels = []
-    
-    for ch in unique:
+    for ch in channels:
         name_lower = ch["name"].lower()
         group_lower = ch["group"].lower()
         
         if any(x in name_lower or x in group_lower for x in ['radio', 'fm', 'am ', 'estacion']):
-            radio_channels.append(ch)
+            radio.append(ch)
         else:
-            tv_channels.append(ch)
+            tv.append(ch)
     
-    print(f"📺 TV: {len(tv_channels)}")
-    print(f"📻 Radio: {len(radio_channels)}")
+    print(f"📺 TV: {len(tv)}")
+    print(f"📻 Radio: {len(radio)}")
     
-    # Guardar para validacion
-    # Merge con existentes (evitar duplicados)
+    # Merge con existentes (si hay)
     try:
         with open('data/tv_channels_raw.json', 'r', encoding='utf-8') as f:
             existing_tv = json.load(f)
@@ -196,45 +103,32 @@ def import_from_cic_tv():
     except:
         existing_radio = []
     
-    # Combinar sin duplicados
-    existing_urls = {ch["url"] for ch in existing_tv + existing_radio}
+    seen = {ch["url"] for ch in existing_tv + existing_radio}
     
-    new_tv = [ch for ch in tv_channels if ch["url"] not in existing_urls]
-    new_radio = [ch for ch in radio_channels if ch["url"] not in existing_urls]
+    added_tv = 0
+    for ch in tv:
+        if ch["url"] not in seen:
+            existing_tv.append(ch)
+            seen.add(ch["url"])
+            added_tv += 1
     
-    merged_tv = existing_tv + new_tv
-    merged_radio = existing_radio + new_radio
+    added_radio = 0
+    for ch in radio:
+        if ch["url"] not in seen:
+            existing_radio.append(ch)
+            seen.add(ch["url"])
+            added_radio += 1
     
-    print(f"\n🆕 NUEVOS canales a validar:")
-    print(f"   TV: {len(new_tv)} (ya existian: {len(existing_tv)})")
-    print(f"   Radio: {len(new_radio)} (ya existian: {len(existing_radio)})")
-    
-    # Guardar merged
+    # Guardar
     with open('data/tv_channels_raw.json', 'w', encoding='utf-8') as f:
-        json.dump(merged_tv, f, ensure_ascii=False, indent=2)
+        json.dump(existing_tv, f, ensure_ascii=False, indent=2)
     
     with open('data/radio_channels_raw.json', 'w', encoding='utf-8') as f:
-        json.dump(merged_radio, f, ensure_ascii=False, indent=2)
+        json.dump(existing_radio, f, ensure_ascii=False, indent=2)
     
-    # Guardar log de importacion
-    import_log = {
-        "imported_at": time.strftime("%Y-%m-%d %H:%M:%S"),
-        "source": "CIC-TV",
-        "total_found": len(unique),
-        "new_tv": len(new_tv),
-        "new_radio": len(new_radio),
-        "channels": unique
-    }
-    
-    with open('data/import_log.json', 'w', encoding='utf-8') as f:
-        json.dump(import_log, f, ensure_ascii=False, indent=2)
-    
-    print(f"\n✅ Importacion completada!")
-    print(f"📁 Guardado en data/tv_channels_raw.json y data/radio_channels_raw.json")
-    print(f"📋 Log guardado en data/import_log.json")
-    
-    return merged_tv, merged_radio
+    print(f"\n✅ Importación completada")
+    print(f"🆕 Nuevos: {added_tv} TV + {added_radio} Radio")
+    print(f"📦 Total: {len(existing_tv)} TV + {len(existing_radio)} Radio")
 
 if __name__ == "__main__":
-    import time
-    import_from_cic_tv()
+    import_cic_tv()
