@@ -7,7 +7,6 @@ Descarga listas externas y extrae canales
 import requests
 import re
 import json
-from urllib.parse import urljoin
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
@@ -36,7 +35,6 @@ def parse_m3u(content, default_country="XX"):
         line = line.strip()
         
         if line.startswith('#EXTINF:'):
-            # Extraer atributos con regex
             name_match = re.search(r',([^,]+)$', line)
             name = name_match.group(1).strip() if name_match else "Canal Desconocido"
             
@@ -46,7 +44,7 @@ def parse_m3u(content, default_country="XX"):
             group_match = re.search(r'group-title="([^"]*)"', line)
             group = group_match.group(1) if group_match else "General"
             
-            country_match = re.search(r'tvg-country="([^"]*)"', line) or re.search(r'country="([^"]*)"', line)
+            country_match = re.search(r'tvg-country="([^"]*)"', line)
             country = country_match.group(1) if country_match else default_country
             
             current = {
@@ -60,7 +58,6 @@ def parse_m3u(content, default_country="XX"):
             
         elif line.startswith('http') and current:
             current["url"] = line
-            # Limpiar nombre si tiene comillas o caracteres raros
             current["name"] = current["name"].replace('"', '').strip()
             channels.append(current)
             current = None
@@ -75,7 +72,6 @@ def scrape_all_sources():
     all_tv = []
     all_radio = []
     
-    # Scrapear fuentes TV
     print("📺 Scrapeando fuentes TV...")
     for source_url in sources.get("tv_sources", []):
         print(f"   → {source_url}")
@@ -85,7 +81,6 @@ def scrape_all_sources():
             print(f"   ✓ {len(channels)} canales encontrados")
             all_tv.extend(channels)
     
-    # Scrapear fuentes Radio
     print("📻 Scrapeando fuentes Radio...")
     for source_url in sources.get("radio_sources", []):
         print(f"   → {source_url}")
@@ -116,16 +111,15 @@ def scrape_all_sources():
     
     print(f"\n📊 Total únicos: {len(unique_tv)} TV + {len(unique_radio)} Radio")
     
+    # Guardar
+    with open('data/tv_channels_raw.json', 'w', encoding='utf-8') as f:
+        json.dump(unique_tv, f, ensure_ascii=False, indent=2)
+    
+    with open('data/radio_channels_raw.json', 'w', encoding='utf-8') as f:
+        json.dump(unique_radio, f, ensure_ascii=False, indent=2)
+    
+    print("✅ Scraping completado")
     return unique_tv, unique_radio
 
 if __name__ == "__main__":
-    tv, radio = scrape_all_sources()
-    
-    # Guardar resultados crudos
-    with open('data/tv_channels_raw.json', 'w', encoding='utf-8') as f:
-        json.dump(tv, f, ensure_ascii=False, indent=2)
-    
-    with open('data/radio_channels_raw.json', 'w', encoding='utf-8') as f:
-        json.dump(radio, f, ensure_ascii=False, indent=2)
-    
-    print("✅ Scraping completado. Archivos guardados en data/")
+    scrape_all_sources()
