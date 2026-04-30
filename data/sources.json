@@ -1,0 +1,84 @@
+{
+  "tv_sources": [
+    "https://iptv-org.github.io/iptv/index.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cl.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us.m3u"
+  ],
+  "radio_sources": [
+    "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/radio.m3u"
+  ],
+  "static_tv": [
+    {
+      "name": "TVN Chile",
+      "url": "https://tvn-24.akamaized.net/hls/live/2038654/TVN24/master.m3u8",
+      "logo": "https://www.tvn.cl/logo.png",
+      "group": "Chile",
+      "country": "CL"
+    },
+    {
+      "name": "NASA TV",
+      "url": "https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8",
+      "logo": "https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png",
+      "group": "Educación",
+      "country": "US"
+    },
+    {
+      "name": "Pluto TV Movies",
+      "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5cf96dad1a1e5801eb6376be/master.m3u8",
+      "logo": "",
+      "group": "Entretenimiento",
+      "country": "US"
+    },
+    {
+      "name": "France 24",
+      "url": "https://static.france24.com/live/F24_ES_HI_HLS/live_tv.m3u8",
+      "logo": "",
+      "group": "Noticias",
+      "country": "FR"
+    },
+    {
+      "name": "Deutsche Welle",
+      "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
+      "logo": "",
+      "group": "Noticias",
+      "country": "DE"
+    }
+  ],
+  "static_radio": [
+    {
+      "name": "Cooperativa",
+      "url": "https://unlimited1-us.dps.live/cooperativafm/mp3/icecast.audio",
+      "logo": "https://www.cooperativa.cl/img/logo.png",
+      "group": "Noticias",
+      "country": "CL"
+    },
+    {
+      "name": "ADN Radio",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/ADN.mp3",
+      "logo": "",
+      "group": "Noticias",
+      "country": "CL"
+    },
+    {
+      "name": "BioBio La Radio",
+      "url": "https://unlimited1-us.dps.live/biobiolafm/mp3/icecast.audio",
+      "logo": "",
+      "group": "Noticias",
+      "country": "CL"
+    },
+    {
+      "name": "BBC World Service",
+      "url": "http://stream.live.vc.bbcmedia.co.uk/bbc_world_service",
+      "logo": "",
+      "group": "Noticias",
+      "country": "UK"
+    },
+    {
+      "name": "NPR News",
+      "url": "https://npr-ice.streamguys1.com/live.mp3",
+      "logo": "",
+      "group": "Noticias",
+      "country": "US"
+    }
+  ]
+}
