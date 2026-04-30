@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """
 Orquestador principal
-Ejecuta todo el pipeline: scrape -> validate -> generate
+Ejecuta todo el pipeline: scrape -> [import] -> validate -> generate
 """
 
 import subprocess
 import sys
 import time
+import os
 
 def run(script_name):
     print(f"\n{'='*60}")
@@ -24,7 +25,29 @@ def main():
     print("🚀 INICIANDO PIPELINE DE ACTUALIZACIÓN")
     print(f"⏰ {time.strftime('%Y-%m-%d %H:%M:%S')}")
     
-    # 1. Scrapear fuentes
+    # Detectar si estamos en GitHub Actions (no interactivo)
+    in_github = os.environ.get('GITHUB_ACTIONS') == 'true'
+    
+    # Preguntar si importar desde CIC-TV (solo modo manual)
+    if not in_github:
+        print("\n" + "="*60)
+        print("¿Importar canales desde CIC-TV?")
+        print("="*60)
+        print("1. Si - Importar desde CIC-TV antes de validar")
+        print("2. No - Solo usar fuentes actuales")
+        print("="*60)
+        
+        # En GitHub Actions usa '2', en local pregunta
+        respuesta = input("Selecciona (1 o 2): ").strip()
+        
+        if respuesta == '1':
+            print("\n📥 IMPORTANDO DESDE CIC-TV...")
+            if not run("import_from_cic_tv.py"):
+                print("⚠️ Fallo importacion, continuando con fuentes actuales...")
+        else:
+            print("⏭️ Saltando importacion")
+    
+    # 1. Scrapear fuentes externas
     if not run("scraper.py"):
         sys.exit(1)
     
