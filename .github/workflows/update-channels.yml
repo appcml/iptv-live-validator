@@ -1,21 +1,20 @@
-name: 🔄 Actualizar Canales M3U
+name: 🔄 Bot IPTV - Buscar, Validar, Reparar
 
 on:
   schedule:
-    - cron: '0 */3 * * *'
+    - cron: '0 * * * *'    # Cada 1 hora
   workflow_dispatch:
 
-# PERMISOS EXPLÍCITOS - ESTO ARREGLA EL ERROR
 permissions:
   contents: write
 
 jobs:
-  update:
+  bot:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     
     steps:
-      - name: 📥 Checkout repo
+      - name: 📥 Checkout
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -29,25 +28,24 @@ jobs:
       - name: 📦 Instalar dependencias
         run: pip install requests
       
-      - name: 🚀 Ejecutar pipeline
+      - name: 🤖 Ejecutar Bot completo
         run: python scripts/run_all.py
       
-      - name: 📊 Resultados
+      - name: 📊 Estadísticas
         run: |
-          echo "=== TV ==="
-          python -c "import json; d=json.load(open('data/tv_channels.json')); print(f'Online: {len(d)}')" || echo "0"
-          echo "=== Radio ==="
-          python -c "import json; d=json.load(open('data/radio_channels.json')); print(f'Online: {len(d)}')" || echo "0"
-      
+          echo "=== RESULTADOS ==="
+          python -c "import json; t=len(json.load(open('data/tv_channels.json'))); r=len(json.load(open('data/radio_channels.json'))); print(f'✅ ONLINE: {t} TV + {r} Radio = {t+r} total')"
+          python -c "import json; d=json.load(open('data/scrape_log.json')); print(f'🔍 Último scrapeo: {d.get(\"scraped_at\",\"N/A\")}')"
+
       - name: 💾 Commit y push
         run: |
-          git config user.name "🤖 Bot Canales"
+          git config user.name "🤖 Bot IPTV"
           git config user.email "bot@github.com"
-          git add output/ data/ README.md
+          git add .
           
           if git diff --staged --quiet; then
             echo "⏭️ Sin cambios"
           else
-            git commit -m "🔄 Auto-update: $(date '+%H:%M') | $(python -c 'import json; t=len(json.load(open(\"data/tv_channels.json\"))); r=len(json.load(open(\"data/radio_channels.json\"))); print(f\"{t}TV+{r}Radio\")')"
+            git commit -m "🤖 Auto: $(date '+%H:%M') | $(python -c 'import json; t=len(json.load(open(\"data/tv_channels.json\"))); r=len(json.load(open(\"data/radio_channels.json\"))); print(f\"{t}TV+{r}Radio\")')"
             git push
           fi
