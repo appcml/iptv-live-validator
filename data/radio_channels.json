@@ -1,21 +1,5 @@
 [
   {
-    "name": "NPR News",
-    "url": "https://npr-ice.streamguys1.com/live.mp3",
-    "logo": "",
-    "group": "Noticias",
-    "country": "US",
-    "source": "static",
-    "validation": {
-      "url": "https://npr-ice.streamguys1.com/live.mp3",
-      "online": true,
-      "status_code": 200,
-      "response_time": 0.68,
-      "checked_at": "2026-04-30 17:02:33",
-      "error": ""
-    }
-  },
-  {
     "name": "ADN Radio",
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/ADN.mp3",
     "logo": "",
@@ -26,88 +10,24 @@
       "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/ADN.mp3",
       "online": true,
       "status_code": 200,
-      "response_time": 0.71,
-      "checked_at": "2026-04-30 17:02:33",
+      "response_time": 0.68,
+      "checked_at": "2026-04-30 17:07:24",
       "error": ""
     }
   },
   {
-    "name": "Cadena 3 AR",
-    "url": "https://cadena3.com/stream/cadena3.aac",
+    "name": "NPR News",
+    "url": "https://npr-ice.streamguys1.com/live.mp3",
     "logo": "",
-    "group": "Radio AR",
-    "country": "CL",
-    "source": "cic-tv-import",
+    "group": "Noticias",
+    "country": "US",
+    "source": "static",
     "validation": {
-      "url": "https://cadena3.com/stream/cadena3.aac",
+      "url": "https://npr-ice.streamguys1.com/live.mp3",
       "online": true,
       "status_code": 200,
-      "response_time": 0.26,
-      "checked_at": "2026-04-30 17:02:33",
-      "error": ""
-    }
-  },
-  {
-    "name": "Pudahuel FM CL",
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/PUDAHUEL.mp3",
-    "logo": "",
-    "group": "Radio CL",
-    "country": "CL",
-    "source": "cic-tv-import",
-    "validation": {
-      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/PUDAHUEL.mp3",
-      "online": true,
-      "status_code": 200,
-      "response_time": 0.83,
-      "checked_at": "2026-04-30 17:02:33",
-      "error": ""
-    }
-  },
-  {
-    "name": "Radio HIT Orsk",
-    "url": "http://hithd.camsh.orsk.ru/hls/hithd.m3u8",
-    "logo": "https://i.imgur.com/e2RyN4r.jpg",
-    "group": "General",
-    "country": "CL",
-    "source": "cic-tv-import",
-    "validation": {
-      "url": "http://hithd.camsh.orsk.ru/hls/hithd.m3u8",
-      "online": true,
-      "status_code": 200,
-      "response_time": 1.75,
-      "checked_at": "2026-04-30 17:02:33",
-      "error": ""
-    }
-  },
-  {
-    "name": "Los 40 ES",
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40.mp3",
-    "logo": "",
-    "group": "Radio ES",
-    "country": "CL",
-    "source": "cic-tv-import",
-    "validation": {
-      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40.mp3",
-      "online": true,
-      "status_code": 200,
-      "response_time": 0.83,
-      "checked_at": "2026-04-30 17:02:34",
-      "error": ""
-    }
-  },
-  {
-    "name": "Caracol Radio CO",
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CARACOL_RADIO.mp3",
-    "logo": "",
-    "group": "Radio CO",
-    "country": "CL",
-    "source": "cic-tv-import",
-    "validation": {
-      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CARACOL_RADIO.mp3",
-      "online": true,
-      "status_code": 200,
-      "response_time": 1.17,
-      "checked_at": "2026-04-30 17:02:33",
+      "response_time": 1.3,
+      "checked_at": "2026-04-30 17:07:24",
       "error": ""
     }
   }

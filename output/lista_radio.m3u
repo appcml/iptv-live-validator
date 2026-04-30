@@ -1,26 +1,11 @@
 #EXTM3U
 #PLAYLIST:Radio Stations - Solo Online
-## Generado: 2026-04-30 17:02:40
-## Total canales: 7
+## Generado: 2026-04-30 17:07:25
+## Total canales: 2
 ## Fuente: github.com/appcml/iptv-live-validator
-
-#EXTINF:-1 tvg-id="" tvg-name="NPR News" tvg-logo="" group-title="Noticias" tvg-country="US",NPR News
-https://npr-ice.streamguys1.com/live.mp3
 
 #EXTINF:-1 tvg-id="" tvg-name="ADN Radio" tvg-logo="" group-title="Noticias" tvg-country="CL",ADN Radio
 https://playerservices.streamtheworld.com/api/livestream-redirect/ADN.mp3
 
-#EXTINF:-1 tvg-id="" tvg-name="Cadena 3 AR" tvg-logo="" group-title="Radio AR" tvg-country="CL",Cadena 3 AR
-https://cadena3.com/stream/cadena3.aac
-
-#EXTINF:-1 tvg-id="" tvg-name="Pudahuel FM CL" tvg-logo="" group-title="Radio CL" tvg-country="CL",Pudahuel FM CL
-https://playerservices.streamtheworld.com/api/livestream-redirect/PUDAHUEL.mp3
-
-#EXTINF:-1 tvg-id="" tvg-name="Radio HIT Orsk" tvg-logo="https://i.imgur.com/e2RyN4r.jpg" group-title="General" tvg-country="CL",Radio HIT Orsk
-http://hithd.camsh.orsk.ru/hls/hithd.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="Los 40 ES" tvg-logo="" group-title="Radio ES" tvg-country="CL",Los 40 ES
-https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40.mp3
-
-#EXTINF:-1 tvg-id="" tvg-name="Caracol Radio CO" tvg-logo="" group-title="Radio CO" tvg-country="CL",Caracol Radio CO
-https://playerservices.streamtheworld.com/api/livestream-redirect/CARACOL_RADIO.mp3
+#EXTINF:-1 tvg-id="" tvg-name="NPR News" tvg-logo="" group-title="Noticias" tvg-country="US",NPR News
+https://npr-ice.streamguys1.com/live.mp3
