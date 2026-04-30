@@ -5,6 +5,7 @@ Generador de archivos M3U y JSON API
 
 import json
 import time
+import os
 
 def generate_m3u(channels, title="Lista IPTV"):
     """Genera contenido M3U estandar"""
@@ -49,6 +50,10 @@ def generate_json_api(channels, type_name):
     }
 
 def main():
+    # CREAR CARPETAS SI NO EXISTEN
+    os.makedirs('output', exist_ok=True)
+    os.makedirs('data', exist_ok=True)
+    
     # Cargar canales validados
     try:
         with open('data/tv_channels.json', 'r', encoding='utf-8') as f:
@@ -98,7 +103,7 @@ def main():
     
     print("✅ Archivos API JSON generados")
     
-    # Generar README con string concatenacion (evita f-string rota)
+    # Generar README
     updated = time.strftime("%Y-%m-%d %H:%M:%S")
     readme = "# 📺 Canales Activos M3U\n\n"
     readme += "**Actualizado:** " + updated + "\n"
