@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Validador de streams
-Verifica que los canales/radios respondan HTTP 200
+Validador de streams - VERSIÓN RÁPIDA
+Timeouts cortos, límite de canales, workers reducidos
 """
 
 import requests
@@ -10,22 +10,21 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
     'Accept': '*/*',
-    'Accept-Encoding': 'identity',
-    'Connection': 'keep-alive',
 }
 
-def validate_stream(url, timeout=8):
-    """
-    Valida si un stream está online
-    Retorna dict con estado y metadata
-    """
+# LÍMITES PARA NO SATURAR GITHUB ACTIONS
+MAX_CHANNELS = 150        # Máximo canales a validar
+TIMEOUT = 5               # Segundos de espera por stream
+MAX_WORKERS = 10          # Workers paralelos (GitHub limita a ~20)
+
+def validate_stream(url, timeout=TIMEOUT):
+    """Valida si un stream está online - RÁPIDO"""
     result = {
         "url": url,
         "online": False,
         "status_code": 0,
-        "content_type": "",
         "response_time": 0,
         "checked_at": time.strftime("%Y-%m-%d %H:%M:%S"),
         "error": ""
@@ -33,50 +32,37 @@ def validate_stream(url, timeout=8):
     
     try:
         start = time.time()
-        # Usar stream=True para no descargar todo el contenido
-        r = requests.get(
-            url, 
-            headers=HEADERS, 
-            timeout=timeout, 
-            stream=True,
-            allow_redirects=True
-        )
+        # Solo HEAD request para no descargar contenido
+        r = requests.head(url, headers=HEADERS, timeout=timeout, allow_redirects=True)
         result["response_time"] = round(time.time() - start, 2)
         result["status_code"] = r.status_code
-        result["content_type"] = r.headers.get('content-type', 'unknown')
         
-        if r.status_code == 200:
-            # Leer solo los primeros bytes para confirmar que es media
-            chunk = next(r.iter_content(1024), None)
-            if chunk:
-                result["online"] = True
-        
-        r.close()
-        
+        if r.status_code in [200, 301, 302]:
+            result["online"] = True
+            
     except requests.exceptions.Timeout:
         result["error"] = "Timeout"
-    except requests.exceptions.ConnectionError:
-        result["error"] = "Connection Error"
     except Exception as e:
-        result["error"] = str(e)[:50]
+        result["error"] = str(e)[:30]
     
     return result
 
-def validate_channels(channels, max_workers=20):
-    """
-    Valida lista de canales en paralelo
-    Retorna lista filtrada solo con los online
-    """
+def validate_channels(channels, max_workers=MAX_WORKERS):
+    """Valida lista de canales en paralelo - RÁPIDO"""
+    
+    # Limitar cantidad para no demorar
+    if len(channels) > MAX_CHANNELS:
+        print(f"⚠️ Limitando a {MAX_CHANNELS} de {len(channels)} canales")
+        channels = channels[:MAX_CHANNELS]
+    
     valid_channels = []
     total = len(channels)
     
-    print(f"🔍 Validando {total} streams con {max_workers} workers...")
+    print(f"🔍 Validando {total} streams (timeout {TIMEOUT}s, {max_workers} workers)...")
+    start_time = time.time()
     
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        future_to_channel = {
-            executor.submit(validate_stream, ch["url"]): ch 
-            for ch in channels
-        }
+        future_to_channel = {executor.submit(validate_stream, ch["url"]): ch for ch in channels}
         
         completed = 0
         for future in as_completed(future_to_channel):
@@ -89,72 +75,56 @@ def validate_channels(channels, max_workers=20):
                 
                 if result["online"]:
                     valid_channels.append(channel)
-                    status = f"✅ ONLINE ({result['response_time']}s)"
+                    status = f"✅ {result['response_time']}s"
                 else:
-                    status = f"❌ OFFLINE - {result['error'] or result['status_code']}"
+                    status = f"❌ {result['error'] or result['status_code']}"
                 
-                if completed % 10 == 0 or completed == total:
-                    print(f"   [{completed}/{total}] {channel['name'][:40]:40} {status}")
+                # Mostrar progreso cada 20
+                if completed % 20 == 0 or completed == total:
+                    elapsed = time.time() - start_time
+                    print(f"   [{completed}/{total}] {elapsed:.0f}s transcurridos - {status}")
                     
             except Exception as e:
-                print(f"   [{completed}/{total}] {channel['name'][:40]:40} ❌ ERROR: {e}")
+                pass
     
-    print(f"\n📊 Resultado: {len(valid_channels)}/{total} streams online")
+    total_time = time.time() - start_time
+    print(f"\n📊 {len(valid_channels)}/{total} online en {total_time:.1f} segundos")
     return valid_channels
 
-def load_and_validate():
-    """Carga canales crudos, valida y guarda solo los funcionales"""
-    
+def main():
     # Cargar canales crudos
     try:
         with open('data/tv_channels_raw.json', 'r', encoding='utf-8') as f:
             tv_raw = json.load(f)
     except:
         tv_raw = []
-        print("⚠️ No se encontró tv_channels_raw.json")
+        print("⚠️ No hay TV crudo")
     
     try:
         with open('data/radio_channels_raw.json', 'r', encoding='utf-8') as f:
             radio_raw = json.load(f)
     except:
         radio_raw = []
-        print("⚠️ No se encontró radio_channels_raw.json")
-    
-    # Validar
-    print("\n" + "="*50)
-    print("VALIDANDO CANALES TV")
-    print("="*50)
-    tv_valid = validate_channels(tv_raw, max_workers=15)
+        print("⚠️ No hay Radio crudo")
     
     print("\n" + "="*50)
-    print("VALIDANDO RADIOS")
+    print("VALIDANDO TV")
     print("="*50)
-    radio_valid = validate_channels(radio_raw, max_workers=15)
+    tv_valid = validate_channels(tv_raw)
     
-    # Guardar canales validados
+    print("\n" + "="*50)
+    print("VALIDANDO RADIO")
+    print("="*50)
+    radio_valid = validate_channels(radio_raw)
+    
+    # Guardar validados
     with open('data/tv_channels.json', 'w', encoding='utf-8') as f:
         json.dump(tv_valid, f, ensure_ascii=False, indent=2)
     
     with open('data/radio_channels.json', 'w', encoding='utf-8') as f:
         json.dump(radio_valid, f, ensure_ascii=False, indent=2)
     
-    # Guardar log de caídos para análisis
-    tv_offline = [ch for ch in tv_raw if not ch.get("validation", {}).get("online", False)]
-    radio_offline = [ch for ch in radio_raw if not ch.get("validation", {}).get("online", False)]
-    
-    with open('data/offline_log.json', 'w', encoding='utf-8') as f:
-        json.dump({
-            "checked_at": time.strftime("%Y-%m-%d %H:%M:%S"),
-            "tv_offline": len(tv_offline),
-            "radio_offline": len(radio_offline),
-            "details": tv_offline + radio_offline
-        }, f, ensure_ascii=False, indent=2)
-    
-    print(f"\n✅ Validación completada")
-    print(f"   TV: {len(tv_valid)} online / {len(tv_offline)} caídos")
-    print(f"   Radio: {len(radio_valid)} online / {len(radio_offline)} caídos")
-    
-    return tv_valid, radio_valid
+    print(f"\n✅ Listo: {len(tv_valid)} TV + {len(radio_valid)} Radio")
 
 if __name__ == "__main__":
-    load_and_validate()
+    main()
