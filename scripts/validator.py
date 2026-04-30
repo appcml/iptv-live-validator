@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Validador de streams - VERSIÓN RÁPIDA
-Timeouts cortos, límite de canales, workers reducidos
+Validador inteligente
+- Verifica streams online
+- Elimina caídos
+- Intenta reparar links rotos buscando alternativas
 """
 
 import requests
@@ -14,13 +16,18 @@ HEADERS = {
     'Accept': '*/*',
 }
 
-# LÍMITES PARA NO SATURAR GITHUB ACTIONS
-MAX_CHANNELS = 150        # Máximo canales a validar
-TIMEOUT = 5               # Segundos de espera por stream
-MAX_WORKERS = 10          # Workers paralelos (GitHub limita a ~20)
+# LÍMITES
+MAX_CHANNELS = 500        # Validar hasta 500 por tipo
+TIMEOUT = 6
+MAX_WORKERS = 12
+
+# FUENTES ALTERNATIVAS PARA REPARAR (busca mismo canal en otras listas)
+REPAIR_SOURCES = [
+    "https://iptv-org.github.io/iptv/index.m3u",
+]
 
 def validate_stream(url, timeout=TIMEOUT):
-    """Valida si un stream está online - RÁPIDO"""
+    """Valida si un stream está online"""
     result = {
         "url": url,
         "online": False,
@@ -32,12 +39,11 @@ def validate_stream(url, timeout=TIMEOUT):
     
     try:
         start = time.time()
-        # Solo HEAD request para no descargar contenido
         r = requests.head(url, headers=HEADERS, timeout=timeout, allow_redirects=True)
         result["response_time"] = round(time.time() - start, 2)
         result["status_code"] = r.status_code
         
-        if r.status_code in [200, 301, 302]:
+        if r.status_code in [200, 301, 302, 307]:
             result["online"] = True
             
     except requests.exceptions.Timeout:
@@ -47,18 +53,47 @@ def validate_stream(url, timeout=TIMEOUT):
     
     return result
 
-def validate_channels(channels, max_workers=MAX_WORKERS):
-    """Valida lista de canales en paralelo - RÁPIDO"""
+def try_repair_channel(channel):
+    """Intenta encontrar link alternativo para canal caído"""
+    print(f"   🔧 Intentando reparar: {channel['name'][:40]}")
     
-    # Limitar cantidad para no demorar
+    # Buscar en fuentes alternativas
+    for source_url in REPAIR_SOURCES:
+        try:
+            r = requests.get(source_url, headers=HEADERS, timeout=15)
+            if r.status_code == 200:
+                content = r.text
+                lines = content.split('\n')
+                
+                for i, line in enumerate(lines):
+                    if channel['name'].lower() in line.lower():
+                        # Encontró el canal, buscar URL siguiente
+                        for j in range(i+1, min(i+5, len(lines))):
+                            if lines[j].startswith('http'):
+                                new_url = lines[j].strip()
+                                # Validar nuevo link
+                                test = validate_stream(new_url, timeout=4)
+                                if test["online"]:
+                                    print(f"   ✅ Reparado: {new_url[:60]}")
+                                    return new_url
+        except:
+            pass
+    
+    return None
+
+def validate_channels(channels, max_workers=MAX_WORKERS, try_repair=True):
+    """Valida canales, elimina caídos, intenta reparar"""
+    
     if len(channels) > MAX_CHANNELS:
         print(f"⚠️ Limitando a {MAX_CHANNELS} de {len(channels)} canales")
         channels = channels[:MAX_CHANNELS]
     
     valid_channels = []
+    repaired = 0
+    removed = 0
     total = len(channels)
     
-    print(f"🔍 Validando {total} streams (timeout {TIMEOUT}s, {max_workers} workers)...")
+    print(f"🔍 Validando {total} streams...")
     start_time = time.time()
     
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
@@ -71,24 +106,37 @@ def validate_channels(channels, max_workers=MAX_WORKERS):
             
             try:
                 result = future.result()
-                channel["validation"] = result
                 
                 if result["online"]:
+                    channel["validation"] = result
                     valid_channels.append(channel)
-                    status = f"✅ {result['response_time']}s"
-                else:
-                    status = f"❌ {result['error'] or result['status_code']}"
-                
-                # Mostrar progreso cada 20
-                if completed % 20 == 0 or completed == total:
-                    elapsed = time.time() - start_time
-                    print(f"   [{completed}/{total}] {elapsed:.0f}s transcurridos - {status}")
                     
+                    if completed % 25 == 0:
+                        print(f"   [{completed}/{total}] ✅ {channel['name'][:40]} ({result['response_time']}s)")
+                        
+                else:
+                    # INTENTAR REPARAR
+                    if try_repair:
+                        new_url = try_repair_channel(channel)
+                        if new_url:
+                            channel["url"] = new_url
+                            channel["validation"] = validate_stream(new_url)
+                            valid_channels.append(channel)
+                            repaired += 1
+                        else:
+                            removed += 1
+                    else:
+                        removed += 1
+                        
             except Exception as e:
-                pass
+                removed += 1
     
     total_time = time.time() - start_time
-    print(f"\n📊 {len(valid_channels)}/{total} online en {total_time:.1f} segundos")
+    print(f"\n📊 Resultado: {len(valid_channels)}/{total} online")
+    print(f"   🔧 Reparados: {repaired}")
+    print(f"   ❌ Eliminados: {removed}")
+    print(f"   ⏱️ Tiempo: {total_time:.1f}s")
+    
     return valid_channels
 
 def main():
@@ -107,15 +155,15 @@ def main():
         radio_raw = []
         print("⚠️ No hay Radio crudo")
     
-    print("\n" + "="*50)
+    print("\n" + "="*60)
     print("VALIDANDO TV")
-    print("="*50)
-    tv_valid = validate_channels(tv_raw)
+    print("="*60)
+    tv_valid = validate_channels(tv_raw, try_repair=True)
     
-    print("\n" + "="*50)
+    print("\n" + "="*60)
     print("VALIDANDO RADIO")
-    print("="*50)
-    radio_valid = validate_channels(radio_raw)
+    print("="*60)
+    radio_valid = validate_channels(radio_raw, try_repair=True)
     
     # Guardar validados
     with open('data/tv_channels.json', 'w', encoding='utf-8') as f:
@@ -124,7 +172,24 @@ def main():
     with open('data/radio_channels.json', 'w', encoding='utf-8') as f:
         json.dump(radio_valid, f, ensure_ascii=False, indent=2)
     
-    print(f"\n✅ Listo: {len(tv_valid)} TV + {len(radio_valid)} Radio")
+    # Guardar caídos para análisis
+    tv_offline = [ch for ch in tv_raw if ch["url"] not in {v["url"] for v in tv_valid}]
+    radio_offline = [ch for ch in radio_raw if ch["url"] not in {v["url"] for v in radio_valid}]
+    
+    with open('data/offline_log.json', 'w', encoding='utf-8') as f:
+        json.dump({
+            "checked_at": time.strftime("%Y-%m-%d %H:%M:%S"),
+            "tv_total": len(tv_raw),
+            "tv_online": len(tv_valid),
+            "tv_offline": len(tv_offline),
+            "radio_total": len(radio_raw),
+            "radio_online": len(radio_valid),
+            "radio_offline": len(radio_offline),
+        }, f, ensure_ascii=False, indent=2)
+    
+    print(f"\n✅ Validación completada")
+    print(f"   📺 TV: {len(tv_valid)} online / {len(tv_offline)} caídos")
+    print(f"   📻 Radio: {len(radio_valid)} online / {len(radio_offline)} caídos")
 
 if __name__ == "__main__":
     main()
