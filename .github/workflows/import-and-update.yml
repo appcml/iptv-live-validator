@@ -1,7 +1,10 @@
 name: 📥 Importar desde CIC-TV y Validar
 
 on:
-  workflow_dispatch:  # Solo manual, nunca automatico
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   import-and-update:
@@ -22,11 +25,20 @@ jobs:
       - name: 📦 Instalar dependencias
         run: pip install requests
       
+      - name: 🧹 Limpiar datos anteriores
+        run: |
+          echo '{}' > data/tv_channels_raw.json
+          echo '{}' > data/radio_channels_raw.json
+          echo "✅ Datos limpiados"
+      
       - name: 📥 Importar desde CIC-TV
         run: python scripts/import_from_cic_tv.py
       
-      - name: 🔍 Validar streams
-        run: python scripts/validator.py
+      - name: 🔍 Validar streams (sin límite estricto)
+        run: |
+          # Modificar temporalmente el límite para validar más canales
+          sed -i 's/MAX_CHANNELS = 150/MAX_CHANNELS = 500/' scripts/validator.py
+          python scripts/validator.py
       
       - name: 📄 Generar archivos
         run: python scripts/generator.py
@@ -40,6 +52,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "⏭️ Sin cambios"
           else
-            git commit -m "📥 Import desde CIC-TV + Validacion: $(date '+%H:%M')"
+            git commit -m "📥 Import CIC-TV + Validacion: $(date '+%H:%M') | $(python -c 'import json; t=len(json.load(open(\"data/tv_channels.json\"))); r=len(json.load(open(\"data/radio_channels.json\"))); print(f\"{t}TV+{r}Radio\")')"
             git push
           fi
