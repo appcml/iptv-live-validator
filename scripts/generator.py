@@ -50,7 +50,7 @@ def generate_json_api(channels, type_name):
     }
 
 def main():
-    # CREAR CARPETAS SI NO EXISTEN
+    # CREAR CARPETAS SI NO EXISTEN - ESTO ARREGLA EL ERROR
     os.makedirs('output', exist_ok=True)
     os.makedirs('data', exist_ok=True)
     
@@ -105,20 +105,20 @@ def main():
     
     # Generar README
     updated = time.strftime("%Y-%m-%d %H:%M:%S")
-    readme = "# 📺 Canales Activos M3U\n\n"
+    readme = "# Canales Activos M3U\n\n"
     readme += "**Actualizado:** " + updated + "\n"
-    readme += "**Estado:** ✅ Todos los streams verificados y online\n\n"
-    readme += "## 📊 Estadísticas\n"
+    readme += "**Estado:** Todos los streams verificados y online\n\n"
+    readme += "## Estadisticas\n"
     readme += "- **TV:** " + str(len(tv)) + " canales funcionando\n"
     readme += "- **Radio:** " + str(len(radio)) + " estaciones funcionando\n"
     readme += "- **Total:** " + str(len(all_channels)) + " streams activos\n\n"
-    readme += "## 📥 Descargas\n\n"
+    readme += "## Descargas\n\n"
     readme += "| Lista | Canales | Link |\n"
     readme += "|-------|---------|------|\n"
-    readme += "| TV | " + str(len(tv)) + " | [lista_tv.m3u](lista_tv.m3u) |\n"
-    readme += "| Radio | " + str(len(radio)) + " | [lista_radio.m3u](lista_radio.m3u) |\n"
-    readme += "| Completa | " + str(len(all_channels)) + " | [lista_completa.m3u](lista_completa.m3u) |\n\n"
-    readme += "## 🔗 API JSON (para tu app)\n\n"
+    readme += "| TV | " + str(len(tv)) + " | [lista_tv.m3u](output/lista_tv.m3u) |\n"
+    readme += "| Radio | " + str(len(radio)) + " | [lista_radio.m3u](output/lista_radio.m3u) |\n"
+    readme += "| Completa | " + str(len(all_channels)) + " | [lista_completa.m3u](output/lista_completa.m3u) |\n\n"
+    readme += "## API JSON (para tu app)\n\n"
     readme += "```javascript\n"
     readme += "// TV\n"
     readme += "fetch('https://raw.githubusercontent.com/appcml/iptv-live-validator/main/output/api_tv.json')\n\n"
@@ -127,7 +127,7 @@ def main():
     readme += "// Todo\n"
     readme += "fetch('https://raw.githubusercontent.com/appcml/iptv-live-validator/main/output/api_all.json')\n"
     readme += "```\n\n"
-    readme += "## ⏰ Actualizacion\n"
+    readme += "## Actualizacion\n"
     readme += "Bot automatico verifica cada 3 horas. Solo canales online.\n"
     
     with open('README.md', 'w', encoding='utf-8') as f:
