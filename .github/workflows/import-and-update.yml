@@ -1,4 +1,4 @@
-name: 📥 Importar desde CIC-TV y Validar
+name: 📥 Carga inicial desde CIC-TV
 
 on:
   workflow_dispatch:
@@ -7,9 +7,9 @@ permissions:
   contents: write
 
 jobs:
-  import-and-update:
+  import:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
     
     steps:
       - name: 📥 Checkout
@@ -25,35 +25,18 @@ jobs:
       - name: 📦 Instalar dependencias
         run: pip install requests
       
-      - name: 🧹 Limpiar datos anteriores
-        run: |
-          echo '[]' > data/tv_channels_raw.json
-          echo '[]' > data/radio_channels_raw.json
-          echo '✅ Datos limpiados (listas vacias)'
-      
       - name: 📥 Importar desde CIC-TV
         run: python scripts/import_from_cic_tv.py
       
-      - name: 🔍 Validar streams (sin limite estricto)
+      - name: 💾 Commit
         run: |
-          # Crear copia temporal con limite aumentado
-          cp scripts/validator.py scripts/validator_backup.py
-          sed -i 's/MAX_CHANNELS = 150/MAX_CHANNELS = 500/' scripts/validator.py
-          python scripts/validator.py || true
-          mv scripts/validator_backup.py scripts/validator.py
-      
-      - name: 📄 Generar archivos
-        run: python scripts/generator.py
-      
-      - name: 💾 Commit y push
-        run: |
-          git config user.name "🤖 Bot Canales"
+          git config user.name "🤖 Bot IPTV"
           git config user.email "bot@github.com"
-          git add output/ data/ README.md
+          git add data/
           
           if git diff --staged --quiet; then
             echo "⏭️ Sin cambios"
           else
-            git commit -m "📥 Import CIC-TV + Validacion: $(date '+%H:%M') | $(python -c 'import json; t=len(json.load(open(\"data/tv_channels.json\"))); r=len(json.load(open(\"data/radio_channels.json\"))); print(f\"{t}TV+{r}Radio\")')"
+            git commit -m "📥 Carga inicial CIC-TV: $(date '+%H:%M')"
             git push
           fi
