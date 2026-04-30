@@ -1,0 +1,21 @@
+{
+  "updated_at": "2026-04-30 16:47:15",
+  "type": "radio",
+  "count": 2,
+  "channels": [
+    {
+      "name": "NPR News",
+      "url": "https://npr-ice.streamguys1.com/live.mp3",
+      "logo": "",
+      "group": "Noticias",
+      "country": "US"
+    },
+    {
+      "name": "ADN Radio",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/ADN.mp3",
+      "logo": "",
+      "group": "Noticias",
+      "country": "CL"
+    }
+  ]
+}

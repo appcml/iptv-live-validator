@@ -1,0 +1,34 @@
+[
+  {
+    "name": "NPR News",
+    "url": "https://npr-ice.streamguys1.com/live.mp3",
+    "logo": "",
+    "group": "Noticias",
+    "country": "US",
+    "source": "static",
+    "validation": {
+      "url": "https://npr-ice.streamguys1.com/live.mp3",
+      "online": true,
+      "status_code": 200,
+      "response_time": 0.5,
+      "checked_at": "2026-04-30 16:47:14",
+      "error": ""
+    }
+  },
+  {
+    "name": "ADN Radio",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/ADN.mp3",
+    "logo": "",
+    "group": "Noticias",
+    "country": "CL",
+    "source": "static",
+    "validation": {
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/ADN.mp3",
+      "online": true,
+      "status_code": 200,
+      "response_time": 0.97,
+      "checked_at": "2026-04-30 16:47:14",
+      "error": ""
+    }
+  }
+]

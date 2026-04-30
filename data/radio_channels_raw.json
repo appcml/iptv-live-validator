@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Cooperativa",
+    "url": "https://unlimited1-us.dps.live/cooperativafm/mp3/icecast.audio",
+    "logo": "https://www.cooperativa.cl/img/logo.png",
+    "group": "Noticias",
+    "country": "CL",
+    "source": "static"
+  },
+  {
+    "name": "ADN Radio",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/ADN.mp3",
+    "logo": "",
+    "group": "Noticias",
+    "country": "CL",
+    "source": "static"
+  },
+  {
+    "name": "BioBio La Radio",
+    "url": "https://unlimited1-us.dps.live/biobiolafm/mp3/icecast.audio",
+    "logo": "",
+    "group": "Noticias",
+    "country": "CL",
+    "source": "static"
+  },
+  {
+    "name": "BBC World Service",
+    "url": "http://stream.live.vc.bbcmedia.co.uk/bbc_world_service",
+    "logo": "",
+    "group": "Noticias",
+    "country": "UK",
+    "source": "static"
+  },
+  {
+    "name": "NPR News",
+    "url": "https://npr-ice.streamguys1.com/live.mp3",
+    "logo": "",
+    "group": "Noticias",
+    "country": "US",
+    "source": "static"
+  }
+]
