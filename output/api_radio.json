@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-24 19:16:00",
+  "updated_at": "2026-05-24 20:56:17",
   "type": "radio",
-  "count": 50,
+  "count": 51,
   "channels": [
     {
       "name": "Team Liquid",
@@ -32,17 +32,10 @@
       "country": "CL"
     },
     {
-      "name": "NPR News",
-      "url": "https://npr-ice.streamguys1.com/live.mp3",
-      "logo": "",
-      "group": "Noticias",
-      "country": "US"
-    },
-    {
-      "name": "Team USA TV",
-      "url": "https://d8b6mh9us4zvx.cloudfront.net/TEAM_USA_TV.m3u8",
-      "logo": "https://image.xumo.com/v1/channels/channel/99951340/300x300.webp?type=color_onBlack",
-      "group": "General",
+      "name": "Pratham Khabar 24x7",
+      "url": "https://server.thelegitpro.in/pratidintime/pratidintime/index.fmp4.m3u8",
+      "logo": "https://a.jsrdn.com/hls/23215/pratham-khabar-24x7/logo_20250813_201110_68.png",
+      "group": "Undefined",
       "country": "CL"
     },
     {
@@ -53,16 +46,9 @@
       "country": "CL"
     },
     {
-      "name": "Pratham Khabar 24x7",
-      "url": "https://server.thelegitpro.in/pratidintime/pratidintime/index.fmp4.m3u8",
-      "logo": "https://a.jsrdn.com/hls/23215/pratham-khabar-24x7/logo_20250813_201110_68.png",
-      "group": "Undefined",
-      "country": "CL"
-    },
-    {
-      "name": "Million Dollar Dream Home",
-      "url": "https://pb-tc6lcocnesxgi.akamaized.net/playlist.m3u8",
-      "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US300067FX_20250826T234542SQUARE.png",
+      "name": "Team USA TV",
+      "url": "https://d8b6mh9us4zvx.cloudfront.net/TEAM_USA_TV.m3u8",
+      "logo": "https://image.xumo.com/v1/channels/channel/99951340/300x300.webp?type=color_onBlack",
       "group": "General",
       "country": "CL"
     },
@@ -74,20 +60,6 @@
       "country": "CL"
     },
     {
-      "name": "Cadena 3 AR",
-      "url": "https://cadena3.com/stream/cadena3.aac",
-      "logo": "",
-      "group": "Radio AR",
-      "country": "CL"
-    },
-    {
-      "name": "Pudahuel FM CL",
-      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/PUDAHUEL.mp3",
-      "logo": "",
-      "group": "Radio CL",
-      "country": "CL"
-    },
-    {
       "name": "ADN Radio",
       "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/ADN.mp3",
       "logo": "",
@@ -95,10 +67,38 @@
       "country": "CL"
     },
     {
+      "name": "Million Dollar Dream Home",
+      "url": "https://pb-tc6lcocnesxgi.akamaized.net/playlist.m3u8",
+      "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US300067FX_20250826T234542SQUARE.png",
+      "group": "General",
+      "country": "CL"
+    },
+    {
+      "name": "Cadena 3 AR",
+      "url": "https://cadena3.com/stream/cadena3.aac",
+      "logo": "",
+      "group": "Radio AR",
+      "country": "CL"
+    },
+    {
+      "name": "NPR News",
+      "url": "https://npr-ice.streamguys1.com/live.mp3",
+      "logo": "",
+      "group": "Noticias",
+      "country": "US"
+    },
+    {
       "name": "Caracol Radio CO",
       "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CARACOL_RADIO.mp3",
       "logo": "",
       "group": "Radio CO",
+      "country": "CL"
+    },
+    {
+      "name": "Pudahuel FM CL",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/PUDAHUEL.mp3",
+      "logo": "",
+      "group": "Radio CL",
       "country": "CL"
     },
     {
@@ -123,20 +123,6 @@
       "country": "XX"
     },
     {
-      "name": "Radio HIT Orsk",
-      "url": "http://hithd.camsh.orsk.ru/hls/hithd.m3u8",
-      "logo": "https://i.imgur.com/e2RyN4r.jpg",
-      "group": "General",
-      "country": "CL"
-    },
-    {
-      "name": "7 RadioVisione (720p)",
-      "url": "https://stream10.xdevel.com/video1s976543-1932/stream/playlist.m3u8",
-      "logo": "https://radio7note.com/img/favicon/android-icon-192x192.png",
-      "group": "Music",
-      "country": "XX"
-    },
-    {
       "name": "AE Radio TV (720p) [Not 24/7]",
       "url": "https://tls-cl.cdnz.cl/aeradio/live/playlist.m3u8",
       "logo": "",
@@ -151,6 +137,13 @@
       "country": "XX"
     },
     {
+      "name": "Notigram TV (XHFGL-TDT) (1080p)",
+      "url": "https://stream.ontvmx.com/ontv/Wn3jgo4UYNSmwRDIev/playlist.m3u8",
+      "logo": "",
+      "group": "General",
+      "country": "XX"
+    },
+    {
       "name": "Dance FM (720p)",
       "url": "https://5eaccbab48461.streamlock.net:1936/dancefm_1/dancefm_1/playlist.m3u8",
       "logo": "",
@@ -158,10 +151,10 @@
       "country": "XX"
     },
     {
-      "name": "BPX TV Radio",
-      "url": "https://video1.getstreamhosting.com:1936/8212/8212/playlist.m3u8",
-      "logo": "",
-      "group": "General",
+      "name": "7 RadioVisione (720p)",
+      "url": "https://stream10.xdevel.com/video1s976543-1932/stream/playlist.m3u8",
+      "logo": "https://radio7note.com/img/favicon/android-icon-192x192.png",
+      "group": "Music",
       "country": "XX"
     },
     {
@@ -172,15 +165,22 @@
       "country": "XX"
     },
     {
-      "name": "Notigram TV (XHFGL-TDT) (1080p)",
-      "url": "https://stream.ontvmx.com/ontv/Wn3jgo4UYNSmwRDIev/playlist.m3u8",
+      "name": "BPX TV Radio",
+      "url": "https://video1.getstreamhosting.com:1936/8212/8212/playlist.m3u8",
       "logo": "",
       "group": "General",
       "country": "XX"
     },
     {
-      "name": "Más FM 95.9 (720p)",
-      "url": "https://vivo.solumedia.com:19360/masfm/masfm.m3u8",
+      "name": "Radio HIT Orsk",
+      "url": "http://hithd.camsh.orsk.ru/hls/hithd.m3u8",
+      "logo": "https://i.imgur.com/e2RyN4r.jpg",
+      "group": "General",
+      "country": "CL"
+    },
+    {
+      "name": "Azahares Radio Multimedia (720p)",
+      "url": "https://streamyes.alsolnet.com/azaharesfm/live/playlist.m3u8",
       "logo": "",
       "group": "General",
       "country": "XX"
@@ -207,8 +207,8 @@
       "country": "XX"
     },
     {
-      "name": "Azahares Radio Multimedia (720p)",
-      "url": "https://streamyes.alsolnet.com/azaharesfm/live/playlist.m3u8",
+      "name": "Más FM 95.9 (720p)",
+      "url": "https://vivo.solumedia.com:19360/masfm/masfm.m3u8",
       "logo": "",
       "group": "General",
       "country": "XX"
@@ -235,6 +235,13 @@
       "country": "XX"
     },
     {
+      "name": "Radio Conexion Web TV (720p)",
+      "url": "https://tuvideoonline.com.ar:3391/live/radioconexionlive.m3u8",
+      "logo": "",
+      "group": "General",
+      "country": "XX"
+    },
+    {
       "name": "Radiocanal San Francisco (1080p)",
       "url": "http://204.199.3.2/.m3u8",
       "logo": "",
@@ -249,13 +256,6 @@
       "country": "XX"
     },
     {
-      "name": "Radio Conexion Web TV (720p)",
-      "url": "https://tuvideoonline.com.ar:3391/live/radioconexionlive.m3u8",
-      "logo": "",
-      "group": "General",
-      "country": "XX"
-    },
-    {
       "name": "Radio Yguazú TV (480p)",
       "url": "https://live.enhdtv.com:8081/radioiguazutv/index.m3u8",
       "logo": "",
@@ -263,15 +263,15 @@
       "country": "XX"
     },
     {
-      "name": "La Morada Radio TV (720p)",
-      "url": "https://movil.ejeserver.com/live/lamoradatv.m3u8",
+      "name": "MasMusica FM (720p)",
+      "url": "https://movil.ejeserver.com/live/masmusica.m3u8",
       "logo": "",
       "group": "General",
       "country": "XX"
     },
     {
-      "name": "MasMusica FM (720p)",
-      "url": "https://movil.ejeserver.com/live/masmusica.m3u8",
+      "name": "La Morada Radio TV (720p)",
+      "url": "https://movil.ejeserver.com/live/lamoradatv.m3u8",
       "logo": "",
       "group": "General",
       "country": "XX"
@@ -291,6 +291,13 @@
       "country": "XX"
     },
     {
+      "name": "Suram TV (1080p)",
+      "url": "https://livetv.305streamhd.com:3111/live/suramtvlive.m3u8",
+      "logo": "",
+      "group": "General",
+      "country": "XX"
+    },
+    {
       "name": "Suram TV (720p)",
       "url": "https://us.streaminghd.cl/suramtv/index.m3u8",
       "logo": "",
@@ -300,13 +307,6 @@
     {
       "name": "Blu Radio (720p)",
       "url": "https://mdstrm.com/live-stream-playlist/58d1921a72e2b22e2905e493.m3u8",
-      "logo": "",
-      "group": "General",
-      "country": "XX"
-    },
-    {
-      "name": "Suram TV (1080p)",
-      "url": "https://livetv.305streamhd.com:3111/live/suramtvlive.m3u8",
       "logo": "",
       "group": "General",
       "country": "XX"
@@ -333,6 +333,20 @@
       "country": "XX"
     },
     {
+      "name": "Radio TV Neuquén (720p) [Not 24/7]",
+      "url": "https://media.neuquen.gov.ar/rtn/television/playlist.m3u8",
+      "logo": "",
+      "group": "General",
+      "country": "XX"
+    },
+    {
+      "name": "Top FM TV (240p) [Not 24/7]",
+      "url": "https://tvdatta.com:3084/live/toptvaguaytialive.m3u8",
+      "logo": "",
+      "group": "General",
+      "country": "XX"
+    },
+    {
       "name": "Turbo Mix Radio TV (360p) [Not 24/7]",
       "url": "https://7.innovatestream.pe:19360/turbomixoficial/turbomixoficial.m3u8",
       "logo": "",
@@ -342,13 +356,6 @@
     {
       "name": "Radiotele Morelia (352p)",
       "url": "https://server-67.stream-server.nl:1936/RadioToppers/RadioToppers/playlist.m3u8",
-      "logo": "",
-      "group": "General",
-      "country": "XX"
-    },
-    {
-      "name": "Radio TV Neuquén (720p) [Not 24/7]",
-      "url": "https://lon.rtsp.me/r3ZnG6WN2HIRxPARhAirIQ/1713628621/hls/9QdykDAy.m3u8",
       "logo": "",
       "group": "General",
       "country": "XX"
