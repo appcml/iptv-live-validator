@@ -118014,5 +118014,13 @@
     "group": "News",
     "country": "XX",
     "source": "index.m3u"
+  },
+  {
+    "name": "TV Peru (1080p)",
+    "url": "http://181.119.93.83:8000/play/a25t/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "pe.m3u"
   }
 ]
