@@ -734,5 +734,13 @@
     "group": "General",
     "country": "XX",
     "source": "pe.m3u"
+  },
+  {
+    "name": "La Cheverisima Radio TV (720p)",
+    "url": "https://byecablecluster.ddns.net/neira/neira.stream/index.fmp4.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
   }
 ]

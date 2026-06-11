@@ -118102,5 +118102,157 @@
     "group": "Entertainment",
     "country": "XX",
     "source": "index.m3u"
+  },
+  {
+    "name": "Atlas (480p)",
+    "url": "https://cdn.whiplash.cc/whiplash-atlas/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "AXN Black Romania [Not 24/7]",
+    "url": "http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/6952/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "AXN White [Not 24/7]",
+    "url": "http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/6950/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "beIN SPORTS XTRA (1080p)",
+    "url": "https://bein-xtra-bein.amagi.tv/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "Brat TV (1080p)",
+    "url": "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/04072b68-dc6a-4d5e-98af-f356ba8d5063/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "AXN CEE Romania [Not 24/7]",
+    "url": "http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/7008/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "es.m3u"
+  },
+  {
+    "name": "BCN Gospel TV HD (720p)",
+    "url": "https://live1.ovalcast.com:3916/live/bcngospeltvlive.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "es.m3u"
+  },
+  {
+    "name": "Canal 5 (720p) [Geo-blocked]",
+    "url": "http://45.5.119.43:4000/play/a05o/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "CreaLaTV (1080p)",
+    "url": "https://stream.crealatv.com/live.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "De Pelicula Latin America",
+    "url": "http://181.119.93.83:8000/play/a1jw/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "El Chavo TV (720p)",
+    "url": "https://live20.bozztv.com/giatvplayout7/giatv-211465/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Europa Europa",
+    "url": "http://181.119.93.83:8000/play/a1sr/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "ar.m3u"
+  },
+  {
+    "name": "TIV Television (720p)",
+    "url": "https://videohd.live:19360/8008/8008.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "ar.m3u"
+  },
+  {
+    "name": "TyC Sports (1080p) [Geo-blocked]",
+    "url": "https://live-04-11-tyc24.vodgc.net/tyc24/index_tyc24_1080.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "ar.m3u"
+  },
+  {
+    "name": "CINDIE TV (1080p)",
+    "url": "https://cc-hqw8u5r1nshjc.akamaized.net/scheduler/scheduleMaster/352.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "br.m3u"
+  },
+  {
+    "name": "CINDIE TV (1080p)",
+    "url": "https://d20xuwbyc4yoag.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-CINDIE/387.m3u8?ads.vf=grWTpG3NQNi",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "br.m3u"
+  },
+  {
+    "name": "ge Fast (1080p)",
+    "url": "https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/GE_Fast_BR/GE_Fast.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "br.m3u"
+  },
+  {
+    "name": "Play TV (720p)",
+    "url": "https://isaocorp.cloudecast.com/playtv/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "br.m3u"
+  },
+  {
+    "name": "Rede Globo (1080p)",
+    "url": "https://cors-proxy.cooks.fyi/http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "br.m3u"
   }
 ]
