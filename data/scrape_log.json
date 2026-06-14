@@ -1,10 +1,10 @@
 {
-  "scraped_at": "2026-06-14 00:11:51",
+  "scraped_at": "2026-06-14 05:27:23",
   "sources_checked": 10,
-  "new_tv_found": 831,
-  "new_radio_found": 39,
-  "added_tv": 0,
+  "new_tv_found": 833,
+  "new_radio_found": 38,
+  "added_tv": 1,
   "added_radio": 0,
-  "total_tv": 14786,
+  "total_tv": 14787,
   "total_radio": 93
 }

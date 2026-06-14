@@ -118286,5 +118286,13 @@
     "group": "Music",
     "country": "XX",
     "source": "index.m3u"
+  },
+  {
+    "name": "Ozono TV",
+    "url": "http://vps.chasquirouter.com/salida/ozono.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "pe.m3u"
   }
 ]
