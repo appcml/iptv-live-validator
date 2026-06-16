@@ -118326,5 +118326,45 @@
     "group": "General",
     "country": "XX",
     "source": "pe.m3u"
+  },
+  {
+    "name": "Abajo e' La Linea TV",
+    "url": "https://5ff3d9babae13.streamlock.net/ynfpncxxjg/ynfpncxxjg/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "cl.m3u"
+  },
+  {
+    "name": "Apocalipsis TVD (720p)",
+    "url": "https://us.streaminghd.cl/apocalipsistvd/video.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "cl.m3u"
+  },
+  {
+    "name": "Arica TV",
+    "url": "https://envivo.arica.tv/hls/Live2025AricaTV.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "cl.m3u"
+  },
+  {
+    "name": "Caldera Vision",
+    "url": "https://tv.arkeo.cl:1936/kymczwbrge/kymczwbrge/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "cl.m3u"
+  },
+  {
+    "name": "Campo Abierto TV (720p)",
+    "url": "https://v2.tustreaming.cl/catvlive/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "cl.m3u"
   }
 ]
