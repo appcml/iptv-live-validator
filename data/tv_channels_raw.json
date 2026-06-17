@@ -118390,5 +118390,21 @@
     "group": "General",
     "country": "XX",
     "source": "pe.m3u"
+  },
+  {
+    "name": "Willax TV (720p)",
+    "url": "https://live-evg7.tv360.bitel.com.pe/bitel/willax_abr/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "pe.m3u"
+  },
+  {
+    "name": "Global TV (720p)",
+    "url": "https://live-evg7.tv360.bitel.com.pe/bitel/global_abr/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "pe.m3u"
   }
 ]
