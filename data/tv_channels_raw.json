@@ -118694,5 +118694,13 @@
     "group": "News",
     "country": "XX",
     "source": "index.m3u"
+  },
+  {
+    "name": "1+1 Marafon (1080p)",
+    "url": "https://dash2.antik.sk/live/1plus1_marathon/playlist.m3u8",
+    "logo": "https://i.imgur.com/smQKa2G.png",
+    "group": "General",
+    "country": "XX",
+    "source": "index.m3u"
   }
 ]
