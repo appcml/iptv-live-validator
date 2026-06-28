@@ -118726,5 +118726,13 @@
     "group": "Entertainment",
     "country": "XX",
     "source": "index.m3u"
+  },
+  {
+    "name": "Despertar TV (720p)",
+    "url": "https://br.conectmy.com.br/DespertarTV/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "br.m3u"
   }
 ]
