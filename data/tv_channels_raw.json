@@ -118734,5 +118734,125 @@
     "group": "General",
     "country": "XX",
     "source": "br.m3u"
+  },
+  {
+    "name": "Amaga Television (720p)",
+    "url": "https://viewhn.com/amagatelevision/sdfUYWKegHKRPpSirG/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Cable Sur TV",
+    "url": "https://tvlatina.live:1936/8025/8025/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Canal 9 Cosespu",
+    "url": "https://video2.lhdserver.es/canal9cosespu/live.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Canal Cine Dios",
+    "url": "https://canal.mediaserver.com.co/live/cinedios.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Canal Dos",
+    "url": "https://stream2.micanal2.tv/hls/canal2.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Cosmovision (720p)",
+    "url": "https://lbgo.bozztv.com/ssh101/ssh101/Cosmovisi%C3%B3n/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Fiesta TV",
+    "url": "https://panelvideo1.intermediahost.co:3286/live/ruzfpkqklive.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Marsella TV",
+    "url": "https://stmv2.voxtvhd.com.br/marsella/marsella/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Momento24",
+    "url": "https://backupmaxmedia.hvmultiplay.com/hls/stream2/momento24.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Nexo TV",
+    "url": "https://vs20.live.opencaster.com/nexotv_7576198a/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Panche Television",
+    "url": "https://vs20.live.opencaster.com/panche_3c70d368/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "MitosTV (720p)",
+    "url": "https://live-evg5.tv360.bitel.com.pe/bitel/monitortvSRT/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "pe.m3u"
+  },
+  {
+    "name": "Planea TV (720p)",
+    "url": "https://live-evg8.tv360.bitel.com.pe/bitel/planeatvSRT/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "pe.m3u"
+  },
+  {
+    "name": "Agro TV (720p)",
+    "url": "https://live-evg8.tv360.bitel.com.pe/bitel/agroSRT/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "pe.m3u"
+  },
+  {
+    "name": "Tevesur (720p)",
+    "url": "https://live-evg11.tv360.bitel.com.pe/bitel/tevesurSRT/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "pe.m3u"
   }
 ]
