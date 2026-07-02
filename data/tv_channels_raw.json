@@ -118854,5 +118854,21 @@
     "group": "General",
     "country": "XX",
     "source": "pe.m3u"
+  },
+  {
+    "name": "3HD",
+    "url": "https://live-us1.thaimomo.com/live-as/ch3hd-3/playlist.m3u8",
+    "logo": "https://i.imgur.com/YRiulCU.png",
+    "group": "General",
+    "country": "XX",
+    "source": "index.m3u"
+  },
+  {
+    "name": "Canal 5 Puerto Montt",
+    "url": "https://5ff3d9babae13.streamlock.net/aufymdjpjf/aufymdjpjf/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "cl.m3u"
   }
 ]
