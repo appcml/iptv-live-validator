@@ -118886,5 +118886,13 @@
     "group": "General",
     "country": "XX",
     "source": "us.m3u"
+  },
+  {
+    "name": "5 minut tishiny (1080p)",
+    "url": "https://cdn-dvr.ntv.ru/5_minut_tishiny/index.m3u8",
+    "logo": "https://cdn2-static.ntv.ru/home/promo/24740/5minut_live.jpg",
+    "group": "Series",
+    "country": "XX",
+    "source": "index.m3u"
   }
 ]
