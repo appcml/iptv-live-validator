@@ -118894,5 +118894,13 @@
     "group": "Series",
     "country": "XX",
     "source": "index.m3u"
+  },
+  {
+    "name": "2+2 Marathon (1080p)",
+    "url": "https://lowa8026-cmyk.github.io/Ukraine/Edyni_Novyny/2Plus2Marafon.m3u8",
+    "logo": "https://i.imgur.com/v6KBgqk.png",
+    "group": "General",
+    "country": "XX",
+    "source": "index.m3u"
   }
 ]
