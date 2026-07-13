@@ -790,5 +790,77 @@
     "group": "General",
     "country": "XX",
     "source": "co.m3u"
+  },
+  {
+    "name": "AM Canal",
+    "url": "https://streaming.bitsur.cl:3534/live/vdo1102live.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "cl.m3u"
+  },
+  {
+    "name": "Chocolate FM (720p)",
+    "url": "https://5eaccbab48461.streamlock.net:1936/8180/8180/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "cl.m3u"
+  },
+  {
+    "name": "Ciudadano Radio (720p)",
+    "url": "https://oracle.streaminghd.cl/ciudadanoradiotv/ciudadanoradiotv/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "cl.m3u"
+  },
+  {
+    "name": "Diferencia Radio TV",
+    "url": "https://s1.radiumcast.top/memfs/674b2d4f-7d6e-49be-9c6c-3094868259d9.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "cl.m3u"
+  },
+  {
+    "name": "Estacion Limache TV (720p)",
+    "url": "https://v4.tustreaming.cl/limachemovil/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "cl.m3u"
+  },
+  {
+    "name": "Estacion TV (720p)",
+    "url": "https://unlimited1-cl-isp.dps.live/supersonikatv/supersonikatv.smil/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "cl.m3u"
+  },
+  {
+    "name": "FM Plus TV (720p)",
+    "url": "https://v2.tustreaming.cl/fmplus/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "cl.m3u"
+  },
+  {
+    "name": "Correa Radiovision",
+    "url": "https://stream.arcast.net:4443/correadigital/canal12/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "ar.m3u"
+  },
+  {
+    "name": "Emisora Comunitaria 104.1 FM",
+    "url": "https://104florencia.co/wp-admin/admin-ajax.php?action=frp_hls_proxy&url=https://streamyes.alsolnet.com/comunitariafm/live/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
   }
 ]
