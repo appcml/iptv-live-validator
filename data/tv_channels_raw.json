@@ -121590,5 +121590,29 @@
     "group": "General",
     "country": "XX",
     "source": "index.m3u"
+  },
+  {
+    "name": "6ter (1080p)",
+    "url": "http://145.239.5.177/314/index.m3u8",
+    "logo": "https://i.imgur.com/2nd5Cox.png",
+    "group": "Entertainment",
+    "country": "XX",
+    "source": "index.m3u"
+  },
+  {
+    "name": "9X Jhakaas (1080p)",
+    "url": "https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8",
+    "logo": "https://dtil.tmsimg.com/assets/s90012_ld_h15_aa.png?lock=720x540",
+    "group": "Music",
+    "country": "XX",
+    "source": "index.m3u"
+  },
+  {
+    "name": "9X Tashan (1080p)",
+    "url": "https://amg01281-9xmediapvtltd-9xtashan-samsungin-xz1sd.amagi.tv/playlist/amg01281-9xmediapvtltd-9xtashan-samsungin/playlist.m3u8",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_9X_TASHAN/images/LOGO_HD/image.png",
+    "group": "Music",
+    "country": "XX",
+    "source": "index.m3u"
   }
 ]
