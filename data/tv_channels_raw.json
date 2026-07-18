@@ -121686,5 +121686,69 @@
     "group": "General",
     "country": "XX",
     "source": "ar.m3u"
+  },
+  {
+    "name": "4Kids TV (576p)",
+    "url": "http://tvsen5.aynascope.net/4KidsTV/index.m3u8",
+    "logo": "https://i.imgur.com/507piHp.png",
+    "group": "Kids",
+    "country": "XX",
+    "source": "index.m3u"
+  },
+  {
+    "name": "AXN Latin America Andes (1080p)",
+    "url": "http://177.234.249.178:8888/AXN/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "AXN Latin America Mexico (1080p)",
+    "url": "http://177.245.131.133:8080/AXN/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "AXN Latin America Mexico",
+    "url": "http://190.11.225.124:5000/live/axn_hd/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "AXN Latin America South",
+    "url": "http://45.228.235.116:8000/play/a0iy/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "AXN White",
+    "url": "http://82.78.243.219:45739/play/a00n/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "AXN White Bulgaria",
+    "url": "http://85.14.32.26:8800/udp/239.100.10.18:5000",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "AXN White CzechRepublic",
+    "url": "http://88.212.15.19/live/test_white/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
   }
 ]
