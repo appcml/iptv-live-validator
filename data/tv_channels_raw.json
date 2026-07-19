@@ -121750,5 +121750,29 @@
     "group": "General",
     "country": "XX",
     "source": "us.m3u"
+  },
+  {
+    "name": "5 Plus (720p)",
+    "url": "https://mmtvs.exliatycl.online/5plus/stream.m3u8",
+    "logo": "https://i.imgur.com/4EHL2mH.png",
+    "group": "Entertainment",
+    "country": "XX",
+    "source": "index.m3u"
+  },
+  {
+    "name": "5Sport (1080p)",
+    "url": "http://stream.mcquack.net/41/index.m3u8",
+    "logo": "https://i.imgur.com/dRVsB89.png",
+    "group": "Sports",
+    "country": "XX",
+    "source": "index.m3u"
+  },
+  {
+    "name": "6 sotok (1080p)",
+    "url": "http://stream.mcquack.net/405/index.m3u8",
+    "logo": "https://i.imgur.com/icSN0GI.png",
+    "group": "General",
+    "country": "XX",
+    "source": "index.m3u"
   }
 ]
