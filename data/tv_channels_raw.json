@@ -121798,5 +121798,13 @@
     "group": "General",
     "country": "XX",
     "source": "index.m3u"
+  },
+  {
+    "name": "1+1 Ukraina",
+    "url": "https://uys1g01.s.gy/1PLUS1_UKRAINE",
+    "logo": "https://i.imgur.com/FlG7npq.png",
+    "group": "General",
+    "country": "XX",
+    "source": "index.m3u"
   }
 ]
