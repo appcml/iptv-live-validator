@@ -121806,5 +121806,13 @@
     "group": "General",
     "country": "XX",
     "source": "index.m3u"
+  },
+  {
+    "name": "1+1 Ukraina (1080p)",
+    "url": "http://stream.mcquack.net/219/index.m3u8",
+    "logo": "https://i.imgur.com/FlG7npq.png",
+    "group": "General",
+    "country": "XX",
+    "source": "index.m3u"
   }
 ]
