@@ -121814,5 +121814,85 @@
     "group": "General",
     "country": "XX",
     "source": "index.m3u"
+  },
+  {
+    "name": "AXS TV (720p)",
+    "url": "http://206.212.244.63/12/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "Elemental Channel",
+    "url": "https://stmv1.samcast.com.br/ricardo2194/ricardo2194/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "br.m3u"
+  },
+  {
+    "name": "ESPN (1080p)",
+    "url": "http://181.78.197.59:8000/play/a07z/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "br.m3u"
+  },
+  {
+    "name": "ESPN 3 (720p)",
+    "url": "http://181.78.197.59:8000/play/a081/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "br.m3u"
+  },
+  {
+    "name": "ESPN 4 (1080p)",
+    "url": "http://181.78.197.59:8000/play/a07n/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "br.m3u"
+  },
+  {
+    "name": "EUTV",
+    "url": "https://video01.logicahost.com.br/ypetv/ypetv/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "br.m3u"
+  },
+  {
+    "name": "FashionTV (720p)",
+    "url": "http://45.190.28.50/FASHION_TV_HD/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "br.m3u"
+  },
+  {
+    "name": "FashionTV (720p)",
+    "url": "http://167.250.126.140:7777/FASHIONTV-HD/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "br.m3u"
+  },
+  {
+    "name": "Fish TV (720p)",
+    "url": "http://45.162.64.114/FISH_TV/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "br.m3u"
+  },
+  {
+    "name": "Fish TV (720p)",
+    "url": "http://45.190.28.50/FISH_TV_HD/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "br.m3u"
   }
 ]
