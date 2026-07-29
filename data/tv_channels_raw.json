@@ -121894,5 +121894,61 @@
     "group": "General",
     "country": "XX",
     "source": "br.m3u"
+  },
+  {
+    "name": "BabyFirst (720p)",
+    "url": "http://206.212.244.63/639/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "BabyFirst (720p)",
+    "url": "https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "Bandamax USA (1080p)",
+    "url": "http://177.234.249.135:8888/Bandamax/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "Fonte TV",
+    "url": "https://59fb88a1b1108.streamlock.net/fonte/_definst_/fontetv/chunklist_w1224511652.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "br.m3u"
+  },
+  {
+    "name": "GloboNews (720p)",
+    "url": "http://41.205.70.146/GLOBONEWS/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "br.m3u"
+  },
+  {
+    "name": "GloboNews (720p)",
+    "url": "http://177.52.24.163/GLOBO-NEWS-HD/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "br.m3u"
+  },
+  {
+    "name": "Globoplay Novelas (1080p)",
+    "url": "http://170.82.202.31/Viva/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "br.m3u"
   }
 ]
