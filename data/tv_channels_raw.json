@@ -121982,5 +121982,13 @@
     "group": "General",
     "country": "XX",
     "source": "ar.m3u"
+  },
+  {
+    "name": "beIN Sports USA (720p)",
+    "url": "http://23.237.104.106:8080/USA_BEIN/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
   }
 ]
