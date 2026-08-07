@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-08-07 10:00:31",
+  "checked_at": "2026-08-07 10:51:48",
   "tv_total": 15249,
-  "tv_online": 391,
-  "tv_offline": 14844,
+  "tv_online": 392,
+  "tv_offline": 14843,
   "radio_total": 108,
-  "radio_online": 60,
-  "radio_offline": 48
+  "radio_online": 64,
+  "radio_offline": 44
 }
