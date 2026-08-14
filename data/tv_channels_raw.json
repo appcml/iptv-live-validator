@@ -122926,5 +122926,21 @@
     "group": "General",
     "country": "XX",
     "source": "pe.m3u"
+  },
+  {
+    "name": "Iquique TV (1080p)",
+    "url": "https://origin.skarnetchile.com:8081/iquiquetv-hd/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "cl.m3u"
+  },
+  {
+    "name": "Rumba TV",
+    "url": "http://186.148.196.100:8000/play/a02h",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
   }
 ]

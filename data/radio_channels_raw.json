@@ -862,5 +862,13 @@
     "group": "General",
     "country": "XX",
     "source": "co.m3u"
+  },
+  {
+    "name": "Interradio TV",
+    "url": "https://tv.arkeo.cl:1936/8002/8002/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "cl.m3u"
   }
 ]
