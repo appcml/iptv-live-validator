@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23 05:28:53",
+  "updated_at": "2026-08-23 06:36:32",
   "type": "all",
   "count": 448,
   "channels": [
@@ -8,6 +8,13 @@
       "url": "http://69.64.57.208/2stv/playlist.m3u8",
       "logo": "https://i.imgur.com/WByVBZf.png",
       "group": "Culture",
+      "country": "XX"
+    },
+    {
+      "name": "2GB Sydney (1080p)",
+      "url": "https://2gblive.akamaized.net/hls/live/2033805/2GB/index.m3u8",
+      "logo": "https://i.ibb.co/jwM8DFG/2GB-1.png",
+      "group": "News",
       "country": "XX"
     },
     {
@@ -39,16 +46,16 @@
       "country": "XX"
     },
     {
-      "name": "1TV (720p)",
-      "url": "https://tv.cdn.xsg.ge/gpb-1tv/index.m3u8",
-      "logo": "https://i.imgur.com/FSkYLPK.png",
+      "name": "2TV (720p)",
+      "url": "https://tv.cdn.xsg.ge/gpb-2tv/index.m3u8",
+      "logo": "https://i.imgur.com/FJBL6zI.png",
       "group": "General",
       "country": "XX"
     },
     {
-      "name": "2TV (720p)",
-      "url": "https://tv.cdn.xsg.ge/gpb-2tv/index.m3u8",
-      "logo": "https://i.imgur.com/FJBL6zI.png",
+      "name": "1TV (720p)",
+      "url": "https://tv.cdn.xsg.ge/gpb-1tv/index.m3u8",
+      "logo": "https://i.imgur.com/FSkYLPK.png",
       "group": "General",
       "country": "XX"
     },
@@ -60,37 +67,9 @@
       "country": "XX"
     },
     {
-      "name": "2GB Sydney (1080p)",
-      "url": "https://2gblive.akamaized.net/hls/live/2033805/2GB/index.m3u8",
-      "logo": "https://i.ibb.co/jwM8DFG/2GB-1.png",
-      "group": "News",
-      "country": "XX"
-    },
-    {
-      "name": "1Twente TV (1080p)",
-      "url": "https://ms7.mx-cd.net/dtv-11/198-989148/1Twente_TV.smil/chunklist_w954512639_b4292608_slNLD.m3u8",
-      "logo": "https://i.imgur.com/ftiuNK3.png",
-      "group": "General",
-      "country": "XX"
-    },
-    {
-      "name": "1KZN TV (576p)",
-      "url": "https://cdn.freevisiontv.co.za/sttv/smil:1kzn.stream.smil/playlist.m3u8",
-      "logo": "https://admango.cdn.mangomolo.com/analytics/uploads/188/6544bebaae.jpg",
-      "group": "Entertainment;Family;General",
-      "country": "XX"
-    },
-    {
       "name": "3ABN English",
       "url": "https://3abn.bozztv.com/3abn2/3abn_live/smil:3abn_live.smil/playlist.m3u8",
       "logo": "https://i.imgur.com/bgJQIyW.png",
-      "group": "Religious",
-      "country": "XX"
-    },
-    {
-      "name": "3ABN French",
-      "url": "https://3abn.bozztv.com/3abn2/Fre_live/smil:Fre_live.smil/playlist.m3u8",
-      "logo": "https://i.imgur.com/B5gsM7m.png",
       "group": "Religious",
       "country": "XX"
     },
@@ -102,10 +81,17 @@
       "country": "XX"
     },
     {
-      "name": "3ABN Kids Network",
-      "url": "https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8",
-      "logo": "https://i.imgur.com/z3npqO1.png",
-      "group": "Animation;Kids;Religious",
+      "name": "3ABN French",
+      "url": "https://3abn.bozztv.com/3abn2/Fre_live/smil:Fre_live.smil/playlist.m3u8",
+      "logo": "https://i.imgur.com/B5gsM7m.png",
+      "group": "Religious",
+      "country": "XX"
+    },
+    {
+      "name": "1Twente TV (1080p)",
+      "url": "https://ms7.mx-cd.net/dtv-11/198-989148/1Twente_TV.smil/chunklist_w954512639_b4292608_slNLD.m3u8",
+      "logo": "https://i.imgur.com/ftiuNK3.png",
+      "group": "General",
       "country": "XX"
     },
     {
@@ -123,10 +109,31 @@
       "country": "XX"
     },
     {
+      "name": "3ABN Kids Network",
+      "url": "https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8",
+      "logo": "https://i.imgur.com/z3npqO1.png",
+      "group": "Animation;Kids;Religious",
+      "country": "XX"
+    },
+    {
       "name": "3ABN Proclaim! Network",
       "url": "https://3abn.bozztv.com/3abn2/Pro_live/smil:Pro_live.smil/playlist.m3u8",
       "logo": "https://i.imgur.com/zUMUNhe.png",
       "group": "Religious",
+      "country": "XX"
+    },
+    {
+      "name": "3Cat Exclusiu 3 (1080p) [Geo-blocked]",
+      "url": "https://fast-tailor.3catdirectes.cat/v1/channel/ccma-channel2/hls.m3u8",
+      "logo": "https://i.imgur.com/YQvLPT1.png",
+      "group": "News;Public",
+      "country": "XX"
+    },
+    {
+      "name": "1KZN TV (576p)",
+      "url": "https://cdn.freevisiontv.co.za/sttv/smil:1kzn.stream.smil/playlist.m3u8",
+      "logo": "https://admango.cdn.mangomolo.com/analytics/uploads/188/6544bebaae.jpg",
+      "group": "Entertainment;Family;General",
       "country": "XX"
     },
     {
@@ -144,17 +151,10 @@
       "country": "XX"
     },
     {
-      "name": "3Cat Exclusiu 3 (1080p) [Geo-blocked]",
-      "url": "https://fast-tailor.3catdirectes.cat/v1/channel/ccma-channel2/hls.m3u8",
-      "logo": "https://i.imgur.com/YQvLPT1.png",
-      "group": "News;Public",
-      "country": "XX"
-    },
-    {
-      "name": "3Cat Càmeres del temps (1080p)",
-      "url": "https://directes-tv-int.3catdirectes.cat/live-content/beauties-hls/master.m3u8",
-      "logo": "https://i.imgur.com/zXy2kbe.png",
-      "group": "Public;Weather",
+      "name": "3AW Melbourne (1080p)",
+      "url": "https://3awlive.akamaized.net/hls/live/2032295/3AW/index.m3u8",
+      "logo": "https://i.imgur.com/Z4MdB0S.png",
+      "group": "News",
       "country": "XX"
     },
     {
@@ -165,10 +165,10 @@
       "country": "XX"
     },
     {
-      "name": "3AW Melbourne (1080p)",
-      "url": "https://3awlive.akamaized.net/hls/live/2032295/3AW/index.m3u8",
-      "logo": "https://i.imgur.com/Z4MdB0S.png",
-      "group": "News",
+      "name": "3Cat Càmeres del temps (1080p)",
+      "url": "https://directes-tv-int.3catdirectes.cat/live-content/beauties-hls/master.m3u8",
+      "logo": "https://i.imgur.com/zXy2kbe.png",
+      "group": "Public;Weather",
       "country": "XX"
     },
     {
@@ -186,17 +186,17 @@
       "country": "XX"
     },
     {
-      "name": "4UV (1080p)",
-      "url": "https://d3qg1liq0unuxm.cloudfront.net/4UV.m3u8",
-      "logo": "",
-      "group": "Undefined",
-      "country": "XX"
-    },
-    {
       "name": "3Cat Plats bruts (1080p)",
       "url": "https://fast-tailor.3catdirectes.cat/v1/channel/ccma-channel2/hls.m3u8",
       "logo": "https://i.imgur.com/49ZENis.png",
       "group": "Classic;Comedy;Public;Series",
+      "country": "XX"
+    },
+    {
+      "name": "4UV (1080p)",
+      "url": "https://d3qg1liq0unuxm.cloudfront.net/4UV.m3u8",
+      "logo": "",
+      "group": "Undefined",
       "country": "XX"
     },
     {
@@ -207,16 +207,23 @@
       "country": "XX"
     },
     {
-      "name": "4U TV (720p)",
-      "url": "https://hls.4utv.live/hls/stream.m3u8",
-      "logo": "https://i.imgur.com/PexhKwp.png",
+      "name": "5AAB TV (720p) [Not 24/7]",
+      "url": "http://158.69.124.9:1935/5aabtv/5aabtv/playlist.m3u8",
+      "logo": "https://i.imgur.com/jrGrfof.png",
       "group": "Entertainment",
       "country": "XX"
     },
     {
-      "name": "5AAB TV (720p) [Not 24/7]",
-      "url": "http://158.69.124.9:1935/5aabtv/5aabtv/playlist.m3u8",
-      "logo": "https://i.imgur.com/jrGrfof.png",
+      "name": "4 Fun Kids (576i) [[Not 24/7]]",
+      "url": "https://stream.4fun.tv:8889/hls/4fk_high/index.m3u8",
+      "logo": "https://i.imgur.com/2JO5Y8c.png",
+      "group": "Kids",
+      "country": "XX"
+    },
+    {
+      "name": "4U TV (720p)",
+      "url": "https://hls.4utv.live/hls/stream.m3u8",
+      "logo": "https://i.imgur.com/PexhKwp.png",
       "group": "Entertainment",
       "country": "XX"
     },
@@ -228,45 +235,10 @@
       "country": "XX"
     },
     {
-      "name": "4 Fun Kids (576i) [[Not 24/7]]",
-      "url": "https://stream.4fun.tv:8889/hls/4fk_high/index.m3u8",
-      "logo": "https://i.imgur.com/2JO5Y8c.png",
-      "group": "Kids",
-      "country": "XX"
-    },
-    {
-      "name": "4TV News (576p)",
-      "url": "https://cdn-4.pishow.tv/live/1007/master.m3u8",
-      "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/4_TV.png",
-      "group": "News",
-      "country": "XX"
-    },
-    {
       "name": "5-Minute Craft (1080p)",
       "url": "https://soul-5mincrafteng-rakuten.amagi.tv/playlist.m3u8",
       "logo": "",
       "group": "Undefined",
-      "country": "XX"
-    },
-    {
-      "name": "4E (1080p)",
-      "url": "http://eu2.tv4e.gr:554/live/smil:myStream.sdp.smil/playlist.m3u8",
-      "logo": "https://i.imgur.com/Na0UCV7.png",
-      "group": "Religious",
-      "country": "XX"
-    },
-    {
-      "name": "6 Wise Tv (720p)",
-      "url": "https://live.enhdtv.com:8081/8150/index.m3u8",
-      "logo": "https://jrlist70.pages.dev/list/wise.png",
-      "group": "Family",
-      "country": "XX"
-    },
-    {
-      "name": "5TV Corrientes (480p) [Not 24/7]",
-      "url": "http://www.coninfo.net:1935/tvcinco/live1/playlist.m3u8",
-      "logo": "https://i.imgur.com/mSn7ACs.png",
-      "group": "General",
       "country": "XX"
     },
     {
@@ -277,17 +249,10 @@
       "country": "XX"
     },
     {
-      "name": "6 TV Telugu (576p)",
-      "url": "https://yuppparoriglin.akamaized.net/181224/smil:6tv.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
-      "logo": "https://i.imgur.com/l3EcRnZ.png",
+      "name": "4TV News (576p)",
+      "url": "https://cdn-4.pishow.tv/live/1007/master.m3u8",
+      "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/4_TV.png",
       "group": "News",
-      "country": "XX"
-    },
-    {
-      "name": "7S Music (576p)",
-      "url": "https://play.cdn.enetres.net/9E9557EFCEBB43A89CEC8FBD3C500247022/028/playlist.m3u8",
-      "logo": "https://i.imgur.com/zDiIhdN.png",
-      "group": "Music",
       "country": "XX"
     },
     {
@@ -305,6 +270,20 @@
       "country": "XX"
     },
     {
+      "name": "6 Wise Tv (720p)",
+      "url": "https://live.enhdtv.com:8081/8150/index.m3u8",
+      "logo": "https://jrlist70.pages.dev/list/wise.png",
+      "group": "Family",
+      "country": "XX"
+    },
+    {
+      "name": "6 TV Telugu (576p)",
+      "url": "https://yuppparoriglin.akamaized.net/181224/smil:6tv.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+      "logo": "https://i.imgur.com/l3EcRnZ.png",
+      "group": "News",
+      "country": "XX"
+    },
+    {
       "name": "7 RadioVisione (720p)",
       "url": "https://stream10.xdevel.com/video1s976543-1932/stream/playlist.m3u8",
       "logo": "https://radio7note.com/img/favicon/android-icon-192x192.png",
@@ -312,17 +291,10 @@
       "country": "XX"
     },
     {
-      "name": "8 Out of 10 Cats (1080p) [Geo-blocked]",
-      "url": "http://cdn6.163189.xyz/163189/8tv",
-      "logo": "",
-      "group": "Undefined",
-      "country": "XX"
-    },
-    {
-      "name": "7 TeleValencia (576p)",
+      "name": "7S Music (576p)",
       "url": "https://play.cdn.enetres.net/9E9557EFCEBB43A89CEC8FBD3C500247022/028/playlist.m3u8",
-      "logo": "https://i.imgur.com/ILfXDRs.png",
-      "group": "General",
+      "logo": "https://i.imgur.com/zDiIhdN.png",
+      "group": "Music",
       "country": "XX"
     },
     {
@@ -337,6 +309,20 @@
       "url": "https://60417ddeaf0d9.streamlock.net/ntv/videontv/playlist.m3u8",
       "logo": "https://i.imgur.com/7ecgGIG.png",
       "group": "General",
+      "country": "XX"
+    },
+    {
+      "name": "7 TeleValencia (576p)",
+      "url": "https://play.cdn.enetres.net/9E9557EFCEBB43A89CEC8FBD3C500247022/028/playlist.m3u8",
+      "logo": "https://i.imgur.com/ILfXDRs.png",
+      "group": "General",
+      "country": "XX"
+    },
+    {
+      "name": "8 Out of 10 Cats (1080p) [Geo-blocked]",
+      "url": "http://cdn6.163189.xyz/163189/8tv",
+      "logo": "",
+      "group": "Undefined",
       "country": "XX"
     },
     {
@@ -361,6 +347,13 @@
       "country": "XX"
     },
     {
+      "name": "8 La Marina TV (576p)",
+      "url": "https://streaming005.gestec-video.com/hls/canal24.m3u8",
+      "logo": "https://i.imgur.com/BTJvvBK.png",
+      "group": "General",
+      "country": "XX"
+    },
+    {
       "name": "10 Bold Adelaide (1080p)",
       "url": "https://dce3793146fef017.mediapackage.us-west-2.amazonaws.com/out/v1/55cdf73af7894775ba6de8f57482b66a/CMAF_HLS/index.m3u8",
       "logo": "https://i.imgur.com/2xglh33.png",
@@ -368,10 +361,31 @@
       "country": "XX"
     },
     {
-      "name": "8 La Marina TV (576p)",
-      "url": "https://streaming005.gestec-video.com/hls/canal24.m3u8",
-      "logo": "https://i.imgur.com/BTJvvBK.png",
+      "name": "4E (1080p)",
+      "url": "http://eu2.tv4e.gr:554/live/smil:myStream.sdp.smil/playlist.m3u8",
+      "logo": "https://i.imgur.com/Na0UCV7.png",
+      "group": "Religious",
+      "country": "XX"
+    },
+    {
+      "name": "5TV Corrientes (480p) [Not 24/7]",
+      "url": "http://www.coninfo.net:1935/tvcinco/live1/playlist.m3u8",
+      "logo": "https://i.imgur.com/mSn7ACs.png",
       "group": "General",
+      "country": "XX"
+    },
+    {
+      "name": "9X Jhakaas (1080p)",
+      "url": "https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8",
+      "logo": "https://dtil.tmsimg.com/assets/s90012_ld_h15_aa.png?lock=720x540",
+      "group": "Music",
+      "country": "XX"
+    },
+    {
+      "name": "9X Tashan (1080p)",
+      "url": "https://amg01281-9xmediapvtltd-9xtashan-samsungin-xz1sd.amagi.tv/playlist/amg01281-9xmediapvtltd-9xtashan-samsungin/playlist.m3u8",
+      "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_9X_TASHAN/images/LOGO_HD/image.png",
+      "group": "Music",
       "country": "XX"
     },
     {
@@ -403,24 +417,17 @@
       "country": "XX"
     },
     {
-      "name": "9X Tashan (1080p)",
-      "url": "https://amg01281-9xmediapvtltd-9xtashan-samsungin-xz1sd.amagi.tv/playlist/amg01281-9xmediapvtltd-9xtashan-samsungin/playlist.m3u8",
-      "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_9X_TASHAN/images/LOGO_HD/image.png",
-      "group": "Music",
+      "name": "13 Realities (1080p)",
+      "url": "http://cdn1tlinkgo.tlink.cl/13rec/mono.m3u8",
+      "logo": "https://i.imgur.com/m0SuwMU.png",
+      "group": "Entertainment",
       "country": "XX"
     },
     {
-      "name": "12 канал (1080p)",
-      "url": "https://12channel.bonus-tv.ru/cdn/12channel/playlist.m3u8",
-      "logo": "https://i.imgur.com/OA9hm6e.png",
-      "group": "General",
-      "country": "XX"
-    },
-    {
-      "name": "9X Jhakaas (1080p)",
-      "url": "https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8",
-      "logo": "https://dtil.tmsimg.com/assets/s90012_ld_h15_aa.png?lock=720x540",
-      "group": "Music",
+      "name": "16 Anni e Incinta",
+      "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/16tv.sdp/playlist.m3u8",
+      "logo": "",
+      "group": "Undefined",
       "country": "XX"
     },
     {
@@ -431,17 +438,17 @@
       "country": "XX"
     },
     {
-      "name": "13 Realities (1080p)",
-      "url": "http://cdn1tlinkgo.tlink.cl/13rec/mono.m3u8",
-      "logo": "https://i.imgur.com/m0SuwMU.png",
-      "group": "Entertainment",
-      "country": "XX"
-    },
-    {
       "name": "20 Mediaset [Geo-blocked]",
       "url": "https://live-20minutestv.digiteka.com/1961167769/index.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/20_Mediaset_2018.svg/960px-20_Mediaset_2018.svg.png",
       "group": "Entertainment",
+      "country": "XX"
+    },
+    {
+      "name": "12 канал (1080p)",
+      "url": "https://12channel.bonus-tv.ru/cdn/12channel/playlist.m3u8",
+      "logo": "https://i.imgur.com/OA9hm6e.png",
+      "group": "General",
       "country": "XX"
     },
     {
@@ -459,24 +466,17 @@
       "country": "XX"
     },
     {
-      "name": "20 Minutes TV (1080p)",
-      "url": "https://live-20minutestv.digiteka.com/1961167769/index.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/20_Minutes_TV_IDF_logo_%282023%29.png/960px-20_Minutes_TV_IDF_logo_%282023%29.png",
-      "group": "General",
-      "country": "XX"
-    },
-    {
-      "name": "16 Anni e Incinta",
-      "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/16tv.sdp/playlist.m3u8",
-      "logo": "",
-      "group": "Undefined",
-      "country": "XX"
-    },
-    {
       "name": "13 Siam Thai (1080p)",
       "url": "https://live.x2.co.th/live/13livetv-th.m3u8",
       "logo": "https://i.imgur.com/FvEp1S2.png",
       "group": "News",
+      "country": "XX"
+    },
+    {
+      "name": "20 Minutes TV (1080p)",
+      "url": "https://live-20minutestv.digiteka.com/1961167769/index.m3u8",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/20_Minutes_TV_IDF_logo_%282023%29.png/960px-20_Minutes_TV_IDF_logo_%282023%29.png",
+      "group": "General",
       "country": "XX"
     },
     {
@@ -494,10 +494,17 @@
       "country": "XX"
     },
     {
-      "name": "24/7 Canal de Noticias",
-      "url": "https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8",
-      "logo": "https://i.imgur.com/4hDCB1M.png",
+      "name": "22Scope News (1080p)",
+      "url": "https://thelegitpro.in/HDlive/22scope/index.fmp4.m3u8",
+      "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/22Scope_News.png",
       "group": "News",
+      "country": "XX"
+    },
+    {
+      "name": "16tv Budapest (360p)",
+      "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/16tv.sdp/playlist.m3u8",
+      "logo": "https://i.imgur.com/04fCzHl.png",
+      "group": "General",
       "country": "XX"
     },
     {
@@ -508,10 +515,10 @@
       "country": "XX"
     },
     {
-      "name": "16tv Budapest (360p)",
-      "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/16tv.sdp/playlist.m3u8",
-      "logo": "https://i.imgur.com/04fCzHl.png",
-      "group": "General",
+      "name": "24/7 Canal de Noticias",
+      "url": "https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8",
+      "logo": "https://i.imgur.com/4hDCB1M.png",
+      "group": "News",
       "country": "XX"
     },
     {
@@ -529,24 +536,10 @@
       "country": "XX"
     },
     {
-      "name": "22Scope News (1080p)",
-      "url": "https://thelegitpro.in/HDlive/22scope/index.fmp4.m3u8",
-      "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/22Scope_News.png",
-      "group": "News",
-      "country": "XX"
-    },
-    {
       "name": "28 kanala",
       "url": "https://streaming.28kanala.eus/hls/z.m3u8",
       "logo": "https://i.imgur.com/DyvK28q.png",
       "group": "General",
-      "country": "XX"
-    },
-    {
-      "name": "30A Darcizzle Offshore (720p)",
-      "url": "https://30a-tv.com/darcizzle.m3u8",
-      "logo": "https://i.imgur.com/Q4l2uao.png",
-      "group": "Outdoor",
       "country": "XX"
     },
     {
@@ -557,6 +550,27 @@
       "country": "XX"
     },
     {
+      "name": "30A Darcizzle Offshore (720p)",
+      "url": "https://30a-tv.com/darcizzle.m3u8",
+      "logo": "https://i.imgur.com/Q4l2uao.png",
+      "group": "Outdoor",
+      "country": "XX"
+    },
+    {
+      "name": "24 Канал (1080p)",
+      "url": "https://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/playlist.m3u8",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/24_Group_Ukraine_04.png/960px-24_Group_Ukraine_04.png",
+      "group": "News",
+      "country": "XX"
+    },
+    {
+      "name": "30A Investment Pitch (720p)",
+      "url": "https://30a-tv.com/feeds/xodglobal/30atv.m3u8",
+      "logo": "https://i.imgur.com/CKCtZo7.png",
+      "group": "Business",
+      "country": "XX"
+    },
+    {
       "name": "30A Golf Kingdom (720p)",
       "url": "https://30a-tv.com/feeds/vidaa/golf.m3u8",
       "logo": "https://golfkingdom.net/wp-content/uploads/2022/04/golf-kingdom-st.jpg",
@@ -564,9 +578,9 @@
       "country": "XX"
     },
     {
-      "name": "24 Канал (1080p)",
-      "url": "https://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/playlist.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/24_Group_Ukraine_04.png/960px-24_Group_Ukraine_04.png",
+      "name": "30A Lionel Nation TV",
+      "url": "https://30a-tv.com/ln.m3u8",
+      "logo": "https://m.media-amazon.com/images/I/71dgsQwVcNL.png",
       "group": "News",
       "country": "XX"
     },
@@ -578,38 +592,10 @@
       "country": "XX"
     },
     {
-      "name": "30A Investment Pitch (720p)",
-      "url": "https://30a-tv.com/feeds/xodglobal/30atv.m3u8",
-      "logo": "https://i.imgur.com/CKCtZo7.png",
-      "group": "Business",
-      "country": "XX"
-    },
-    {
-      "name": "30A Lionel Nation TV",
-      "url": "https://30a-tv.com/ln.m3u8",
-      "logo": "https://m.media-amazon.com/images/I/71dgsQwVcNL.png",
-      "group": "News",
-      "country": "XX"
-    },
-    {
       "name": "30A Luxe Life Discovered (720p)",
       "url": "https://30a-tv.com/feeds/vidaa/luxelife.m3u8",
       "logo": "https://m.media-amazon.com/images/I/51FJ5A0mEyL.jpg",
       "group": "Lifestyle",
-      "country": "XX"
-    },
-    {
-      "name": "30A Ridiculous TV (720p)",
-      "url": "https://30a-tv.com/feeds/720p/63.m3u8",
-      "logo": "https://30a.media/wp-content/uploads/2023/08/pzaz-30atv-2-230x366-ridiculous.jpg",
-      "group": "Comedy",
-      "country": "XX"
-    },
-    {
-      "name": "30A Music (720p)",
-      "url": "https://30a-tv.com/music.m3u8",
-      "logo": "https://i.imgur.com/gNWg9tl.png",
-      "group": "Music",
       "country": "XX"
     },
     {
@@ -620,31 +606,10 @@
       "country": "XX"
     },
     {
-      "name": "30A The Beach Show (720p)",
-      "url": "https://30a-tv.com/beachy.m3u8",
-      "logo": "https://i.imgur.com/0j5Aget.png",
-      "group": "Shop",
-      "country": "XX"
-    },
-    {
-      "name": "30A We Love Cars (720p)",
-      "url": "https://30a-tv.com/feeds/vidaa/cars.m3u8",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxroqfE_hvEApKMQx03sSYXPeEh4ClaF5QSa8XfRwJW_So3vfSN0CjqzxN30H-qEBswqU&usqp=CAU",
-      "group": "Auto",
-      "country": "XX"
-    },
-    {
-      "name": "30A Television Channel (720p)",
-      "url": "https://30a-tv.com/feeds/masters/30atv.m3u8",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTHiYfIB01K44LIBG81aEGAmDuIWw8MA0f2w&s",
-      "group": "Entertainment",
-      "country": "XX"
-    },
-    {
-      "name": "30A TV Classic Movies (720p)",
-      "url": "https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8",
-      "logo": "https://babaktv.com/wp-content/uploads/2023/09/30A-Classi-Movies.jpeg",
-      "group": "Movies",
+      "name": "30A Ridiculous TV (720p)",
+      "url": "https://30a-tv.com/feeds/720p/63.m3u8",
+      "logo": "https://30a.media/wp-content/uploads/2023/08/pzaz-30atv-2-230x366-ridiculous.jpg",
+      "group": "Comedy",
       "country": "XX"
     },
     {
@@ -655,6 +620,20 @@
       "country": "XX"
     },
     {
+      "name": "30A Music (720p)",
+      "url": "https://30a-tv.com/music.m3u8",
+      "logo": "https://i.imgur.com/gNWg9tl.png",
+      "group": "Music",
+      "country": "XX"
+    },
+    {
+      "name": "48 Hours",
+      "url": "https://load-balancer.azotosolutions.com/cdnedge37/canale50/playlist.m3u8",
+      "logo": "",
+      "group": "Undefined",
+      "country": "XX"
+    },
+    {
       "name": "48 Hours",
       "url": "https://load-balancer.azotosolutions.com/cdnedge37/canale50/playlist.m3u8",
       "logo": "",
@@ -669,10 +648,38 @@
       "country": "XX"
     },
     {
-      "name": "50 Cent Action (720p)",
-      "url": "http://wms.shared.streamshow.it/canale51/canale51/playlist.m3u8",
-      "logo": "https://provider-static.plex.tv/epg/cms/production/bcfb9977-809f-49ae-acc7-430f2c6ffb26/50CentAction_Logo_1500x1000_DarkBG_-_Chris_Connors.png",
-      "group": "Movies;Series",
+      "name": "48 Hours",
+      "url": "https://load-balancer.azotosolutions.com/cdnedge37/canale50/playlist.m3u8",
+      "logo": "https://images.pluto.tv/channels/6176f39e709f160007ec61c3/colorLogoPNG.png",
+      "group": "Series",
+      "country": "XX"
+    },
+    {
+      "name": "30A Television Channel (720p)",
+      "url": "https://30a-tv.com/feeds/masters/30atv.m3u8",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTHiYfIB01K44LIBG81aEGAmDuIWw8MA0f2w&s",
+      "group": "Entertainment",
+      "country": "XX"
+    },
+    {
+      "name": "30A We Love Cars (720p)",
+      "url": "https://30a-tv.com/feeds/vidaa/cars.m3u8",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxroqfE_hvEApKMQx03sSYXPeEh4ClaF5QSa8XfRwJW_So3vfSN0CjqzxN30H-qEBswqU&usqp=CAU",
+      "group": "Auto",
+      "country": "XX"
+    },
+    {
+      "name": "30A The Beach Show (720p)",
+      "url": "https://30a-tv.com/beachy.m3u8",
+      "logo": "https://i.imgur.com/0j5Aget.png",
+      "group": "Shop",
+      "country": "XX"
+    },
+    {
+      "name": "30A TV Classic Movies (720p)",
+      "url": "https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8",
+      "logo": "https://babaktv.com/wp-content/uploads/2023/09/30A-Classi-Movies.jpeg",
+      "group": "Movies",
       "country": "XX"
     },
     {
@@ -683,14 +690,14 @@
       "country": "XX"
     },
     {
-      "name": "48 Hours (1080p)",
-      "url": "https://load-balancer.azotosolutions.com/cdnedge37/canale50/playlist.m3u8",
-      "logo": "https://images.pluto.tv/channels/6176f39e709f160007ec61c3/colorLogoPNG.png",
-      "group": "Series",
+      "name": "60 Minutes",
+      "url": "https://585b674743bbb.streamlock.net/9050/9050/playlist.m3u8",
+      "logo": "",
+      "group": "Undefined",
       "country": "XX"
     },
     {
-      "name": "48 Hours",
+      "name": "48 Hours (1080p)",
       "url": "https://load-balancer.azotosolutions.com/cdnedge37/canale50/playlist.m3u8",
       "logo": "https://images.pluto.tv/channels/6176f39e709f160007ec61c3/colorLogoPNG.png",
       "group": "Series",
@@ -706,15 +713,22 @@
     {
       "name": "48 Hours",
       "url": "https://load-balancer.azotosolutions.com/cdnedge37/canale50/playlist.m3u8",
-      "logo": "",
-      "group": "Undefined",
+      "logo": "https://images.pluto.tv/channels/6176f39e709f160007ec61c3/colorLogoPNG.png",
+      "group": "Series",
       "country": "XX"
     },
     {
-      "name": "48 Hours",
-      "url": "https://load-balancer.azotosolutions.com/cdnedge37/canale50/playlist.m3u8",
-      "logo": "https://images.pluto.tv/channels/6176f39e709f160007ec61c3/colorLogoPNG.png",
-      "group": "Series",
+      "name": "90s Throwback",
+      "url": "http://92news.vdn.dstreamone.net/92newshd/92hd/playlist.m3u8",
+      "logo": "https://i.imgur.com/KoGko6M.png",
+      "group": "Movies",
+      "country": "XX"
+    },
+    {
+      "name": "88 Stereo (720p) [Not 24/7]",
+      "url": "http://k3.usastreams.com/CableLatino/88stereo/playlist.m3u8",
+      "logo": "https://i.imgur.com/i3YwORV.png",
+      "group": "Music",
       "country": "XX"
     },
     {
@@ -732,10 +746,10 @@
       "country": "XX"
     },
     {
-      "name": "60 Minutes",
-      "url": "https://585b674743bbb.streamlock.net/9050/9050/playlist.m3u8",
-      "logo": "",
-      "group": "Undefined",
+      "name": "50 Cent Action (720p)",
+      "url": "http://wms.shared.streamshow.it/canale51/canale51/playlist.m3u8",
+      "logo": "https://provider-static.plex.tv/epg/cms/production/bcfb9977-809f-49ae-acc7-430f2c6ffb26/50CentAction_Logo_1500x1000_DarkBG_-_Chris_Connors.png",
+      "group": "Movies;Series",
       "country": "XX"
     },
     {
@@ -746,9 +760,9 @@
       "country": "XX"
     },
     {
-      "name": "88 Stereo (720p) [Not 24/7]",
-      "url": "http://k3.usastreams.com/CableLatino/88stereo/playlist.m3u8",
-      "logo": "https://i.imgur.com/i3YwORV.png",
+      "name": "98.1 Pearl FM (720p)",
+      "url": "https://live2.tensila.com/pearl-v-1.pearlfm/hls/live/mystream.m3u8",
+      "logo": "https://i.imgur.com/GY750xh.jpg",
       "group": "Music",
       "country": "XX"
     },
@@ -757,20 +771,6 @@
       "url": "https://5db313b643fd8.streamlock.net/111/111/playlist.m3u8",
       "logo": "https://i.imgur.com/GzI3RC4.png",
       "group": "General",
-      "country": "XX"
-    },
-    {
-      "name": "98.1 Pearl FM (720p)",
-      "url": "https://live2.tensila.com/pearl-v-1.pearlfm/hls/live/mystream.m3u8",
-      "logo": "https://i.imgur.com/GY750xh.jpg",
-      "group": "Music",
-      "country": "XX"
-    },
-    {
-      "name": "90s Throwback",
-      "url": "http://92news.vdn.dstreamone.net/92newshd/92hd/playlist.m3u8",
-      "logo": "https://i.imgur.com/KoGko6M.png",
-      "group": "Movies",
       "country": "XX"
     },
     {
@@ -795,13 +795,6 @@
       "country": "XX"
     },
     {
-      "name": "247 Box TV",
-      "url": "https://hls.247box.live/hls/stream.m3u8",
-      "logo": "https://i.imgur.com/t5AUthL.png",
-      "group": "Entertainment",
-      "country": "XX"
-    },
-    {
       "name": "312 Кино (406p)",
       "url": "http://176.126.166.43:1935/live/312kino/playlist.m3u8",
       "logo": "https://i.ibb.co/3m9LrLj/k7gIibH.png",
@@ -816,10 +809,10 @@
       "country": "XX"
     },
     {
-      "name": "360° Новости (1080p)",
-      "url": "https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/playlist.m3u8",
-      "logo": "https://i.imgur.com/YXDeX8q.png",
-      "group": "News",
+      "name": "247 Box TV",
+      "url": "https://hls.247box.live/hls/stream.m3u8",
+      "logo": "https://i.imgur.com/t5AUthL.png",
+      "group": "Entertainment",
       "country": "XX"
     },
     {
@@ -830,9 +823,9 @@
       "country": "XX"
     },
     {
-      "name": "360 TV (720p) [Not 24/7]",
-      "url": "https://turkmedya-live.ercdn.net/tv360/tv360.m3u8",
-      "logo": "https://i.imgur.com/agn47sQ.png",
+      "name": "360° Новости (1080p)",
+      "url": "https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/playlist.m3u8",
+      "logo": "https://i.imgur.com/YXDeX8q.png",
       "group": "News",
       "country": "XX"
     },
@@ -844,17 +837,10 @@
       "country": "XX"
     },
     {
-      "name": "90210",
-      "url": "https://cdn3.wowza.com/5/V2Y2VmhqMEFDTUkx/beverlyhills/G0072_006/playlist.m3u8",
-      "logo": "",
-      "group": "Undefined",
-      "country": "XX"
-    },
-    {
-      "name": "360° (1080p)",
-      "url": "https://cdn-evacoder-tv.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/index.m3u8",
-      "logo": "https://i.imgur.com/VTJqdoX.png",
-      "group": "General",
+      "name": "360 TV (720p) [Not 24/7]",
+      "url": "https://turkmedya-live.ercdn.net/tv360/tv360.m3u8",
+      "logo": "https://i.imgur.com/agn47sQ.png",
+      "group": "News",
       "country": "XX"
     },
     {
@@ -869,6 +855,20 @@
       "url": "https://amg01117-amg01117c1-amgplt0029.playout.now3.amagi.tv/playlist/amg01117-amg01117c1-amgplt0029/playlist.m3u8",
       "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDTV/images/LOGO_HD/LOGO_HD_image.png",
       "group": "Movies",
+      "country": "XX"
+    },
+    {
+      "name": "360° (1080p)",
+      "url": "https://cdn-evacoder-tv.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/index.m3u8",
+      "logo": "https://i.imgur.com/VTJqdoX.png",
+      "group": "General",
+      "country": "XX"
+    },
+    {
+      "name": "90210",
+      "url": "https://cdn3.wowza.com/5/V2Y2VmhqMEFDTUkx/beverlyhills/G0072_006/playlist.m3u8",
+      "logo": "",
+      "group": "Undefined",
       "country": "XX"
     },
     {
@@ -900,16 +900,16 @@
       "country": "XX"
     },
     {
-      "name": "A2i TV (1080p)",
-      "url": "https://stream.sen-gt.com/A2itv/myStream/playlist.m3u8",
-      "logo": "https://i.imgur.com/YlDFir7.jpg",
+      "name": "A12 TV",
+      "url": "https://video1.getstreamhosting.com:1936/8250/8250/manifest.m3u8",
+      "logo": "https://i.imgur.com/JgnjgvF.png",
       "group": "General",
       "country": "XX"
     },
     {
-      "name": "A12 TV",
-      "url": "https://video1.getstreamhosting.com:1936/8250/8250/manifest.m3u8",
-      "logo": "https://i.imgur.com/JgnjgvF.png",
+      "name": "A2i TV (1080p)",
+      "url": "https://stream.sen-gt.com/A2itv/myStream/playlist.m3u8",
+      "logo": "https://i.imgur.com/YlDFir7.jpg",
       "group": "General",
       "country": "XX"
     },
@@ -928,6 +928,13 @@
       "country": "XX"
     },
     {
+      "name": "A Haunting",
+      "url": "https://d36zu8tswi4fqu.cloudfront.net/playlist.m3u8",
+      "logo": "",
+      "group": "Undefined",
+      "country": "XX"
+    },
+    {
       "name": "A New Life In The Sun (1080p)",
       "url": "https://d36zu8tswi4fqu.cloudfront.net/playlist.m3u8",
       "logo": "",
@@ -942,10 +949,10 @@
       "country": "XX"
     },
     {
-      "name": "A Haunting",
-      "url": "https://d36zu8tswi4fqu.cloudfront.net/playlist.m3u8",
-      "logo": "",
-      "group": "Undefined",
+      "name": "A Punt",
+      "url": "https://fastly.live.brightcove.com/1846756479408303045/eu-central-1/6057955885001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiZWFxNWh4LmVncmVzcy53YzQ3bTEiLCJhY2NvdW50X2lkIjoiNjA1Nzk1NTg4NTAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU3OTU1ODg1MDAxIl0sImp0aSI6IjE4NDY3NTY0Nzk0MDgzMDMwNDUifQ.o6wb_VA-TVxl3ERgr7FKLlaTjY7smErmsf73QAydySE/playlist-hls-dvr.m3u8",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Logotip_d%27%C3%80_Punt_%282017-%29.svg/960px-Logotip_d%27%C3%80_Punt_%282017-%29.svg.png",
+      "group": "General;Public",
       "country": "XX"
     },
     {
@@ -953,13 +960,6 @@
       "url": "https://d36zu8tswi4fqu.cloudfront.net/playlist.m3u8",
       "logo": "",
       "group": "Undefined",
-      "country": "XX"
-    },
-    {
-      "name": "A Punt",
-      "url": "https://fastly.live.brightcove.com/1846756479408303045/eu-central-1/6057955885001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiZWFxNWh4LmVncmVzcy53YzQ3bTEiLCJhY2NvdW50X2lkIjoiNjA1Nzk1NTg4NTAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU3OTU1ODg1MDAxIl0sImp0aSI6IjE4NDY3NTY0Nzk0MDgzMDMwNDUifQ.o6wb_VA-TVxl3ERgr7FKLlaTjY7smErmsf73QAydySE/playlist-hls-dvr.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Logotip_d%27%C3%80_Punt_%282017-%29.svg/960px-Logotip_d%27%C3%80_Punt_%282017-%29.svg.png",
-      "group": "General;Public",
       "country": "XX"
     },
     {
@@ -1026,6 +1026,13 @@
       "country": "XX"
     },
     {
+      "name": ".sci-fi (576p)",
+      "url": "http://stream.mcquack.net/180/index.m3u8",
+      "logo": "https://i.imgur.com/nSSUHcg.png",
+      "group": "Science",
+      "country": "XX"
+    },
+    {
       "name": "Aastha Gujarati (480p)",
       "url": "https://aasthaott.akamaized.net/110923/smil:aasthagujrati.smil/playlist.m3u8",
       "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Aastha_Tamil.png",
@@ -1040,13 +1047,6 @@
       "country": "XX"
     },
     {
-      "name": ".sci-fi (576p)",
-      "url": "http://stream.mcquack.net/180/index.m3u8",
-      "logo": "https://i.imgur.com/nSSUHcg.png",
-      "group": "Science",
-      "country": "XX"
-    },
-    {
       "name": ":24 (1080p)",
       "url": "https://stream.a1mediagroep.nl/hls/a1tv.m3u8",
       "logo": "https://i.imgur.com/tTCuczU.png",
@@ -1054,17 +1054,17 @@
       "country": "XX"
     },
     {
-      "name": "Aastha Kannada (480p)",
-      "url": "https://aasthaott.akamaized.net/110923/smil:aasthakannada.smil/playlist.m3u8",
-      "logo": "https://dtil.tmsimg.com/assets/s158134_ld_h15_aa.png?lock=720x540",
-      "group": "Religious",
-      "country": "XX"
-    },
-    {
       "name": ":Šport (1080p)",
       "url": "https://5fc584f3f19c9.streamlock.net/genteopa/videogenteopa/playlist.m3u8",
       "logo": "https://i.imgur.com/oAtcxNZ.png",
       "group": "Sports",
+      "country": "XX"
+    },
+    {
+      "name": "Aastha Kannada (480p)",
+      "url": "https://aasthaott.akamaized.net/110923/smil:aasthakannada.smil/playlist.m3u8",
+      "logo": "https://dtil.tmsimg.com/assets/s158134_ld_h15_aa.png?lock=720x540",
+      "group": "Religious",
       "country": "XX"
     },
     {
@@ -1110,13 +1110,6 @@
       "country": "XX"
     },
     {
-      "name": "ABC 2 Baltimore MD (WMAR) (720p)",
-      "url": "https://aegis-cloudfront-1.tubi.video/c28d1ca8-9467-4798-81dc-09c1d6e90be1/playlist.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/d/db/2_ABC_WMAR_Baltimore.png",
-      "group": "News",
-      "country": "XX"
-    },
-    {
       "name": "ABC 2 Portland OR (KATU) (1080p)",
       "url": "https://linear-710.frequency.stream/dist/stirr/710/hls/master/playlist.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png",
@@ -1131,16 +1124,16 @@
       "country": "XX"
     },
     {
-      "name": "ABC 4 Seattle WA (KOMO) (1080p)",
-      "url": "https://linear-709.frequency.stream/dist/stirr/709/hls/master/playlist.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/KOMO-TV_(2021).svg/960px-KOMO-TV_(2021).svg.png",
-      "group": "General",
+      "name": "ABC 2 Baltimore MD (WMAR) (720p)",
+      "url": "https://aegis-cloudfront-1.tubi.video/c28d1ca8-9467-4798-81dc-09c1d6e90be1/playlist.m3u8",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/d/db/2_ABC_WMAR_Baltimore.png",
+      "group": "News",
       "country": "XX"
     },
     {
-      "name": "ABC 5",
-      "url": "https://d3svnrf3rmq619.cloudfront.net/krgv-live/smil:krgv-live.smil/playlist.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png",
+      "name": "ABC 4 Seattle WA (KOMO) (1080p)",
+      "url": "https://linear-709.frequency.stream/dist/stirr/709/hls/master/playlist.m3u8",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/KOMO-TV_(2021).svg/960px-KOMO-TV_(2021).svg.png",
       "group": "General",
       "country": "XX"
     },
@@ -1152,8 +1145,8 @@
       "country": "XX"
     },
     {
-      "name": "ABC 6 Austin TX (KAAL) (1080p)",
-      "url": "https://amg01942-amg01942c6-stirr-us-10178.playouts.now.amagi.tv/playlist.m3u8",
+      "name": "ABC 5",
+      "url": "https://d3svnrf3rmq619.cloudfront.net/krgv-live/smil:krgv-live.smil/playlist.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png",
       "group": "General",
       "country": "XX"
@@ -1162,6 +1155,13 @@
       "name": "ABC 5 St. Paul MN (KSTP) (1080p)",
       "url": "https://amg01942-amg01942c2-stirr-us-10173.playouts.now.amagi.tv/playlist.m3u8",
       "logo": "",
+      "group": "General",
+      "country": "XX"
+    },
+    {
+      "name": "ABC 6 Austin TX (KAAL) (1080p)",
+      "url": "https://amg01942-amg01942c6-stirr-us-10178.playouts.now.amagi.tv/playlist.m3u8",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png",
       "group": "General",
       "country": "XX"
     },
@@ -1180,10 +1180,10 @@
       "country": "XX"
     },
     {
-      "name": "ABC 7 Denver CO (KMGH) (720p)",
-      "url": "https://content.uplynk.com/channel/64ca339f04964a5e961c3207a7771bf1.m3u8",
-      "logo": "https://i.imgur.com/MWvoICD.png",
-      "group": "General",
+      "name": "ABC 7 Washington DC (WJLA) (1080p)",
+      "url": "https://linear-681.frequency.stream/dist/stirr/681/hls/master/playlist.m3u8",
+      "logo": "https://i.imgur.com/NfqhdBC.png",
+      "group": "Undefined",
       "country": "XX"
     },
     {
@@ -1194,22 +1194,8 @@
       "country": "XX"
     },
     {
-      "name": "ABC 7 Washington DC (WJLA) (1080p)",
-      "url": "https://linear-681.frequency.stream/dist/stirr/681/hls/master/playlist.m3u8",
-      "logo": "https://i.imgur.com/NfqhdBC.png",
-      "group": "Undefined",
-      "country": "XX"
-    },
-    {
       "name": "ABC 9 Tucson AZ (KGUN) (720p)",
       "url": "https://aegis-cloudfront-1.tubi.video/a53514a7-f2aa-4d34-802e-c2b5594fc0d7/playlist.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png",
-      "group": "General",
-      "country": "XX"
-    },
-    {
-      "name": "ABC 10 San Diego CA (KGTV) (720p)",
-      "url": "https://aegis-cloudfront-1.tubi.video/1a352414-3a30-4f42-b14b-c091d02a5e45/playlist.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png",
       "group": "General",
       "country": "XX"
@@ -1222,9 +1208,16 @@
       "country": "XX"
     },
     {
-      "name": "ABC 12 Milwaukee WI (WISN) (720p)",
-      "url": "https://aegis-cloudfront-1.tubi.video/ec903a48-3638-4d0b-ac89-813e147bca58/playlist.m3u8",
+      "name": "ABC 10 San Diego CA (KGTV) (720p)",
+      "url": "https://aegis-cloudfront-1.tubi.video/1a352414-3a30-4f42-b14b-c091d02a5e45/playlist.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png",
+      "group": "General",
+      "country": "XX"
+    },
+    {
+      "name": "ABC 7 Denver CO (KMGH) (720p)",
+      "url": "https://content.uplynk.com/channel/64ca339f04964a5e961c3207a7771bf1.m3u8",
+      "logo": "https://i.imgur.com/MWvoICD.png",
       "group": "General",
       "country": "XX"
     },
@@ -1236,16 +1229,9 @@
       "country": "XX"
     },
     {
-      "name": "ABC 15 Myrtle Beach FL (WPDE) (1080p)",
-      "url": "https://linear-696.frequency.stream/dist/stirr/696/hls/master/playlist.m3u8",
-      "logo": "",
-      "group": "Undefined",
-      "country": "XX"
-    },
-    {
-      "name": "ABC 13 Las Vegas NV (KTNV) (720p)",
-      "url": "https://content.uplynk.com/channel/39919d3f7a074eefa8bf579214e952f9.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/KTNV_2023.svg/960px-KTNV_2023.svg.png",
+      "name": "ABC 12 Milwaukee WI (WISN) (720p)",
+      "url": "https://aegis-cloudfront-1.tubi.video/ec903a48-3638-4d0b-ac89-813e147bca58/playlist.m3u8",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png",
       "group": "General",
       "country": "XX"
     },
@@ -1257,6 +1243,13 @@
       "country": "XX"
     },
     {
+      "name": "ABC 15 Myrtle Beach FL (WPDE) (1080p)",
+      "url": "https://linear-696.frequency.stream/dist/stirr/696/hls/master/playlist.m3u8",
+      "logo": "",
+      "group": "Undefined",
+      "country": "XX"
+    },
+    {
       "name": "ABC 15 Phoenix AZ (KNXV) (720p)",
       "url": "https://aegis-cloudfront-1.tubi.video/e923f4ce-7229-4e01-a25e-d453993dab82/playlist.m3u8",
       "logo": "https://i.imgur.com/43s7KXt.png",
@@ -1264,16 +1257,30 @@
       "country": "XX"
     },
     {
-      "name": "ABC 23 Bakersfield CA (KERO) (720p)",
-      "url": "https://aegis-cloudfront-1.tubi.video/69c4e4f9-84fa-43eb-b38e-6d1f9464ca73/playlist.m3u8",
-      "logo": "https://i.imgur.com/CMANZWk.png",
+      "name": "ABC 13 Las Vegas NV (KTNV) (720p)",
+      "url": "https://content.uplynk.com/channel/39919d3f7a074eefa8bf579214e952f9.m3u8",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/KTNV_2023.svg/960px-KTNV_2023.svg.png",
       "group": "General",
       "country": "XX"
     },
     {
-      "name": "ABC 25 News Central Texas (720p)",
-      "url": "https://content.uplynk.com/channel/9d4e02c9c3544c269d32e6b316792c8f.m3u8",
+      "name": "ABC 22 Dayton OH (WKEF) (1080p)",
+      "url": "https://linear-690.frequency.stream/dist/stirr/690/hls/master/playlist.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png",
+      "group": "Undefined",
+      "country": "XX"
+    },
+    {
+      "name": "ABC 20/20 (1080p)",
+      "url": "https://d4bq78o8d5tf5.cloudfront.net/ABC_2020.m3u8",
+      "logo": "",
+      "group": "Undefined",
+      "country": "XX"
+    },
+    {
+      "name": "ABC 23 Bakersfield CA (KERO) (720p)",
+      "url": "https://aegis-cloudfront-1.tubi.video/69c4e4f9-84fa-43eb-b38e-6d1f9464ca73/playlist.m3u8",
+      "logo": "https://i.imgur.com/CMANZWk.png",
       "group": "General",
       "country": "XX"
     },
@@ -1285,17 +1292,10 @@
       "country": "XX"
     },
     {
-      "name": "ABC 20/20 (1080p)",
-      "url": "https://d4bq78o8d5tf5.cloudfront.net/ABC_2020.m3u8",
-      "logo": "",
-      "group": "Undefined",
-      "country": "XX"
-    },
-    {
-      "name": "ABC 22 Dayton OH (WKEF) (1080p)",
-      "url": "https://linear-690.frequency.stream/dist/stirr/690/hls/master/playlist.m3u8",
+      "name": "ABC 25 News Central Texas (720p)",
+      "url": "https://content.uplynk.com/channel/9d4e02c9c3544c269d32e6b316792c8f.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png",
-      "group": "Undefined",
+      "group": "General",
       "country": "XX"
     },
     {
@@ -1310,13 +1310,6 @@
       "url": "https://streamer1.connectto.com/AABC_WEB_1201/index.m3u8",
       "logo": "https://i.imgur.com/uu0UJme.png",
       "group": "Entertainment",
-      "country": "XX"
-    },
-    {
-      "name": "ABC News (720p)",
-      "url": "https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8",
-      "logo": "https://i.imgur.com/BrW7gk8.png",
-      "group": "News",
       "country": "XX"
     },
     {
@@ -1341,8 +1334,22 @@
       "country": "XX"
     },
     {
+      "name": "ABC News (720p)",
+      "url": "https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8",
+      "logo": "https://i.imgur.com/BrW7gk8.png",
+      "group": "News",
+      "country": "XX"
+    },
+    {
       "name": "ABC News Live (1080p) [Geo-blocked]",
       "url": "https://pb-0n3n2ej0w8pl9.akamaized.net/ABCNewsLive_Disney.m3u8",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png",
+      "group": "News",
+      "country": "XX"
+    },
+    {
+      "name": "ABC News Live 2 (720p)",
+      "url": "https://abcnews-streams.akamaized.net/hls/live/2023561/abcnewshudson2/master.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png",
       "group": "News",
       "country": "XX"
@@ -1355,22 +1362,15 @@
       "country": "XX"
     },
     {
-      "name": "Aaj Tak (1080p)",
-      "url": "https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8",
-      "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_AAJ_TAK/images/LOGO_HD/image.png",
-      "group": "News",
-      "country": "XX"
-    },
-    {
-      "name": "ABC News Live 2 (720p)",
-      "url": "https://abcnews-streams.akamaized.net/hls/live/2023561/abcnewshudson2/master.m3u8",
+      "name": "ABC News Live 3 (720p)",
+      "url": "https://abcnews-streams.akamaized.net/hls/live/2023562/abcnewshudson3/master.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png",
       "group": "News",
       "country": "XX"
     },
     {
-      "name": "ABC News Live 3 (720p)",
-      "url": "https://abcnews-streams.akamaized.net/hls/live/2023562/abcnewshudson3/master.m3u8",
+      "name": "ABC News Live 7 (720p)",
+      "url": "https://abcnews-streams.akamaized.net/hls/live/2023566/abcnewshudson7/master.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png",
       "group": "News",
       "country": "XX"
@@ -1385,20 +1385,6 @@
     {
       "name": "ABC News Live 6 (720p)",
       "url": "https://abcnews-streams.akamaized.net/hls/live/2023565/abcnewshudson6/master.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png",
-      "group": "News",
-      "country": "XX"
-    },
-    {
-      "name": "100% Auto Moto TV (406p) [Not 24/7]",
-      "url": "http://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8",
-      "logo": "https://i.imgur.com/SZtJfOG.png",
-      "group": "Auto",
-      "country": "XX"
-    },
-    {
-      "name": "ABC News Live 7 (720p)",
-      "url": "https://abcnews-streams.akamaized.net/hls/live/2023566/abcnewshudson7/master.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png",
       "group": "News",
       "country": "XX"
@@ -1425,6 +1411,27 @@
       "country": "XX"
     },
     {
+      "name": "100% Auto Moto TV (406p) [Not 24/7]",
+      "url": "http://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8",
+      "logo": "https://i.imgur.com/SZtJfOG.png",
+      "group": "Auto",
+      "country": "XX"
+    },
+    {
+      "name": "Aaj Tak (1080p)",
+      "url": "https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8",
+      "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_AAJ_TAK/images/LOGO_HD/image.png",
+      "group": "News",
+      "country": "XX"
+    },
+    {
+      "name": "ABC TV Plus (720p)",
+      "url": "https://c.mjh.nz/abc-tv-plus.m3u8",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/ABC_TV_Plus_logo_2021.svg/500px-ABC_TV_Plus_logo_2021.svg.png",
+      "group": "Entertainment",
+      "country": "XX"
+    },
+    {
       "name": "ABC TV ACT (720p)",
       "url": "https://c.mjh.nz/abc-act.m3u8",
       "logo": "https://i.imgur.com/DPVQSjM.png",
@@ -1436,13 +1443,6 @@
       "url": "https://c.mjh.nz/abc-nsw.m3u8",
       "logo": "https://i.imgur.com/DPVQSjM.png",
       "group": "General",
-      "country": "XX"
-    },
-    {
-      "name": "ABC TV Plus (720p)",
-      "url": "https://c.mjh.nz/abc-tv-plus.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/ABC_TV_Plus_logo_2021.svg/500px-ABC_TV_Plus_logo_2021.svg.png",
-      "group": "Entertainment",
       "country": "XX"
     },
     {
@@ -1467,17 +1467,17 @@
       "country": "XX"
     },
     {
+      "name": "ABC TV TAS (720p)",
+      "url": "https://c.mjh.nz/abc-tas.m3u8",
+      "logo": "https://i.imgur.com/DPVQSjM.png",
+      "group": "General",
+      "country": "XX"
+    },
+    {
       "name": "Abdulmajeed Abdullah (1080p)",
       "url": "https://d2hng5r56zpsbw.cloudfront.net/out/v1/9c4c990f44bb4767bb46271f326dd574/index.m3u8",
       "logo": "https://assets.mbcmood.com/channels/1720184087Abdullah%20Majeed%20Abdullah%20banner.png",
       "group": "Music",
-      "country": "XX"
-    },
-    {
-      "name": "ABC WWAY 3",
-      "url": "https://townnews.g-mana.live/media/027a05c7-43b6-49eb-ad10-a0c0f10a0754/main.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png",
-      "group": "News",
       "country": "XX"
     },
     {
@@ -1488,17 +1488,17 @@
       "country": "XX"
     },
     {
-      "name": "ABC TV TAS (720p)",
-      "url": "https://c.mjh.nz/abc-tas.m3u8",
-      "logo": "https://i.imgur.com/DPVQSjM.png",
-      "group": "General",
+      "name": "ABN Afghanistan (540p)",
+      "url": "https://mediaserver.abnvideos.com/streams/abnafghanistan.m3u8",
+      "logo": "https://i.imgur.com/LI30mAt.png",
+      "group": "Religious",
       "country": "XX"
     },
     {
-      "name": "ABN Bible Movies (720p)",
-      "url": "https://mediaserver.abnvideos.com/streams/abnbiblemovies.m3u8",
-      "logo": "https://i.imgur.com/NCqZdaL.png",
-      "group": "Movies;Religious",
+      "name": "ABC WWAY 3",
+      "url": "https://townnews.g-mana.live/media/027a05c7-43b6-49eb-ad10-a0c0f10a0754/main.m3u8",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png",
+      "group": "News",
       "country": "XX"
     },
     {
@@ -1509,17 +1509,10 @@
       "country": "XX"
     },
     {
-      "name": "ABN Afghanistan (540p)",
-      "url": "https://mediaserver.abnvideos.com/streams/abnafghanistan.m3u8",
-      "logo": "https://i.imgur.com/LI30mAt.png",
-      "group": "Religious",
-      "country": "XX"
-    },
-    {
-      "name": "ABN China (720p)",
-      "url": "https://mediaserver.abnvideos.com/streams/abnchina.m3u8",
-      "logo": "https://i.imgur.com/zagVLQH.png",
-      "group": "Religious",
+      "name": "ABC TV WA (720p)",
+      "url": "https://c.mjh.nz/abc-wa.m3u8",
+      "logo": "https://i.imgur.com/DPVQSjM.png",
+      "group": "General",
       "country": "XX"
     },
     {
@@ -1530,17 +1523,17 @@
       "country": "XX"
     },
     {
-      "name": "ABC TV WA (720p)",
-      "url": "https://c.mjh.nz/abc-wa.m3u8",
-      "logo": "https://i.imgur.com/DPVQSjM.png",
-      "group": "General",
+      "name": "ABN China (720p)",
+      "url": "https://mediaserver.abnvideos.com/streams/abnchina.m3u8",
+      "logo": "https://i.imgur.com/zagVLQH.png",
+      "group": "Religious",
       "country": "XX"
     },
     {
-      "name": "Abb Takk (576p)",
-      "url": "http://190.11.225.124:5000/live/abc_hd/playlist.m3u8",
-      "logo": "https://i.imgur.com/D6IHRrP.png",
-      "group": "News",
+      "name": "ABN Bible Movies (720p)",
+      "url": "https://mediaserver.abnvideos.com/streams/abnbiblemovies.m3u8",
+      "logo": "https://i.imgur.com/NCqZdaL.png",
+      "group": "Movies;Religious",
       "country": "XX"
     },
     {
@@ -1551,15 +1544,15 @@
       "country": "XX"
     },
     {
-      "name": "ABN Son of God",
-      "url": "https://mediaserver.abnvideos.com/streams/son_of_god_.m3u8",
+      "name": "ABN I AM",
+      "url": "https://mediaserver.abnvideos.com/streams/i_am_.m3u8",
       "logo": "",
       "group": "Undefined",
       "country": "XX"
     },
     {
-      "name": "ABN I AM",
-      "url": "https://mediaserver.abnvideos.com/streams/i_am_.m3u8",
+      "name": "ABN Son of God",
+      "url": "https://mediaserver.abnvideos.com/streams/son_of_god_.m3u8",
       "logo": "",
       "group": "Undefined",
       "country": "XX"
@@ -1586,17 +1579,10 @@
       "country": "XX"
     },
     {
-      "name": "ABP News (1080p)",
-      "url": "https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/abpnews-livetv/master.m3u8",
-      "logo": "https://dtil.tmsimg.com/assets/s158138_ld_h15_aa.png?lock=720x540",
+      "name": "Abb Takk (576p)",
+      "url": "http://190.11.225.124:5000/live/abc_hd/playlist.m3u8",
+      "logo": "https://i.imgur.com/D6IHRrP.png",
       "group": "News",
-      "country": "XX"
-    },
-    {
-      "name": "Abai TV (720p)",
-      "url": "https://abaitv-stream.qazcdn.com/abaitv/abaitv/playlist.m3u8",
-      "logo": "https://i.imgur.com/Nw2R7Dq.png",
-      "group": "Culture",
       "country": "XX"
     },
     {
@@ -1607,24 +1593,10 @@
       "country": "XX"
     },
     {
-      "name": "ACCDN (1080p)",
-      "url": "https://raycom-accdn-firetv.amagi.tv/playlist.m3u8",
-      "logo": "https://i.imgur.com/V6Kaqha.png",
-      "group": "Sports",
-      "country": "XX"
-    },
-    {
       "name": "Absinthe TV (1080p)",
       "url": "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/254b2fef-a3dd-4a6d-af18-38711e02e31c/manifest.m3u8",
       "logo": "",
       "group": "Undefined",
-      "country": "XX"
-    },
-    {
-      "name": "ABP Ananda (1080p)",
-      "url": "https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/ananda-livetv/master.m3u8",
-      "logo": "https://dtil.tmsimg.com/assets/s142518_ld_h15_aa.png?lock=720x540",
-      "group": "News",
       "country": "XX"
     },
     {
@@ -1635,13 +1607,6 @@
       "country": "XX"
     },
     {
-      "name": "Abya Yala TV",
-      "url": "http://15.204.246.24:8080/AbyaYalaTvHD/index.m3u8",
-      "logo": "https://abyayala.tv.bo/wp-content/uploads/2024/04/MOSCA-BLANCA-OK-308x189.png",
-      "group": "General",
-      "country": "XX"
-    },
-    {
       "name": "ABP Ganga (1080p)",
       "url": "https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/ganga-livetv/master.m3u8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/ABP_Ganga.svg/500px-ABP_Ganga.svg.png",
@@ -1649,10 +1614,31 @@
       "country": "XX"
     },
     {
-      "name": "Access Media Productions Community Channel (720p)",
-      "url": "https://dlttx48mxf9m3.cloudfront.net/vod_clients/amp/live/ch2/video.m3u8",
-      "logo": "https://i.imgur.com/nfur3FR.png",
-      "group": "Culture",
+      "name": "ABP News (1080p)",
+      "url": "https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/abpnews-livetv/master.m3u8",
+      "logo": "https://dtil.tmsimg.com/assets/s158138_ld_h15_aa.png?lock=720x540",
+      "group": "News",
+      "country": "XX"
+    },
+    {
+      "name": "ABP Ananda (1080p)",
+      "url": "https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/ananda-livetv/master.m3u8",
+      "logo": "https://dtil.tmsimg.com/assets/s142518_ld_h15_aa.png?lock=720x540",
+      "group": "News",
+      "country": "XX"
+    },
+    {
+      "name": "ACCDN (1080p)",
+      "url": "https://raycom-accdn-firetv.amagi.tv/playlist.m3u8",
+      "logo": "https://i.imgur.com/V6Kaqha.png",
+      "group": "Sports",
+      "country": "XX"
+    },
+    {
+      "name": "Acapulco Shore Pluto TV",
+      "url": "http://23.239.31.26:8989/accnetwork/index.m3u8",
+      "logo": "",
+      "group": "Undefined",
       "country": "XX"
     },
     {
@@ -1663,10 +1649,38 @@
       "country": "XX"
     },
     {
-      "name": "Acapulco Shore Pluto TV",
-      "url": "http://23.239.31.26:8989/accnetwork/index.m3u8",
-      "logo": "",
-      "group": "Undefined",
+      "name": "Abai TV (720p)",
+      "url": "https://abaitv-stream.qazcdn.com/abaitv/abaitv/playlist.m3u8",
+      "logo": "https://i.imgur.com/Nw2R7Dq.png",
+      "group": "Culture",
+      "country": "XX"
+    },
+    {
+      "name": "Abya Yala TV",
+      "url": "http://15.204.246.24:8080/AbyaYalaTvHD/index.m3u8",
+      "logo": "https://abyayala.tv.bo/wp-content/uploads/2024/04/MOSCA-BLANCA-OK-308x189.png",
+      "group": "General",
+      "country": "XX"
+    },
+    {
+      "name": "Access Media Productions Community Channel (720p)",
+      "url": "https://dlttx48mxf9m3.cloudfront.net/vod_clients/amp/live/ch2/video.m3u8",
+      "logo": "https://i.imgur.com/nfur3FR.png",
+      "group": "Culture",
+      "country": "XX"
+    },
+    {
+      "name": "Access Media Productions Marina TV (720p)",
+      "url": "https://dlttx48mxf9m3.cloudfront.net/vod_clients/amp/live/ch4/video.m3u8",
+      "logo": "https://i.imgur.com/ldyanxN.png",
+      "group": "Legislative",
+      "country": "XX"
+    },
+    {
+      "name": "Access Sacramento Channel 17",
+      "url": "https://reflect-access-sacramento.cablecast.tv/live-7/live/live.m3u8",
+      "logo": "https://i.imgur.com/j0UC4ke.png",
+      "group": "General",
       "country": "XX"
     },
     {
@@ -1684,13 +1698,6 @@
       "country": "XX"
     },
     {
-      "name": "Access Media Productions Marina TV (720p)",
-      "url": "https://dlttx48mxf9m3.cloudfront.net/vod_clients/amp/live/ch4/video.m3u8",
-      "logo": "https://i.imgur.com/ldyanxN.png",
-      "group": "Legislative",
-      "country": "XX"
-    },
-    {
       "name": "Access Media Productions Peninsula Channel (720p)",
       "url": "https://dlttx48mxf9m3.cloudfront.net/vod_clients/amp/live/ch5/video.m3u8",
       "logo": "https://i.imgur.com/Ybp6YKD.png",
@@ -1698,29 +1705,15 @@
       "country": "XX"
     },
     {
-      "name": "AccuWeather Now (1080p)",
-      "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8",
-      "logo": "https://i.imgur.com/M8wbVYK.png",
-      "group": "Weather",
-      "country": "XX"
-    },
-    {
-      "name": "Accion Mexicana",
-      "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8",
-      "logo": "",
-      "group": "Undefined",
+      "name": "Access Humboldt (1080p)",
+      "url": "https://rtmp-live-ingest-ap-northeast-2-universe-dacast-com.akamaized.net/transmuxv1/streams/f08fcd45-1d04-9a8c-39ca-f56091820e5c.m3u8",
+      "logo": "https://i.imgur.com/tJl43uM.png",
+      "group": "General",
       "country": "XX"
     },
     {
       "name": "ACE TV (480p)",
       "url": "https://c.streamhoster.com/link/hls/W5s3fS/inLo5pcsHjo/iqg9wps0m1x_5/playlist.m3u8",
-      "logo": "",
-      "group": "Undefined",
-      "country": "XX"
-    },
-    {
-      "name": "Ace TV (1080p)",
-      "url": "https://streams2.sofast.tv/WiseM3U8_30/sofast/cleanhls/master.m3u8",
       "logo": "",
       "group": "Undefined",
       "country": "XX"
@@ -1733,17 +1726,17 @@
       "country": "XX"
     },
     {
-      "name": "Access Sacramento Channel 17",
-      "url": "https://reflect-access-sacramento.cablecast.tv/live-7/live/live.m3u8",
-      "logo": "https://i.imgur.com/j0UC4ke.png",
-      "group": "General",
-      "country": "XX"
-    },
-    {
       "name": "AccessVision Channel 16 (720p)",
       "url": "https://livestream.telvue.com/accvision1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8",
       "logo": "https://i.imgur.com/vi4TCdb.png",
       "group": "General",
+      "country": "XX"
+    },
+    {
+      "name": "AccuWeather Now (1080p)",
+      "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8",
+      "logo": "https://i.imgur.com/M8wbVYK.png",
+      "group": "Weather",
       "country": "XX"
     },
     {
@@ -1754,17 +1747,10 @@
       "country": "XX"
     },
     {
-      "name": "Access Tuolumne (Tuolumne County CA) (720p)",
-      "url": "https://reflect-tuolumne.cablecast.tv/live-3/live/stream-1/live.m3u8",
-      "logo": "https://i.imgur.com/sYtDaQ1.png",
-      "group": "General",
-      "country": "XX"
-    },
-    {
-      "name": "Access Humboldt (1080p)",
-      "url": "https://rtmp-live-ingest-ap-northeast-2-universe-dacast-com.akamaized.net/transmuxv1/streams/f08fcd45-1d04-9a8c-39ca-f56091820e5c.m3u8",
-      "logo": "https://i.imgur.com/tJl43uM.png",
-      "group": "General",
+      "name": "Accion Mexicana",
+      "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8",
+      "logo": "",
+      "group": "Undefined",
       "country": "XX"
     },
     {
@@ -1775,10 +1761,24 @@
       "country": "XX"
     },
     {
+      "name": "Access Tuolumne (Tuolumne County CA) (720p)",
+      "url": "https://reflect-tuolumne.cablecast.tv/live-3/live/stream-1/live.m3u8",
+      "logo": "https://i.imgur.com/sYtDaQ1.png",
+      "group": "General",
+      "country": "XX"
+    },
+    {
       "name": "Acento TV",
       "url": "https://acentotv01.streamprolive.com/hls/live.m3u8",
       "logo": "https://i.imgur.com/jhiZfHf.png",
       "group": "News",
+      "country": "XX"
+    },
+    {
+      "name": "Ace TV (1080p)",
+      "url": "https://streams2.sofast.tv/WiseM3U8_30/sofast/cleanhls/master.m3u8",
+      "logo": "",
+      "group": "Undefined",
       "country": "XX"
     },
     {
@@ -1803,45 +1803,10 @@
       "country": "XX"
     },
     {
-      "name": "ACNN (480p)",
-      "url": "https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_014/Stream/playlist.m3u8",
-      "logo": "https://i.imgur.com/91JLpxr.png",
-      "group": "Religious",
-      "country": "XX"
-    },
-    {
-      "name": "Action Hollywood Movies (720p) [Geo-blocked]",
-      "url": "https://actionhollywood-klowdtv.amagi.tv/playlist.m3u8",
-      "logo": "",
-      "group": "Undefined",
-      "country": "XX"
-    },
-    {
       "name": "Actualidad 360 (1080p) [Geo-blocked]",
       "url": "https://amg01821-lovetv-amg01821c27-lg-es-6726.playouts.now.amagi.tv/playlist/amg01821-lovetvfast-lovenews-lges/playlist.m3u8",
       "logo": "https://i.imgur.com/3YeTu0n.png",
       "group": "News",
-      "country": "XX"
-    },
-    {
-      "name": "ACTV",
-      "url": "https://castus-vod-dev.s3.amazonaws.com/vod_clients/athens/live/ch2/video.m3u8",
-      "logo": "https://i.imgur.com/Z6lB0Ww.png",
-      "group": "Legislative",
-      "country": "XX"
-    },
-    {
-      "name": "Action Hollywood Movies (1080p)",
-      "url": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8",
-      "logo": "",
-      "group": "Undefined",
-      "country": "XX"
-    },
-    {
-      "name": "Actualidad 360",
-      "url": "https://amg01821-lovetv-amg01821c27-lg-es-6726.playouts.now.amagi.tv/playlist/amg01821-lovetvfast-lovenews-lges/playlist.m3u8",
-      "logo": "",
-      "group": "Undefined",
       "country": "XX"
     },
     {
@@ -1852,8 +1817,29 @@
       "country": "XX"
     },
     {
-      "name": "Acumuladores Obsessivos",
-      "url": "https://s5.mexside.net:1936/clientetv/clientetv/playlist.m3u8",
+      "name": "Action Hollywood Movies (720p) [Geo-blocked]",
+      "url": "https://actionhollywood-klowdtv.amagi.tv/playlist.m3u8",
+      "logo": "",
+      "group": "Undefined",
+      "country": "XX"
+    },
+    {
+      "name": "Action Hollywood Movies (1080p)",
+      "url": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8",
+      "logo": "",
+      "group": "Undefined",
+      "country": "XX"
+    },
+    {
+      "name": "ACTV",
+      "url": "https://castus-vod-dev.s3.amazonaws.com/vod_clients/athens/live/ch2/video.m3u8",
+      "logo": "https://i.imgur.com/Z6lB0Ww.png",
+      "group": "Legislative",
+      "country": "XX"
+    },
+    {
+      "name": "Actualidad 360",
+      "url": "https://amg01821-lovetv-amg01821c27-lg-es-6726.playouts.now.amagi.tv/playlist/amg01821-lovetvfast-lovenews-lges/playlist.m3u8",
       "logo": "",
       "group": "Undefined",
       "country": "XX"
@@ -1866,17 +1852,24 @@
       "country": "XX"
     },
     {
-      "name": "Adinkra TV (1080p)",
-      "url": "https://59d39900ebfb8.streamlock.net/adinkratvny/adinkratvny/playlist.m3u8",
-      "logo": "https://i.imgur.com/uwuSXJ8.png",
-      "group": "Undefined",
-      "country": "XX"
-    },
-    {
       "name": "ADB TV (1080p)",
       "url": "https://live-tv.waytv.pt/adbtv/adbtv/playlist.m3u8",
       "logo": "https://i.ibb.co/HGfTJwt/ADBTV.jpg",
       "group": "Religious",
+      "country": "XX"
+    },
+    {
+      "name": "Acumuladores Obsessivos",
+      "url": "https://s5.mexside.net:1936/clientetv/clientetv/playlist.m3u8",
+      "logo": "",
+      "group": "Undefined",
+      "country": "XX"
+    },
+    {
+      "name": "Adinkra TV (1080p)",
+      "url": "https://59d39900ebfb8.streamlock.net/adinkratvny/adinkratvny/playlist.m3u8",
+      "logo": "https://i.imgur.com/uwuSXJ8.png",
+      "group": "Undefined",
       "country": "XX"
     },
     {
@@ -1887,17 +1880,17 @@
       "country": "XX"
     },
     {
+      "name": "ACNN (480p)",
+      "url": "https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_014/Stream/playlist.m3u8",
+      "logo": "https://i.imgur.com/91JLpxr.png",
+      "group": "Religious",
+      "country": "XX"
+    },
+    {
       "name": "Adjugé vendu !",
       "url": "https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8",
       "logo": "",
       "group": "Undefined",
-      "country": "XX"
-    },
-    {
-      "name": "Adoram TV (720p)",
-      "url": "https://live20.bozztv.com/giatv/giatv-adoram/adoram/chunks.m3u8",
-      "logo": "https://i.imgur.com/uU01KHz.png",
-      "group": "Religious",
       "country": "XX"
     },
     {
@@ -1929,13 +1922,6 @@
       "country": "XX"
     },
     {
-      "name": "Adrenalina Pura TV",
-      "url": "https://a-cdn.klowdtv.com/live3/adr_720p/playlist.m3u8",
-      "logo": "https://i.imgur.com/Pvid2iH.png",
-      "group": "Movies",
-      "country": "XX"
-    },
-    {
       "name": "Aeolos TV (1080p)",
       "url": "https://stream.afaq.iq/live/channel/afaqtv/playlist.m3u8",
       "logo": "https://i.imgur.com/4G9VvUg.png",
@@ -1950,17 +1936,10 @@
       "country": "XX"
     },
     {
-      "name": "Afarin Baxcha (1080p)",
-      "url": "https://5dcabf026b188.streamlock.net/afarinTV/livestream/playlist.m3u8",
-      "logo": "https://i.postimg.cc/4xRkBDRx/Afarin-Baxcha-200.png",
-      "group": "Kids",
-      "country": "XX"
-    },
-    {
-      "name": "AE Radio TV (720p) [Not 24/7]",
-      "url": "https://tls-cl.cdnz.cl/aeradio/live/playlist.m3u8",
-      "logo": "https://i.imgur.com/425dj2i.jpeg",
-      "group": "Music",
+      "name": "Adrenalina Pura TV",
+      "url": "https://a-cdn.klowdtv.com/live3/adr_720p/playlist.m3u8",
+      "logo": "https://i.imgur.com/Pvid2iH.png",
+      "group": "Movies",
       "country": "XX"
     },
     {
@@ -1971,10 +1950,24 @@
       "country": "XX"
     },
     {
-      "name": "Afghanistan International (720p)",
-      "url": "https://hls.afintl.com/hls/stream.m3u8",
-      "logo": "https://i.imgur.com/r8MmFRX.png",
-      "group": "News",
+      "name": "Adoram TV (720p)",
+      "url": "https://live20.bozztv.com/giatv/giatv-adoram/adoram/chunks.m3u8",
+      "logo": "https://i.imgur.com/uU01KHz.png",
+      "group": "Religious",
+      "country": "XX"
+    },
+    {
+      "name": "AE Radio TV (720p) [Not 24/7]",
+      "url": "https://tls-cl.cdnz.cl/aeradio/live/playlist.m3u8",
+      "logo": "https://i.imgur.com/425dj2i.jpeg",
+      "group": "Music",
+      "country": "XX"
+    },
+    {
+      "name": "Afarin Baxcha (1080p)",
+      "url": "https://5dcabf026b188.streamlock.net/afarinTV/livestream/playlist.m3u8",
+      "logo": "https://i.postimg.cc/4xRkBDRx/Afarin-Baxcha-200.png",
+      "group": "Kids",
       "country": "XX"
     },
     {
@@ -1992,6 +1985,13 @@
       "country": "XX"
     },
     {
+      "name": "Afghanistan International (720p)",
+      "url": "https://hls.afintl.com/hls/stream.m3u8",
+      "logo": "https://i.imgur.com/r8MmFRX.png",
+      "group": "News",
+      "country": "XX"
+    },
+    {
       "name": "Afarin TV (720p) [Not 24/7]",
       "url": "https://65f16f0fdfc51.streamlock.net/afarinTV/livestream/playlist.m3u8",
       "logo": "https://i.imgur.com/6MnXD7g.png",
@@ -2006,17 +2006,17 @@
       "country": "XX"
     },
     {
-      "name": "Aflak",
-      "url": "https://shd-amg-fast.edgenextcdn.net/tx001/playlist.m3u8",
-      "logo": "https://i.imgur.com/LkLCHpf.png",
-      "group": "General",
-      "country": "XX"
-    },
-    {
       "name": "Afra Film",
       "url": "https://afrafhls.wns.live/hls/stream.m3u8",
       "logo": "",
       "group": "Movies",
+      "country": "XX"
+    },
+    {
+      "name": "Aflak",
+      "url": "https://shd-amg-fast.edgenextcdn.net/tx001/playlist.m3u8",
+      "logo": "https://i.imgur.com/LkLCHpf.png",
+      "group": "General",
       "country": "XX"
     },
     {
@@ -2041,13 +2041,6 @@
       "country": "XX"
     },
     {
-      "name": "Africa 24 English (1080p)",
-      "url": "https://edge20.vedge.infomaniak.com/livecast/ik:africa24english/manifest.m3u8",
-      "logo": "https://africa24tv.com/wp-content/uploads/2023/12/logo-Africa24TVEnglish.png",
-      "group": "News",
-      "country": "XX"
-    },
-    {
       "name": "Africanews French (720p)",
       "url": "https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8",
       "logo": "https://i.imgur.com/5UxU4zc.png",
@@ -2058,6 +2051,13 @@
       "name": "Afrique Media (720p)",
       "url": "https://video1.getstreamhosting.com:1936/8306/8306/playlist.m3u8",
       "logo": "https://i.imgur.com/spQgX7X.png",
+      "group": "News",
+      "country": "XX"
+    },
+    {
+      "name": "Africa 24 English (1080p)",
+      "url": "https://edge20.vedge.infomaniak.com/livecast/ik:africa24english/manifest.m3u8",
+      "logo": "https://africa24tv.com/wp-content/uploads/2023/12/logo-Africa24TVEnglish.png",
       "group": "News",
       "country": "XX"
     },
@@ -2090,15 +2090,22 @@
       "country": "XX"
     },
     {
-      "name": "AFTV (1080p)",
+      "name": "Afterwork TV",
       "url": "https://livestream.telvue.com/accframingham1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8",
-      "logo": "https://i.imgur.com/UoiUwFj.png",
-      "group": "General",
+      "logo": "",
+      "group": "Undefined",
       "country": "XX"
     },
     {
-      "name": "Afterwork TV",
-      "url": "https://livestream.telvue.com/accframingham1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8",
+      "name": "AFV en Español (720p) [Not 24/7]",
+      "url": "https://d1o5yzickeowpa.cloudfront.net/playlist.m3u8",
+      "logo": "https://i.imgur.com/HUK4WXC.png",
+      "group": "Comedy",
+      "country": "XX"
+    },
+    {
+      "name": "AFV with Alfonso Ribeiro (1080p)",
+      "url": "https://d1o5yzickeowpa.cloudfront.net/playlist.m3u8",
       "logo": "",
       "group": "Undefined",
       "country": "XX"
@@ -2111,10 +2118,10 @@
       "country": "XX"
     },
     {
-      "name": "AFV with Alfonso Ribeiro (1080p)",
-      "url": "https://d1o5yzickeowpa.cloudfront.net/playlist.m3u8",
-      "logo": "",
-      "group": "Undefined",
+      "name": "AFTV (1080p)",
+      "url": "https://livestream.telvue.com/accframingham1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8",
+      "logo": "https://i.imgur.com/UoiUwFj.png",
+      "group": "General",
       "country": "XX"
     },
     {
@@ -2129,13 +2136,6 @@
       "url": "https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8",
       "logo": "https://i0.wp.com/africa24tv.com/wp-content/uploads/2023/12/LOGO-AFRICASPORT-4-HD-sans-fond.png?fit=512%2C107&ssl=1",
       "group": "News;Sports",
-      "country": "XX"
-    },
-    {
-      "name": "AFV en Español (720p) [Not 24/7]",
-      "url": "https://d1o5yzickeowpa.cloudfront.net/playlist.m3u8",
-      "logo": "https://i.imgur.com/HUK4WXC.png",
-      "group": "Comedy",
       "country": "XX"
     },
     {
@@ -2160,13 +2160,6 @@
       "country": "XX"
     },
     {
-      "name": "Aghapy TV (1080p) [Not 24/7]",
-      "url": "https://5b622f07944df.streamlock.net/aghapy.tv/aghapy.smil/playlist.m3u8",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/e/eb/AghapyTV.jpg",
-      "group": "Religious",
-      "country": "XX"
-    },
-    {
       "name": "Aguacate TV (1080p)",
       "url": "https://streamtv.intervenhosting.net:3040/hybrid/play.m3u8",
       "logo": "https://i.ibb.co/wpWBsgf/IMG-20230705-154622.jpg",
@@ -2174,10 +2167,10 @@
       "country": "XX"
     },
     {
-      "name": "Aguila TV (1080p) [Not 24/7]",
-      "url": "https://cd198.anystream.uk:8082/hls/abtv3ng/index.m3u8",
-      "logo": "https://www.vivalivetv.com/public/files/shows/0/1/3770-294x165-FFFFFF.jpg",
-      "group": "General",
+      "name": "Aghapy TV (1080p) [Not 24/7]",
+      "url": "https://5b622f07944df.streamlock.net/aghapy.tv/aghapy.smil/playlist.m3u8",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/e/eb/AghapyTV.jpg",
+      "group": "Religious",
       "country": "XX"
     },
     {
@@ -2188,9 +2181,9 @@
       "country": "XX"
     },
     {
-      "name": "AION TV (1080p) [Not 24/7]",
-      "url": "https://edge.essastream.com/aiontelevision/playlist.m3u8",
-      "logo": "https://i.imgur.com/DBvm7YS.png",
+      "name": "Aguila TV (1080p) [Not 24/7]",
+      "url": "https://cd198.anystream.uk:8082/hls/abtv3ng/index.m3u8",
+      "logo": "https://www.vivalivetv.com/public/files/shows/0/1/3770-294x165-FFFFFF.jpg",
       "group": "General",
       "country": "XX"
     },
@@ -2202,6 +2195,13 @@
       "country": "XX"
     },
     {
+      "name": "AION TV (1080p) [Not 24/7]",
+      "url": "https://edge.essastream.com/aiontelevision/playlist.m3u8",
+      "logo": "https://i.imgur.com/DBvm7YS.png",
+      "group": "General",
+      "country": "XX"
+    },
+    {
       "name": "Agro TV (360p) [Not 24/7]",
       "url": "https://agrotv.streamnet.ro/mobile_tv/agrotv.m3u8",
       "logo": "https://i.imgur.com/S7X1PiC.png",
@@ -2209,37 +2209,9 @@
       "country": "XX"
     },
     {
-      "name": "Adnkronos (720p)",
-      "url": "https://strhls.streamakaci.tv/ortb/ortb2-multi/playlist.m3u8",
-      "logo": "https://i.imgur.com/mEoDAf1.png",
-      "group": "News",
-      "country": "XX"
-    },
-    {
-      "name": "Aire de Santa Fe (1080p)",
-      "url": "https://unlimited1-us.dps.live/airedesantafetv/airedesantafetv.smil/playlist.m3u8",
-      "logo": "https://i.imgur.com/60vSWW0.png",
-      "group": "General",
-      "country": "XX"
-    },
-    {
       "name": "Akaku 53 (Hawaii) (1080p)",
       "url": "https://castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/live/ch1/video.m3u8",
       "logo": "https://www.akaku.org/wp-content/uploads/bb-plugin/cache/Channel53-147x150-square.png",
-      "group": "General",
-      "country": "XX"
-    },
-    {
-      "name": "Ajman TV (1080p)",
-      "url": "http://htvajyal.mada.ps:8888/ajyal/index.m3u8",
-      "logo": "https://i.imgur.com/hVNIwgE.png",
-      "group": "General",
-      "country": "XX"
-    },
-    {
-      "name": "Akaku 54 (Hawaii) (1080p)",
-      "url": "https://castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/live/ch2/video.m3u8",
-      "logo": "https://www.akaku.org/wp-content/uploads/bb-plugin/cache/Channel54-147x150-square.png",
       "group": "General",
       "country": "XX"
     },
@@ -2251,10 +2223,31 @@
       "country": "XX"
     },
     {
-      "name": "Akaku 55 (Hawaii) (1080p)",
-      "url": "https://castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/live/ch3/video.m3u8",
-      "logo": "https://www.akaku.org/wp-content/uploads/bb-plugin/cache/Channel55-147x150-square.png",
+      "name": "Aire de Santa Fe (1080p)",
+      "url": "https://unlimited1-us.dps.live/airedesantafetv/airedesantafetv.smil/playlist.m3u8",
+      "logo": "https://i.imgur.com/60vSWW0.png",
       "group": "General",
+      "country": "XX"
+    },
+    {
+      "name": "Adnkronos (720p)",
+      "url": "https://strhls.streamakaci.tv/ortb/ortb2-multi/playlist.m3u8",
+      "logo": "https://i.imgur.com/mEoDAf1.png",
+      "group": "News",
+      "country": "XX"
+    },
+    {
+      "name": "Akaku 54 (Hawaii) (1080p)",
+      "url": "https://castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/live/ch2/video.m3u8",
+      "logo": "https://www.akaku.org/wp-content/uploads/bb-plugin/cache/Channel54-147x150-square.png",
+      "group": "General",
+      "country": "XX"
+    },
+    {
+      "name": "AKC TV Meet The Breeds",
+      "url": "https://install.akctvcontrol.com/speed/broadcast/139/desktop-playlist.m3u8",
+      "logo": "https://i.imgur.com/66avgdk.png",
+      "group": "Outdoor",
       "country": "XX"
     },
     {
@@ -2265,10 +2258,10 @@
       "country": "XX"
     },
     {
-      "name": "AKC TV Meet The Breeds",
-      "url": "https://install.akctvcontrol.com/speed/broadcast/139/desktop-playlist.m3u8",
-      "logo": "https://i.imgur.com/66avgdk.png",
-      "group": "Outdoor",
+      "name": "Akaku 55 (Hawaii) (1080p)",
+      "url": "https://castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/live/ch3/video.m3u8",
+      "logo": "https://www.akaku.org/wp-content/uploads/bb-plugin/cache/Channel55-147x150-square.png",
+      "group": "General",
       "country": "XX"
     },
     {
@@ -2286,20 +2279,6 @@
       "country": "XX"
     },
     {
-      "name": "Afghan Nobel TV (720p)",
-      "url": "https://hls.afintl.com/hls/stream.m3u8",
-      "logo": "https://i.ibb.co/0Mb1ZQC/IMG-20230628-133738.jpg",
-      "group": "General",
-      "country": "XX"
-    },
-    {
-      "name": "Ajyal TV (720p)",
-      "url": "http://htvajyal.mada.ps:8888/ajyal/index.m3u8",
-      "logo": "https://i.imgur.com/i6Y7beR.jpg",
-      "group": "General",
-      "country": "XX"
-    },
-    {
       "name": "Al Arabiya (1080p)",
       "url": "https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8",
       "logo": "https://shahid.mbc.net/mediaObject/a4c125db-ede8-4970-9eed-963948c78651?height=auto&width=512&croppingPoint=&version=1&type=png",
@@ -2314,6 +2293,13 @@
       "country": "XX"
     },
     {
+      "name": "Ajyal TV (720p)",
+      "url": "http://htvajyal.mada.ps:8888/ajyal/index.m3u8",
+      "logo": "https://i.imgur.com/i6Y7beR.jpg",
+      "group": "General",
+      "country": "XX"
+    },
+    {
       "name": "Al Arabiya Business (1080p)",
       "url": "https://live.alarabiya.net/alarabiapublish/aswaaq.smil/playlist.m3u8",
       "logo": "https://shahid.mbc.net/mediaObject/73142189-aeca-4f65-8977-d769c91e2573?height=auto&width=600&croppingPoint=&version=1&type=png",
@@ -2321,9 +2307,9 @@
       "country": "XX"
     },
     {
-      "name": "Al Arabiya English (1080p)",
-      "url": "https://live.alarabiya.net/alarabiapublish/english/playlist_dvr.m3u8",
-      "logo": "https://shahid.mbc.net/mediaObject/7cfc0baf-1201-477f-b722-d3099fafe17f?height=230&width=512&croppingPoint=&version=1&type=png",
+      "name": "AKD Calcutta News (1080p)",
+      "url": "https://live.legitpro.co.in/cnnnews/index.m3u8",
+      "logo": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Calcutta%20News.png",
       "group": "News",
       "country": "XX"
     },
@@ -2335,9 +2321,9 @@
       "country": "XX"
     },
     {
-      "name": "AKD Calcutta News (1080p)",
-      "url": "https://live.legitpro.co.in/cnnnews/index.m3u8",
-      "logo": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Calcutta%20News.png",
+      "name": "Al Arabiya English (1080p)",
+      "url": "https://live.alarabiya.net/alarabiapublish/english/playlist_dvr.m3u8",
+      "logo": "https://shahid.mbc.net/mediaObject/7cfc0baf-1201-477f-b722-d3099fafe17f?height=230&width=512&croppingPoint=&version=1&type=png",
       "group": "News",
       "country": "XX"
     },
@@ -2349,10 +2335,24 @@
       "country": "XX"
     },
     {
+      "name": "Afghan Nobel TV (720p)",
+      "url": "https://hls.afintl.com/hls/stream.m3u8",
+      "logo": "https://i.ibb.co/0Mb1ZQC/IMG-20230628-133738.jpg",
+      "group": "General",
+      "country": "XX"
+    },
+    {
       "name": "Al Araby TV 2 (1080p)",
       "url": "https://live.kwikmotion.com/alaraby2live/alaraby2.smil/playlist.m3u8",
       "logo": "https://i.imgur.com/Gp5mNea.png",
       "group": "News",
+      "country": "XX"
+    },
+    {
+      "name": "Aksu TV (720p)",
+      "url": "https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8",
+      "logo": "https://i.imgur.com/mgDCKiy.png",
+      "group": "General",
       "country": "XX"
     },
     {
@@ -2370,17 +2370,17 @@
       "country": "XX"
     },
     {
-      "name": "Al Hadath (1080p)",
-      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-hadath/2ff87ec4c2f3ede35295a20637d9f8fd/index.m3u8",
-      "logo": "https://i.imgur.com/De4SEWE.png",
+      "name": "Al Jazeera (1080p)",
+      "url": "https://live-hls-apps-aja-fa.getaj.net/AJA/01.m3u8",
+      "logo": "https://i.imgur.com/7bRVpnu.png",
       "group": "News",
       "country": "XX"
     },
     {
-      "name": "Al Hayat TV (720p)",
-      "url": "https://cdn3.wowza.com/5/OE5HREpIcEkySlNT/alhayat-live/ngrp:livestream_all/playlist.m3u8",
-      "logo": "https://i.imgur.com/M8ZuzeB.png",
-      "group": "Religious",
+      "name": "Al Hadath (1080p)",
+      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-hadath/2ff87ec4c2f3ede35295a20637d9f8fd/index.m3u8",
+      "logo": "https://i.imgur.com/De4SEWE.png",
+      "group": "News",
       "country": "XX"
     },
     {
@@ -2398,23 +2398,16 @@
       "country": "XX"
     },
     {
-      "name": "Aksu TV (720p)",
-      "url": "https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8",
-      "logo": "https://i.imgur.com/mgDCKiy.png",
-      "group": "General",
+      "name": "Al Hayat TV (720p)",
+      "url": "https://cdn3.wowza.com/5/OE5HREpIcEkySlNT/alhayat-live/ngrp:livestream_all/playlist.m3u8",
+      "logo": "https://i.imgur.com/M8ZuzeB.png",
+      "group": "Religious",
       "country": "XX"
     },
     {
       "name": "Al Jadeed (1080p)",
       "url": "http://185.9.2.18/chid_391/mono.m3u8",
       "logo": "https://i.imgur.com/CfxR8o3.png",
-      "group": "General",
-      "country": "XX"
-    },
-    {
-      "name": "Al Ittihad (552p) [Not 24/7]",
-      "url": "http://185.105.4.151:8080/_defapp_/ittihad/index.m3u8",
-      "logo": "https://i.imgur.com/QMUjPXx.png",
       "group": "General",
       "country": "XX"
     },
@@ -2426,10 +2419,10 @@
       "country": "XX"
     },
     {
-      "name": "Al Jazeera (1080p)",
-      "url": "https://live-hls-apps-aja-fa.getaj.net/AJA/01.m3u8",
-      "logo": "https://i.imgur.com/7bRVpnu.png",
-      "group": "News",
+      "name": "Al Ittihad (552p) [Not 24/7]",
+      "url": "http://185.105.4.151:8080/_defapp_/ittihad/index.m3u8",
+      "logo": "https://i.imgur.com/QMUjPXx.png",
+      "group": "General",
       "country": "XX"
     },
     {
@@ -2454,10 +2447,10 @@
       "country": "XX"
     },
     {
-      "name": "Al Madina (720p)",
-      "url": "https://streaming.zaytonatube.com:8081/AlMadinatv/almadina21/index.m3u8",
-      "logo": "https://i.imgur.com/NVOeM3P.png",
-      "group": "Undefined",
+      "name": "Al Manar (576p) [Not 24/7]",
+      "url": "https://edge.fastpublish.me/live/index.m3u8",
+      "logo": "https://i.imgur.com/sOQLV7L.png",
+      "group": "News",
       "country": "XX"
     },
     {
@@ -2475,10 +2468,10 @@
       "country": "XX"
     },
     {
-      "name": "Al Masirah Mubacher (642p) [Not 24/7]",
-      "url": "https://live2.cdnbridge.tv/AlmasirahMubasher/Mubasher_All/playlist.m3u8",
-      "logo": "https://i.imgur.com/0xHb3XM.jpg",
-      "group": "News",
+      "name": "Al Madina (720p)",
+      "url": "https://streaming.zaytonatube.com:8081/AlMadinatv/almadina21/index.m3u8",
+      "logo": "https://i.imgur.com/NVOeM3P.png",
+      "group": "Undefined",
       "country": "XX"
     },
     {
@@ -2489,16 +2482,16 @@
       "country": "XX"
     },
     {
-      "name": "Al Manar (576p) [Not 24/7]",
-      "url": "https://edge.fastpublish.me/live/index.m3u8",
-      "logo": "https://i.imgur.com/sOQLV7L.png",
+      "name": "Al Mayadeen (576p)",
+      "url": "https://mdnlv.cdn.octivid.com/almdn/smil:mpegts.stream.smil/playlist.m3u8",
+      "logo": "https://i.imgur.com/GtQOKeW.png",
       "group": "News",
       "country": "XX"
     },
     {
-      "name": "Al Mayadeen (576p)",
-      "url": "https://mdnlv.cdn.octivid.com/almdn/smil:mpegts.stream.smil/playlist.m3u8",
-      "logo": "https://i.imgur.com/GtQOKeW.png",
+      "name": "Al Masirah Mubacher (642p) [Not 24/7]",
+      "url": "https://live2.cdnbridge.tv/AlmasirahMubasher/Mubasher_All/playlist.m3u8",
+      "logo": "https://i.imgur.com/0xHb3XM.jpg",
       "group": "News",
       "country": "XX"
     },
@@ -2517,13 +2510,6 @@
       "country": "XX"
     },
     {
-      "name": "Al Rayyan (1080p)",
-      "url": "https://alrayyancdn.vidgyor.com/pub-noalrayy3pwz0l/liveabr/playlist_dvr.m3u8",
-      "logo": "https://i.imgur.com/Ts3RjTV.png",
-      "group": "General",
-      "country": "XX"
-    },
-    {
       "name": "Al Jazeera English (1080p)",
       "url": "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8",
       "logo": "https://i.imgur.com/7bRVpnu.png",
@@ -2535,6 +2521,20 @@
       "url": "https://alrayyancdn.vidgyor.com/pub-nooldraybinbdh/liveabr/playlist_dvr.m3u8",
       "logo": "https://i.imgur.com/4qB5iN0.png",
       "group": "General",
+      "country": "XX"
+    },
+    {
+      "name": "Al Rayyan (1080p)",
+      "url": "https://alrayyancdn.vidgyor.com/pub-noalrayy3pwz0l/liveabr/playlist_dvr.m3u8",
+      "logo": "https://i.imgur.com/Ts3RjTV.png",
+      "group": "General",
+      "country": "XX"
+    },
+    {
+      "name": "Al Ritmo del Jaripeo (720p)",
+      "url": "https://live.kwikmotion.com/sbrksariyadhradiolive/srpksariyadhradio/playlist.m3u8",
+      "logo": "",
+      "group": "Undefined",
       "country": "XX"
     },
     {
@@ -2552,9 +2552,16 @@
       "country": "XX"
     },
     {
-      "name": "Al Ritmo del Jaripeo (720p)",
+      "name": "Al Saudiya (1080p)",
+      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-saudi-tv/2ad66056b51fd8c1b624854623112e43/index.m3u8",
+      "logo": "https://i.imgur.com/GRQTndk.png",
+      "group": "General",
+      "country": "XX"
+    },
+    {
+      "name": "Al Riyadh Radio (1080p)",
       "url": "https://live.kwikmotion.com/sbrksariyadhradiolive/srpksariyadhradio/playlist.m3u8",
-      "logo": "",
+      "logo": "https://i.imgur.com/8PH1Lak.png",
       "group": "Undefined",
       "country": "XX"
     },
@@ -2566,31 +2573,10 @@
       "country": "XX"
     },
     {
-      "name": "AgroBrasil TV (720p) [Not 24/7]",
-      "url": "http://45.162.64.114/AGRO_CANAL/index.m3u8",
-      "logo": "https://i.imgur.com/aNkP7Zd.png",
-      "group": "Outdoor",
-      "country": "XX"
-    },
-    {
-      "name": "Al Riyadh Radio (1080p)",
-      "url": "https://live.kwikmotion.com/sbrksariyadhradiolive/srpksariyadhradio/playlist.m3u8",
-      "logo": "https://i.imgur.com/8PH1Lak.png",
-      "group": "Undefined",
-      "country": "XX"
-    },
-    {
       "name": "Al Saudiya Alaan (1080p)",
       "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-ksa-now/71ed3aa814c643306c0a8bc4fcc7d17f/index.m3u8",
       "logo": "https://i.imgur.com/sEOjApe.png",
       "group": "Undefined",
-      "country": "XX"
-    },
-    {
-      "name": "Al Saudiya (1080p)",
-      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-saudi-tv/2ad66056b51fd8c1b624854623112e43/index.m3u8",
-      "logo": "https://i.imgur.com/GRQTndk.png",
-      "group": "General",
       "country": "XX"
     },
     {
@@ -2601,44 +2587,23 @@
       "country": "XX"
     },
     {
-      "name": "Al Yaum TV (1080p)",
-      "url": "https://hlspackager.akamaized.net/live/DB/ALYAUM_TV/HLS/ALYAUM_TV.m3u8",
-      "logo": "https://i.imgur.com/rBixF3P.png",
-      "group": "News",
+      "name": "Al Wousta TV (1080p)",
+      "url": "https://svs.itworkscdn.net/alwoustalive/alwoustatv.smil/playlist.m3u8",
+      "logo": "https://i.imgur.com/zgMqQPQ.png",
+      "group": "General",
       "country": "XX"
     },
     {
-      "name": "Al-Bahjah TV (1080p)",
-      "url": "http://202.150.161.117:8000/play/AlBahjahTV",
-      "logo": "https://i.imgur.com/52dlDZk.png",
-      "group": "Religious",
-      "country": "XX"
-    },
-    {
-      "name": "Al-Fady TV (1080p) [Not 24/7]",
-      "url": "https://5d658d7e9f562.streamlock.net/alfadytv.tv/alfadytv.smil/playlist.m3u8",
-      "logo": "https://i.imgur.com/7L0l0iY.png",
-      "group": "Religious",
-      "country": "XX"
-    },
-    {
-      "name": "Al-Aimma TV (1080p)",
-      "url": "https://alaimma.tv/live/index.m3u8",
-      "logo": "https://alaimma.tv/alaimma-logo.png",
-      "group": "Religious",
+      "name": "AgroBrasil TV (720p) [Not 24/7]",
+      "url": "http://45.162.64.114/AGRO_CANAL/index.m3u8",
+      "logo": "https://i.imgur.com/aNkP7Zd.png",
+      "group": "Outdoor",
       "country": "XX"
     },
     {
       "name": "Al Sharqiya Min Kabla (1080p)",
       "url": "https://svs.itworkscdn.net/kablatvlive/kabtv1.smil/playlist.m3u8",
       "logo": "https://i.imgur.com/m4qheI4.png",
-      "group": "General",
-      "country": "XX"
-    },
-    {
-      "name": "Al Wousta TV (1080p)",
-      "url": "https://svs.itworkscdn.net/alwoustalive/alwoustatv.smil/playlist.m3u8",
-      "logo": "https://i.imgur.com/zgMqQPQ.png",
       "group": "General",
       "country": "XX"
     },
@@ -2650,9 +2615,37 @@
       "country": "XX"
     },
     {
+      "name": "Al Yaum TV (1080p)",
+      "url": "https://hlspackager.akamaized.net/live/DB/ALYAUM_TV/HLS/ALYAUM_TV.m3u8",
+      "logo": "https://i.imgur.com/rBixF3P.png",
+      "group": "News",
+      "country": "XX"
+    },
+    {
+      "name": "Al-Aimma TV (1080p)",
+      "url": "https://alaimma.tv/live/index.m3u8",
+      "logo": "https://alaimma.tv/alaimma-logo.png",
+      "group": "Religious",
+      "country": "XX"
+    },
+    {
+      "name": "Al-Fady TV (1080p) [Not 24/7]",
+      "url": "https://5d658d7e9f562.streamlock.net/alfadytv.tv/alfadytv.smil/playlist.m3u8",
+      "logo": "https://i.imgur.com/7L0l0iY.png",
+      "group": "Religious",
+      "country": "XX"
+    },
+    {
       "name": "Al-MahdiTV (1080p)",
       "url": "https://iptv.almahditv.com/almahditv/playlist.m3u8",
       "logo": "https://i.imgur.com/S1YM83i.png",
+      "group": "Religious",
+      "country": "XX"
+    },
+    {
+      "name": "Al-Bahjah TV (1080p)",
+      "url": "http://202.150.161.117:8000/play/AlBahjahTV",
+      "logo": "https://i.imgur.com/52dlDZk.png",
       "group": "Religious",
       "country": "XX"
     },
@@ -2664,13 +2657,6 @@
       "country": "XX"
     },
     {
-      "name": "Al-Iman TV (720p)",
-      "url": "https://tv.aliman.id/aliman/live.m3u8",
-      "logo": "https://i.imgur.com/Qj1EFf1.png",
-      "group": "Religious",
-      "country": "XX"
-    },
-    {
       "name": "Al-Jawadain TV (1080p) [Not 24/7]",
       "url": "https://live.aljawadain.org/live/aljawadaintv/playlist.m3u8",
       "logo": "https://i.imgur.com/Eo3UYCK.png",
@@ -2678,10 +2664,10 @@
       "country": "XX"
     },
     {
-      "name": "Al-Sharqiya News (1080p)",
-      "url": "https://5d94523502c2d.streamlock.net/alsharqiyalive/mystream/playlist.m3u8",
-      "logo": "https://i.imgur.com/PeAcXB9.png",
-      "group": "News",
+      "name": "Al-Iman TV (720p)",
+      "url": "https://tv.aliman.id/aliman/live.m3u8",
+      "logo": "https://i.imgur.com/Qj1EFf1.png",
+      "group": "Religious",
       "country": "XX"
     },
     {
@@ -2692,6 +2678,13 @@
       "country": "XX"
     },
     {
+      "name": "Al-Sharqiya News (1080p)",
+      "url": "https://5d94523502c2d.streamlock.net/alsharqiyalive/mystream/playlist.m3u8",
+      "logo": "https://i.imgur.com/PeAcXB9.png",
+      "group": "News",
+      "country": "XX"
+    },
+    {
       "name": "Al Rafidain (720p) [Not 24/7]",
       "url": "https://media1.livaat.com/static/AL-RASHEED-HD/playlist.m3u8",
       "logo": "https://i.imgur.com/rjXDCN5.png",
@@ -2699,11 +2692,11 @@
       "country": "XX"
     },
     {
-      "name": "The Graham Norton Show",
-      "url": "https://amg00654-itv-amg00654c35-rakuten-gb-7598.playouts.now.amagi.tv/playlist.m3u8",
-      "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/5934441271a0583124d84d704f600bcc/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1731009344280_GrahamNorton_HUD_Logo.png",
-      "group": "Entretenimiento",
-      "country": "CL"
+      "name": "Ajman TV (1080p)",
+      "url": "http://htvajyal.mada.ps:8888/ajyal/index.m3u8",
+      "logo": "https://i.imgur.com/hVNIwgE.png",
+      "group": "General",
+      "country": "XX"
     },
     {
       "name": "Team Liquid",
@@ -2717,6 +2710,13 @@
       "url": "https://d8b6mh9us4zvx.cloudfront.net/TEAM_USA_TV.m3u8",
       "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/257afd66cee15a1ca2125fc377e87cc2/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1718724430937_TeamUSATV_HUDLogo_260x147.png",
       "group": "General",
+      "country": "CL"
+    },
+    {
+      "name": "The Graham Norton Show",
+      "url": "https://amg00654-itv-amg00654c35-rakuten-gb-7598.playouts.now.amagi.tv/playlist.m3u8",
+      "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/5934441271a0583124d84d704f600bcc/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1731009344280_GrahamNorton_HUD_Logo.png",
+      "group": "Entretenimiento",
       "country": "CL"
     },
     {
@@ -2762,11 +2762,11 @@
       "country": "CL"
     },
     {
-      "name": "NPR News",
-      "url": "https://npr-ice.streamguys1.com/live.mp3",
+      "name": "ADN Radio",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/ADN.mp3",
       "logo": "",
       "group": "Noticias",
-      "country": "US"
+      "country": "CL"
     },
     {
       "name": "In Depth with Graham Bensinger",
@@ -2783,11 +2783,18 @@
       "country": "CL"
     },
     {
-      "name": "ADN Radio",
-      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/ADN.mp3",
+      "name": "Caracol Radio CO",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CARACOL_RADIO.mp3",
+      "logo": "",
+      "group": "Radio CO",
+      "country": "CL"
+    },
+    {
+      "name": "NPR News",
+      "url": "https://npr-ice.streamguys1.com/live.mp3",
       "logo": "",
       "group": "Noticias",
-      "country": "CL"
+      "country": "US"
     },
     {
       "name": "Pudahuel FM CL",
@@ -2797,10 +2804,10 @@
       "country": "CL"
     },
     {
-      "name": "Caracol Radio CO",
-      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CARACOL_RADIO.mp3",
+      "name": "Los 40 ES",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40.mp3",
       "logo": "",
-      "group": "Radio CO",
+      "group": "Radio ES",
       "country": "CL"
     },
     {
@@ -2811,15 +2818,8 @@
       "country": "XX"
     },
     {
-      "name": "Los 40 ES",
-      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40.mp3",
-      "logo": "",
-      "group": "Radio ES",
-      "country": "CL"
-    },
-    {
       "name": "Radio Suyai TV (1080p)",
-      "url": "https://cl-2.backend.energeek.cl/RadioSuyai-Neo/index.m3u8",
+      "url": "https://00ff00.latnet.media/edge/swh_tv.smil/playlist.m3u8",
       "logo": "",
       "group": "General",
       "country": "XX"
@@ -2839,10 +2839,10 @@
       "country": "XX"
     },
     {
-      "name": "7 RadioVisione (720p)",
-      "url": "https://stream10.xdevel.com/video1s976543-1932/stream/playlist.m3u8",
-      "logo": "https://radio7note.com/img/favicon/android-icon-192x192.png",
-      "group": "Music",
+      "name": "Dance FM (720p)",
+      "url": "https://5eaccbab48461.streamlock.net:1936/dancefm_1/dancefm_1/playlist.m3u8",
+      "logo": "",
+      "group": "General",
       "country": "XX"
     },
     {
@@ -2860,10 +2860,10 @@
       "country": "XX"
     },
     {
-      "name": "Dance FM (720p)",
-      "url": "https://5eaccbab48461.streamlock.net:1936/dancefm_1/dancefm_1/playlist.m3u8",
-      "logo": "",
-      "group": "General",
+      "name": "7 RadioVisione (720p)",
+      "url": "https://stream10.xdevel.com/video1s976543-1932/stream/playlist.m3u8",
+      "logo": "https://radio7note.com/img/favicon/android-icon-192x192.png",
+      "group": "Music",
       "country": "XX"
     },
     {
@@ -2909,6 +2909,13 @@
       "country": "XX"
     },
     {
+      "name": "Radio Sublime Gracia TV (720p)",
+      "url": "https://5f700d5b2c46f.streamlock.net/sublime/sublime/playlist.m3u8",
+      "logo": "",
+      "group": "General",
+      "country": "XX"
+    },
+    {
       "name": "Radio Conexion Web TV (720p)",
       "url": "https://tuvideoonline.com.ar:3391/live/radioconexionlive.m3u8",
       "logo": "",
@@ -2918,13 +2925,6 @@
     {
       "name": "Radio Yguazú TV (480p)",
       "url": "https://live.enhdtv.com:8081/radioiguazutv/index.m3u8",
-      "logo": "",
-      "group": "General",
-      "country": "XX"
-    },
-    {
-      "name": "Radio Sublime Gracia TV (720p)",
-      "url": "https://5f700d5b2c46f.streamlock.net/sublime/sublime/playlist.m3u8",
       "logo": "",
       "group": "General",
       "country": "XX"
@@ -2958,6 +2958,13 @@
       "country": "XX"
     },
     {
+      "name": "Suram TV (720p)",
+      "url": "https://us.streaminghd.cl/suramtv/index.m3u8",
+      "logo": "",
+      "group": "General",
+      "country": "XX"
+    },
+    {
       "name": "Blu Radio (720p)",
       "url": "https://mdstrm.com/live-stream-playlist/58d1921a72e2b22e2905e493.m3u8",
       "logo": "",
@@ -2972,8 +2979,8 @@
       "country": "XX"
     },
     {
-      "name": "Suram TV (720p)",
-      "url": "https://us.streaminghd.cl/suramtv/index.m3u8",
+      "name": "Radio Master (720p)",
+      "url": "https://videoserver.tmcreativos.com:19360/radiomaster/radiomaster.m3u8",
       "logo": "",
       "group": "General",
       "country": "XX"
@@ -2981,13 +2988,6 @@
     {
       "name": "Radio Tropical Tarapoto (480p) [Not 24/7]",
       "url": "https://videoserver.tmcreativos.com:19360/raditropical/raditropical.m3u8",
-      "logo": "",
-      "group": "General",
-      "country": "XX"
-    },
-    {
-      "name": "Radio Master (720p)",
-      "url": "https://videoserver.tmcreativos.com:19360/radiomaster/radiomaster.m3u8",
       "logo": "",
       "group": "General",
       "country": "XX"
@@ -3028,8 +3028,8 @@
       "country": "XX"
     },
     {
-      "name": "Emisora Comunitaria 104.1 FM",
-      "url": "https://104florencia.co/wp-admin/admin-ajax.php?action=frp_hls_proxy&url=https%3A%2F%2Fstreamyes.alsolnet.com%2Fcomunitariafm%2Flive%2Fplaylist.m3u8",
+      "name": "Turbo Mix Radio TV (720p)",
+      "url": "https://live-evg11.tv360.bitel.com.pe/bitel/turbomixSRT/playlist.m3u8",
       "logo": "",
       "group": "General",
       "country": "XX"
@@ -3037,13 +3037,6 @@
     {
       "name": "Atlantis Radio TV (720p)",
       "url": "https://cdn.whiplash.cc/whiplash-atlas/index.m3u8",
-      "logo": "",
-      "group": "General",
-      "country": "XX"
-    },
-    {
-      "name": "Turbo Mix Radio TV (720p)",
-      "url": "https://live-evg11.tv360.bitel.com.pe/bitel/turbomixSRT/playlist.m3u8",
       "logo": "",
       "group": "General",
       "country": "XX"
@@ -3084,22 +3077,8 @@
       "country": "XX"
     },
     {
-      "name": "PRIDEtv LATAM (1080p)",
-      "url": "http://stream.mcquack.net/198/index.m3u8",
-      "logo": "",
-      "group": "General",
-      "country": "XX"
-    },
-    {
       "name": "EnerGeek Radio (1080p)",
       "url": "https://sincerecloud.stream/loadbalancer/public/actMdyoE.m3u8",
-      "logo": "",
-      "group": "General",
-      "country": "XX"
-    },
-    {
-      "name": "Emisora Comunitaria 104.1 FM",
-      "url": "https://104florencia.co/wp-admin/admin-ajax.php?action=frp_hls_proxy&url=https://streamyes.alsolnet.com/comunitariafm/live/playlist.m3u8",
       "logo": "",
       "group": "General",
       "country": "XX"
@@ -3112,8 +3091,8 @@
       "country": "XX"
     },
     {
-      "name": "Estacion TV (720p)",
-      "url": "https://unlimited1-cl-isp.dps.live/supersonikatv/supersonikatv.smil/playlist.m3u8",
+      "name": "PRIDEtv LATAM (1080p)",
+      "url": "http://stream.mcquack.net/198/index.m3u8",
       "logo": "",
       "group": "General",
       "country": "XX"
@@ -3126,6 +3105,20 @@
       "country": "XX"
     },
     {
+      "name": "Interradio TV",
+      "url": "https://tv.arkeo.cl:1936/8002/8002/playlist.m3u8",
+      "logo": "",
+      "group": "General",
+      "country": "XX"
+    },
+    {
+      "name": "Estacion TV (720p)",
+      "url": "https://unlimited1-cl-isp.dps.live/supersonikatv/supersonikatv.smil/playlist.m3u8",
+      "logo": "",
+      "group": "General",
+      "country": "XX"
+    },
+    {
       "name": "Radiotele Morelia (352p)",
       "url": "https://server-67.stream-server.nl:1936/RadioToppers/RadioToppers/playlist.m3u8",
       "logo": "",
@@ -3133,8 +3126,15 @@
       "country": "XX"
     },
     {
-      "name": "Interradio TV",
-      "url": "https://tv.arkeo.cl:1936/8002/8002/playlist.m3u8",
+      "name": "Emisora Comunitaria 104.1 FM",
+      "url": "https://v1.tustreaming.cl/emociontv/index.m3u8",
+      "logo": "",
+      "group": "General",
+      "country": "XX"
+    },
+    {
+      "name": "Emisora Comunitaria 104.1 FM",
+      "url": "https://v1.tustreaming.cl/emociontv/index.m3u8",
       "logo": "",
       "group": "General",
       "country": "XX"
