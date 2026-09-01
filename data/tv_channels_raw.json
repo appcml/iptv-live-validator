@@ -122982,5 +122982,45 @@
     "group": "Entertainment",
     "country": "XX",
     "source": "index.m3u"
+  },
+  {
+    "name": "4ever Cinema (1080p)",
+    "url": "http://stream.mcquack.net/258/index.m3u8",
+    "logo": "https://i.imgur.com/vFOgVbG.png",
+    "group": "Movies",
+    "country": "XX",
+    "source": "index.m3u"
+  },
+  {
+    "name": "4ever Drama (1080p)",
+    "url": "http://stream.mcquack.net/260/index.m3u8",
+    "logo": "https://i.imgur.com/CD3vZU6.png",
+    "group": "Series",
+    "country": "XX",
+    "source": "index.m3u"
+  },
+  {
+    "name": "4ever Music (1080p)",
+    "url": "http://stream.mcquack.net/257/index.m3u8",
+    "logo": "https://i.imgur.com/UJ5oaeU.png",
+    "group": "Music",
+    "country": "XX",
+    "source": "index.m3u"
+  },
+  {
+    "name": "4ever Theater (1080p)",
+    "url": "http://stream.mcquack.net/259/index.m3u8",
+    "logo": "https://i.imgur.com/kfngtev.png",
+    "group": "Entertainment",
+    "country": "XX",
+    "source": "index.m3u"
+  },
+  {
+    "name": "9X Jalwa (1080p)",
+    "url": "https://wiselp.wiseplayout.com/9X_Jalwa/master.m3u8",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_9X_JALWA/images/LOGO_HD/image.png",
+    "group": "Music",
+    "country": "XX",
+    "source": "index.m3u"
   }
 ]
