@@ -123030,5 +123030,13 @@
     "group": "Music",
     "country": "XX",
     "source": "index.m3u"
+  },
+  {
+    "name": "5 Канал",
+    "url": "https://streaming.televizor-24-tochka.ru/live/8.m3u8",
+    "logo": "https://i.imgur.com/KPXMa3U.png",
+    "group": "General",
+    "country": "XX",
+    "source": "index.m3u"
   }
 ]
