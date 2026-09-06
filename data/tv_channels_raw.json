@@ -123038,5 +123038,21 @@
     "group": "General",
     "country": "XX",
     "source": "index.m3u"
+  },
+  {
+    "name": "ISA TV",
+    "url": "https://scl.edge.grupoz.cl/isatv/live/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "cl.m3u"
+  },
+  {
+    "name": "Disney Jr. Latin America North HD (1080p)",
+    "url": "http://190.11.225.124:5000/live/disney_jr_hd/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "ar.m3u"
   }
 ]
