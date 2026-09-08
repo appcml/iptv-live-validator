@@ -123054,5 +123054,21 @@
     "group": "General",
     "country": "XX",
     "source": "ar.m3u"
+  },
+  {
+    "name": "7 News (720p)",
+    "url": "https://sscsott.com/7news/live/index.m3u8",
+    "logo": "https://i.imgur.com/PTl92P5.png",
+    "group": "News",
+    "country": "XX",
+    "source": "index.m3u"
+  },
+  {
+    "name": "8XM HD",
+    "url": "https://cdn4.mjunoon.tv:8087/streamtest/135M/chunks.m3u8",
+    "logo": "https://i.ibb.co/Kc0xHyBb/8XM-Logo.png",
+    "group": "Music",
+    "country": "XX",
+    "source": "index.m3u"
   }
 ]
