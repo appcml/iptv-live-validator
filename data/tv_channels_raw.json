@@ -123134,5 +123134,21 @@
     "group": "News",
     "country": "XX",
     "source": "index.m3u"
+  },
+  {
+    "name": "4 SiDES TV (1080p)",
+    "url": "https://stream.ottlive.co.in/4sidestv/index.m3u8",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/4sites.png",
+    "group": "News",
+    "country": "XX",
+    "source": "index.m3u"
+  },
+  {
+    "name": "9 Plus News (1080p)",
+    "url": "https://stream.ottlive.co.in/9plusnews/index.m3u8",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/9plusnews.png",
+    "group": "News",
+    "country": "XX",
+    "source": "index.m3u"
   }
 ]
