@@ -123166,5 +123166,21 @@
     "group": "General",
     "country": "XX",
     "source": "cl.m3u"
+  },
+  {
+    "name": "6 TV Gorlovka (720p) [Geo-blocked]",
+    "url": "http://91.214.48.158:4022/udp/224.2.2.4:10000",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/61/TV_6_HD_%E2%80%93_logo.png",
+    "group": "General",
+    "country": "XX",
+    "source": "index.m3u"
+  },
+  {
+    "name": "101tv Antequera [Geo-blocked]",
+    "url": "https://liveingesta318.cdnmedia.tv/101weblive/smil:antequera.smil/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "es.m3u"
   }
 ]
