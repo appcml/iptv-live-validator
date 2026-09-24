@@ -123182,5 +123182,45 @@
     "group": "General",
     "country": "XX",
     "source": "es.m3u"
+  },
+  {
+    "name": "5Gold (1080p)",
+    "url": "http://str2.iptvhd.ru:8080/sport5gold/index.m3u8",
+    "logo": "https://i.imgur.com/zFLRfXh.png",
+    "group": "Sports",
+    "country": "XX",
+    "source": "index.m3u"
+  },
+  {
+    "name": "5Live (1080p)",
+    "url": "http://str2.iptvhd.ru:8080/5live/index.m3u8",
+    "logo": "https://i.imgur.com/0yr3yvd.png",
+    "group": "Sports",
+    "country": "XX",
+    "source": "index.m3u"
+  },
+  {
+    "name": "5Plus (1080p)",
+    "url": "http://89.33.29.115:8080/sportplus/index.m3u8",
+    "logo": "https://i.imgur.com/L3RA9Lv.png",
+    "group": "Sports",
+    "country": "XX",
+    "source": "index.m3u"
+  },
+  {
+    "name": "5Sport 4K (2160p)",
+    "url": "http://str2.iptvhd.ru:8080/5SPORT_4K/index.m3u8",
+    "logo": "https://i.imgur.com/Msfhpqd.png",
+    "group": "Sports",
+    "country": "XX",
+    "source": "index.m3u"
+  },
+  {
+    "name": "5Sport (1080p)",
+    "url": "http://str2.iptvhd.ru:8080/5sport/index.m3u8",
+    "logo": "https://i.imgur.com/dRVsB89.png",
+    "group": "Sports",
+    "country": "XX",
+    "source": "index.m3u"
   }
 ]
