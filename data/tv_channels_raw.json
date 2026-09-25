@@ -123222,5 +123222,13 @@
     "group": "Sports",
     "country": "XX",
     "source": "index.m3u"
+  },
+  {
+    "name": "5Stars (1080p)",
+    "url": "http://89.33.29.115:8080/IL_5Stars/index.m3u8",
+    "logo": "https://i.imgur.com/IQtAKIa.png",
+    "group": "Sports",
+    "country": "XX",
+    "source": "index.m3u"
   }
 ]
