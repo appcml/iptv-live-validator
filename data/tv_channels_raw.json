@@ -123230,5 +123230,13 @@
     "group": "Sports",
     "country": "XX",
     "source": "index.m3u"
+  },
+  {
+    "name": "beIN SPORTS XTRA en Espanol (1080p)",
+    "url": "http://201.190.41.246:9060/play/a03y/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
   }
 ]
