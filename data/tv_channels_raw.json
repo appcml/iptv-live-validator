@@ -123238,5 +123238,13 @@
     "group": "General",
     "country": "XX",
     "source": "us.m3u"
+  },
+  {
+    "name": "Senal Colombia (1080p)",
+    "url": "http://209.14.115.253:8081/SENALCOLOMBIA/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
   }
 ]
