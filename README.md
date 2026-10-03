@@ -1,20 +1,20 @@
 # Canales Activos M3U
 
-**Actualizado:** 2026-10-03 17:03:21
+**Actualizado:** 2026-10-03 19:48:09
 **Estado:** Todos los streams verificados y online
 
 ## Estadisticas
-- **TV:** 342 canales funcionando
-- **Radio:** 54 estaciones funcionando
-- **Total:** 396 streams activos
+- **TV:** 336 canales funcionando
+- **Radio:** 55 estaciones funcionando
+- **Total:** 391 streams activos
 
 ## Descargas
 
 | Lista | Canales | Link |
 |-------|---------|------|
-| TV | 342 | [lista_tv.m3u](output/lista_tv.m3u) |
-| Radio | 54 | [lista_radio.m3u](output/lista_radio.m3u) |
-| Completa | 396 | [lista_completa.m3u](output/lista_completa.m3u) |
+| TV | 336 | [lista_tv.m3u](output/lista_tv.m3u) |
+| Radio | 55 | [lista_radio.m3u](output/lista_radio.m3u) |
+| Completa | 391 | [lista_completa.m3u](output/lista_completa.m3u) |
 
 ## API JSON (para tu app)
 
