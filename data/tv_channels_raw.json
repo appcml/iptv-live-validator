@@ -123262,5 +123262,21 @@
     "group": "Music",
     "country": "XX",
     "source": "index.m3u"
+  },
+  {
+    "name": "ITV Patagonia (720p)",
+    "url": "https://redirector.dps.live/hls/itv/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "cl.m3u"
+  },
+  {
+    "name": "Best of Dr Phil",
+    "url": "http://88.218.227.85:8080/60f760bbdf090700075d7bfe?mode=hls",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
   }
 ]
