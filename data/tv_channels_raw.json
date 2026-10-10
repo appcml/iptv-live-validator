@@ -123310,5 +123310,13 @@
     "group": "Music",
     "country": "XX",
     "source": "index.m3u"
+  },
+  {
+    "name": "5USA (360p)",
+    "url": "https://lb.iptvnetwork.net/ls28/10115/playlist.m3u8",
+    "logo": "https://i.imgur.com/Pi7so2l.png",
+    "group": "Entertainment",
+    "country": "XX",
+    "source": "index.m3u"
   }
 ]
