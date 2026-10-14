@@ -123318,5 +123318,21 @@
     "group": "Entertainment",
     "country": "XX",
     "source": "index.m3u"
+  },
+  {
+    "name": "Juntos TV (720p)",
+    "url": "https://video.juntostvchile.cl:8879/hls/web-jntv.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "cl.m3u"
+  },
+  {
+    "name": "La Chilena TV",
+    "url": "https://vdochile.com:3134/stream/play.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "cl.m3u"
   }
 ]
