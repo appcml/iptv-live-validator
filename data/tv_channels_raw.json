@@ -123366,5 +123366,21 @@
     "group": "General",
     "country": "XX",
     "source": "es.m3u"
+  },
+  {
+    "name": "4 Fun Kids (576i)",
+    "url": "https://stream.4fun.tv:8889/hls/4fk.m3u8",
+    "logo": "https://i.imgur.com/2JO5Y8c.png",
+    "group": "Kids",
+    "country": "XX",
+    "source": "index.m3u"
+  },
+  {
+    "name": "DumDum (720p)",
+    "url": "http://168.197.104.22/ZOOMOO/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "br.m3u"
   }
 ]
