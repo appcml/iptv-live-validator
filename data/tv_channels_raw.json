@@ -123430,5 +123430,21 @@
     "group": "General",
     "country": "XX",
     "source": "es.m3u"
+  },
+  {
+    "name": "7X Music (360p)",
+    "url": "https://cdn2.in/7xPunjabihls/live.m3u8",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/7X_Music.png",
+    "group": "Music",
+    "country": "XX",
+    "source": "index.m3u"
+  },
+  {
+    "name": "Big Ten Network (720p)",
+    "url": "http://23.237.104.106:8080/USA_BTN/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
   }
 ]
