@@ -123486,5 +123486,37 @@
     "group": "General",
     "country": "XX",
     "source": "pe.m3u"
+  },
+  {
+    "name": "AXN Black Czech Republic",
+    "url": "http://88.212.15.50/live/test_black/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "AXN White CzechRepublic",
+    "url": "http://88.212.15.50/live/test_white/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "AXN CEE",
+    "url": "http://88.212.15.50/live/axn_hun/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "es.m3u"
+  },
+  {
+    "name": "AXN CEE Czech Republic",
+    "url": "http://88.212.15.50/live/test_axn/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "es.m3u"
   }
 ]
