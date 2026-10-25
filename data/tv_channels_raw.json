@@ -123454,5 +123454,37 @@
     "group": "Music",
     "country": "XX",
     "source": "index.m3u"
+  },
+  {
+    "name": "La Clave (720p)",
+    "url": "https://unlimited1-cl-isp.dps.live/laclavetv/laclavetv.smil/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "cl.m3u"
+  },
+  {
+    "name": "Soona TV",
+    "url": "https://vs20.live.opencaster.com/soonatv_a1a564a9/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "L1 (1080p)",
+    "url": "http://45.4.1.201:8000/play/a1ai/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "pe.m3u"
+  },
+  {
+    "name": "L1 Max (1080p)",
+    "url": "http://190.93.224.42/LIGA-1-MAX/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "pe.m3u"
   }
 ]
