@@ -123518,5 +123518,13 @@
     "group": "General",
     "country": "XX",
     "source": "es.m3u"
+  },
+  {
+    "name": "6ter",
+    "url": "http://149.62.177.107:9999/6ter/index.m3u8",
+    "logo": "https://i.imgur.com/2nd5Cox.png",
+    "group": "Entertainment",
+    "country": "XX",
+    "source": "index.m3u"
   }
 ]
