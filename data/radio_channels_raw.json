@@ -870,5 +870,13 @@
     "group": "General",
     "country": "XX",
     "source": "cl.m3u"
+  },
+  {
+    "name": "Mi Radio TV",
+    "url": "https://scl.edge.grupoz.cl/miradio2/live/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "cl.m3u"
   }
 ]
