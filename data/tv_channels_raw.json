@@ -123646,5 +123646,1221 @@
     "group": "General",
     "country": "XX",
     "source": "br.m3u"
+  },
+  {
+    "name": "Agricultura TV (1080p)",
+    "url": "https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/921tv/921tv.smil/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "cl.m3u"
+  },
+  {
+    "name": "Bio Bio TV (1080p)",
+    "url": "https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/bbtv/bbtv.smil/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "cl.m3u"
+  },
+  {
+    "name": "El Pinguino TV (720p)",
+    "url": "https://redirector.dps.live/hls/pinguinotv/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "cl.m3u"
+  },
+  {
+    "name": "EnerGeek (1080p) [Geo-blocked]",
+    "url": "https://cl-2.backend.energeek.cl/bkp/egretroweb/index.m3u8?token=IPTVgh26",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "cl.m3u"
+  },
+  {
+    "name": "EnerGeek FAN (720p) [Geo-blocked]",
+    "url": "https://cl-2.backend.energeek.cl/bkp/egfan/mobile/index.m3u8?token=IPTVgh26",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "cl.m3u"
+  },
+  {
+    "name": "6 Wise Tv (720p)",
+    "url": "https://edge.enhdtv.com/8150/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "A&E Latin America Brazil (720p)",
+    "url": "http://79.127.238.228:14551",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "ABHP TV (480p)",
+    "url": "https://vietprocast.app/hls/abhp/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "ACC Network (720p)",
+    "url": "http://23.239.31.26:8989/accnetwork/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "Adult Swim Latin America",
+    "url": "http://170.244.209.30:8000/play/a02v/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "Adult Swim Latin America Brazil (720p)",
+    "url": "http://45.162.64.114/ADULT_SWIM/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "Adult Swim West [Not 24/7;Geo-blocked]",
+    "url": "https://turnerlive.warnermediacdn.com/hls/live/2023185/aswest/noslate/VIDEO_1_5128000.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "AMC (1080p) [Geo-blocked]",
+    "url": "http://41.205.93.154/AMC/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "AMC Latin America (1080p)",
+    "url": "http://138.121.15.230:9002/AMC/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "AMC Series Latin America (1080p)",
+    "url": "http://45.171.64.30:6060/play/a005/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "AMC Series Latin America (1080p)",
+    "url": "https://streaming.onnethn.com/AMC/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "American Heroes Channel (720p)",
+    "url": "http://23.237.104.106:8080/USA_AMERICAN_HEROES/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "American Ninja Warrior (1080p)",
+    "url": "https://d4whmvwm0rdvi.cloudfront.net/10007/99951318/hls/master.m3u8?ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=&ads._fw_content_category=&ads._fw_content_genre=&ads._fw_content_language=en&ads._fw_content_rating=&ads._fw_coppa=0&ads._fw_deviceMake=GitHubAction&ads._fw_deviceType=3-Connected_TV&ads._fw_device_model=PythonScript&ads._fw_did=a5090924-15b1-4b7f-b6cd-2f06e2ba51e1&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_vcid2=512116:a5090924-15b1-4b7f-b6cd-2f06e2ba51e1&ads.afid=405342864&ads.appName=XumoPlay&ads.appVersion=1.0.0&ads.asnw=169843&ads.channelId=99951318&ads.csid=xumo_web_NBCUAmericanNinjaWarrior_ssai_cro&ads.sfid=19647852&ads.xumo_channelId=99951318&ads.xumo_contentId=4063&ads.xumo_contentName=NBCUAmericanNinjaWarrior&ads.xumo_providerId=4063&ads.xumo_providerName=NBCUAmericanNinjaWarrior",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "American Ninja Warrior (1080p)",
+    "url": "https://d4whmvwm0rdvi.cloudfront.net/10007/99993042/hls/master.m3u8?ads.afid=405342864&ads.asnw=169843&ads.channelId=99993042&ads.csid=lgchannels_us_nbcuamericanninjawarrior_ssai_cro&ads.sfid=19647852&ads.xumo_channelId=99993042&ads.xumo_contentId=4063&ads.xumo_contentName=NBCUAmericanNinjaWarrior&ads.xumo_providerId=4063&ads.xumo_providerName=NBCUAmericanNinjaWarrior",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "Aneflix Live (720p)",
+    "url": "https://stream-cdn-iad.vaughnsoft.net/play/live_a_neflix01.flv",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "Animal Planet (720p)",
+    "url": "http://23.237.104.106:8080/USA_ANIMAL_PLANET/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "Animal Planet (720p)",
+    "url": "http://23.239.31.26:8989/animalplanet/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "Animal Planet Latin America (1080p)",
+    "url": "http://190.128.214.97:64333/play/a01n/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "Animal Planet Latin America HD (720p) [Geo-blocked]",
+    "url": "http://15.204.246.24:8080/AnimalPlanetHD/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "Aspire TV Life (1080p)",
+    "url": "https://uptv-aspiretvlife-klowdtv.amagi.tv/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "AVI Rewind (1080p)",
+    "url": "http://45.70.201.81:8000/play/a010/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "AXN Black Hungary (576p)",
+    "url": "http://141.94.193.53/axn_black/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "AXN Black Romania",
+    "url": "https://saruman1.tharen1.cfd/axyblack/usergenrxi6s93hs2.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "AXN Latin America (1080p)",
+    "url": "https://streaming.onnethn.com/AXN_HD/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "Antena 3",
+    "url": "https://cdn.stmify.com/zapitv/stream/ANTENA_3/test.mpd",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "es.m3u"
+  },
+  {
+    "name": "Antena 3 Internacional (1080p)",
+    "url": "http://38.252.238.18:8000/play/a04a/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "es.m3u"
+  },
+  {
+    "name": "AXN CEE Romania",
+    "url": "https://cronos.mangora1.cfd/axy/usergend3h5jkc9rnd.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "es.m3u"
+  },
+  {
+    "name": "AXN Movies",
+    "url": "https://cdn.stmify.com/zapitv/stream/AXN_MOVIES/axn_white.mpd",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "es.m3u"
+  },
+  {
+    "name": "Boing",
+    "url": "http://digisat.ddns.net:4022/udp/239.0.5.177:8208",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "es.m3u"
+  },
+  {
+    "name": "Clan (1080p)",
+    "url": "https://lge-lgla2.otteravision.com/lge/lgcla/lgcla.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "es.m3u"
+  },
+  {
+    "name": "Clan Internacional (1080p)",
+    "url": "http://168.228.44.241:9999/play/a04j/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "es.m3u"
+  },
+  {
+    "name": "AyM Sports (1080p)",
+    "url": "http://168.196.127.137:6001/play/a06v/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Az Cinema (1080p)",
+    "url": "http://15.204.196.147:22880/CABLE-MAGES-AZCINEMA/video.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Az Clic (1080p)",
+    "url": "http://38.252.238.18:8000/play/a01g/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Az Corazon (720p)",
+    "url": "http://200.115.120.1:8000/play/ca020/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Az Mundo (1080p)",
+    "url": "http://15.204.142.109:22880/DIRECTV-ARGENTINA-AZMUNDO/INTERNACIONAL/video.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Azteca 7 (1080p)",
+    "url": "http://187.245.231.226:8000/play/a0uz/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Azteca 7 (720p)",
+    "url": "http://200.35.176.154:8000/play/a064/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Azteca Deportes Network (720p)",
+    "url": "https://live-manifest.production-public.tubi.io/live/6bf131c3-d664-424c-93c9-49188a788980/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Azteca Internacional (1080p)",
+    "url": "http://167.249.23.102:8000/play/a0a3/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Azteca Uno (1080p)",
+    "url": "http://38.44.109.41:8003/play/a033/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Azteca Uno +1 (720p)",
+    "url": "https://azt-oo.otteravision.com/out/v1/da53d7d388be437e92bf8f464018eb48/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Bandamax (1080p)",
+    "url": "http://181.78.106.127:5000/play/ca064/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Bandamax (1080p)",
+    "url": "https://streaming.onnethn.com/Bandamax/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "bitMe (576p)",
+    "url": "http://200.229.147.210:9999/play/a01y/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Canal 5 (1080p)",
+    "url": "http://45.189.151.7:8000/play/a05s",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Canal 5 (1080p)",
+    "url": "http://132.255.210.69:8000/play/a06e",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Canal 5 (576p)",
+    "url": "http://206.135.11.174:8010/play/a0fl/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Canal 5 XET-TDT (1080p)",
+    "url": "http://45.5.118.152:8000/play/a03i/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Canal 26 (1080p)",
+    "url": "https://5fe2654d6127d.streamlock.net/telemetrika3/_definst_/videotelemetrika3/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "CineLatino (720p)",
+    "url": "http://168.196.127.137:6001/play/a08o/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "CineLatino (720p)",
+    "url": "http://200.115.120.1:8000/play/ca129/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "CineLatino (720p)",
+    "url": "http://206.135.11.174:8010/play/a0lq/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "CineLatino (576p)",
+    "url": "http://200.115.96.61:9090/play/a0i5/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Claro Cinema (1080p)",
+    "url": "http://45.171.64.30:6060/play/a039/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Claro Cinema (1080p)",
+    "url": "http://158.172.217.18:8000/play/a00d/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Claro Sports (1080p)",
+    "url": "http://45.171.64.30:6060/play/a00w/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Claro Sports (1080p)",
+    "url": "http://45.228.234.9:8000/play/a06i/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Claro Sports (1080p)",
+    "url": "http://168.196.127.137:6001/play/a08r/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "De Pelicula Latin America (1080p)",
+    "url": "http://15.204.196.147:22880/RECEPCION-DPELICULA-LATAM-FHD/video.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "De Pelicula Latin America (720p)",
+    "url": "http://181.224.200.5:2277/play/a0d1/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "De Pelicula Plus (1080p)",
+    "url": "http://200.115.120.1:8000/play/ca030/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Discovery Home & Health Latin America South",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/39.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Distrito Comedia (1080p)",
+    "url": "http://15.204.142.109:22880/TELEVISA-PROVEEDOR-DISTRITO-COMEDIA/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Distrito Comedia (1080p)",
+    "url": "http://45.5.57.58:8000/play/a07n/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Distrito Comedia (1080p)",
+    "url": "http://138.121.15.230:9002/DISTRITO-COMEDIA/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Distrito Comedia (1080p)",
+    "url": "http://190.61.47.54:8000/play/a028/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Golden (1080p)",
+    "url": "http://15.204.196.147:22880/RECEPCION-GOLDEN_LAT-FHD/video.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Golden (1080p)",
+    "url": "http://168.196.127.137:6001/play/a06y/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Golden (1080p)",
+    "url": "http://181.224.200.5:2277/play/a0do/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "A24 (1080p)",
+    "url": "http://138.59.227.20:8000/play/a05u/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "ar.m3u"
+  },
+  {
+    "name": "A24 (720p)",
+    "url": "https://g1.proy-hor.transport.edge-access.net/a15/ngrp:a24-100056_all/Playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "ar.m3u"
+  },
+  {
+    "name": "Allegro HD (1080p)",
+    "url": "http://158.172.155.130:8000/play/a0dn/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "ar.m3u"
+  },
+  {
+    "name": "Aunar (1080p)",
+    "url": "http://190.128.214.97:64333/play/a057/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "ar.m3u"
+  },
+  {
+    "name": "Canal 4 Posadas (1080p)",
+    "url": "http://190.128.214.97:64333/play/a06l/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "ar.m3u"
+  },
+  {
+    "name": "Canal 7 TV (576p) [Not 24/7]",
+    "url": "https://k-fra32.x10.network/Clrs/test/hls/1158394/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "ar.m3u"
+  },
+  {
+    "name": "Canal 8 Mar del Plata (720p) [Not 24/7]",
+    "url": "https://canal8mdq.unpocodeawita.workers.dev",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "ar.m3u"
+  },
+  {
+    "name": "Canal 8 San Juan (720p) [Not 24/7]",
+    "url": "https://live20.bozztv.com/akamaissh101/ssh101/canal8sanjuan/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "ar.m3u"
+  },
+  {
+    "name": "Canal 12 Venado Tuerto (1080i)",
+    "url": "https://nd106.republicaservers.com:4433/hls/diegologonitv/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "ar.m3u"
+  },
+  {
+    "name": "Ciudad TV Resistencia (720p)",
+    "url": "https://617c5175c970b.streamlock.net:4444/chacodxdtv/livenew/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "ar.m3u"
+  },
+  {
+    "name": "DeporTV (1080p)",
+    "url": "http://158.172.155.130:8000/play/a09y/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "ar.m3u"
+  },
+  {
+    "name": "1001 Noites (480p)",
+    "url": "https://cpbr.appflux.com.br:2000/hls/1001noites/1001noites.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "br.m3u"
+  },
+  {
+    "name": "+MaisUm (720p)",
+    "url": "https://stream.ichibansys.com:3230/hybrid/play.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "br.m3u"
+  },
+  {
+    "name": "Bem Mais TV (1080p)",
+    "url": "https://video09.logicahost.com.br/bemmaistv01/bemmaistv01/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "br.m3u"
+  },
+  {
+    "name": "CazeTV (1080p)",
+    "url": "http://138.204.86.4:8080/CAZE_TV/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "br.m3u"
+  },
+  {
+    "name": "CNN Brasil (1080p)",
+    "url": "https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "br.m3u"
+  },
+  {
+    "name": "Comedy Central Brasil (480p)",
+    "url": "https://stmv2.srvif.com/gafeab/gafeab/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "br.m3u"
+  },
+  {
+    "name": "Bethel Colombia (720p)",
+    "url": "http://138.121.15.230:9002/BETHEL/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Cablenoticias (1080p)",
+    "url": "http://181.78.211.244:8005/play/a09u/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Canal 1 (1080p)",
+    "url": "http://190.109.2.92:8000/play/a010/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Canal 1 (1080p)",
+    "url": "http://200.122.223.13:55000/play/canal-1-tdt/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Canal 1 (720p)",
+    "url": "http://38.134.250.110:8000/play/a014/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Canal 1 (720p)",
+    "url": "http://190.61.47.54:8000/play/a00u/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Canal 1 (720p)",
+    "url": "https://barinaslive1.boldmss.com/CANAL1/CANAL1.isml/CANAL1.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Canal Capital (1080p)",
+    "url": "http://200.122.223.13:55000/play/canal-capital-banda-ku/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Canal Capital (720p)",
+    "url": "http://190.61.47.54:8000/play/a00x/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Canal Congreso (1080p)",
+    "url": "http://181.78.82.130:8000/play/a0s1/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Canal Institucional (1080p)",
+    "url": "http://190.61.47.54:8000/play/a00v/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Canal Institucional (1080p)",
+    "url": "http://190.109.2.92:8000/play/a00z/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Canal Institucional (1080p)",
+    "url": "http://200.122.223.13:55000/play/canal-institucional-tdt/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Canal RCN (1080p)",
+    "url": "http://38.134.250.110:8000/play/a00i/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Canal RCN (1080p)",
+    "url": "http://45.173.231.22:8000/play/a00a/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Canal RCN (1080p)",
+    "url": "http://181.78.79.131:8000/play/a0sc",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Canal RCN (1080p)",
+    "url": "http://181.205.130.194:4000/play/a0dl",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Canal RCN (1080p)",
+    "url": "http://190.60.46.228:8888/play/a04d/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Canal RCN (1080p)",
+    "url": "http://190.61.47.54:8000/play/a01f/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Canal RCN (1080p)",
+    "url": "http://190.109.2.92:8000/play/a00w/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Canal RCN (1080p)",
+    "url": "http://200.59.191.177:8000/play/a004/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Canal RCN (1080p)",
+    "url": "http://200.122.223.13:55000/play/rcn-hd-tdt/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Canal RCN (1080p)",
+    "url": "https://barinaslive1.boldmss.com/RCN/RCN.isml/RCN.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Canal Telesantiago (1080p)",
+    "url": "https://stream.canaltelesantiago.com:8000/play/TELESANTIAGO/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Canal TRO (1080p)",
+    "url": "http://138.94.3.106:8000/play/a07i/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Canal TRO (1080p)",
+    "url": "http://181.78.82.130:8000/play/a0o1/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Canal TRO (1080p)",
+    "url": "http://181.78.211.244:8005/play/a08c/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Canal TRO (1080p)",
+    "url": "http://190.61.47.54:8000/play/a013/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Caracol HD2 (1080p)",
+    "url": "http://190.109.2.92:8000/play/a05u/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Caracol Internacional (1080p)",
+    "url": "http://45.5.117.57:8200/play/a0e9/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Caracol Internacional (1080p)",
+    "url": "http://45.238.141.222:8000/play/a0oo/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Caracol Internacional (1080p)",
+    "url": "http://132.255.210.69:8000/play/a049/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Caracol Internacional (1080p)",
+    "url": "http://167.249.23.102:8000/play/a0ax/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Caracol Internacional (1080p)",
+    "url": "http://168.196.127.137:6001/play/a09m/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Caracol Internacional (1080p)",
+    "url": "http://168.228.44.241:9999/play/a03z/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Caracol Internacional (1080p)",
+    "url": "http://190.123.76.22:8002/play/a06j/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Caracol Internacional (1080p)",
+    "url": "https://streaming.onnethn.com/CARACOL_INTERNACIONAL/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Caracol Internacional (720p)",
+    "url": "http://200.115.120.1:8000/play/ca067/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Caracol Internacional (576p)",
+    "url": "http://138.59.177.78:9999/play/a0a8/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Caracol TV (1080p)",
+    "url": "http://38.190.100.202:8000/play/a09v/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Caracol TV (1080p)",
+    "url": "http://45.173.12.70:8000/play/a0f9",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Caracol TV (1080p)",
+    "url": "http://45.173.231.22:8000/play/a009/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Caracol TV (1080p)",
+    "url": "http://45.188.229.33:8000/play/a0vh/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Caracol TV (1080p)",
+    "url": "http://45.188.229.33:8000/play/a1iq/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Caracol TV (1080p)",
+    "url": "http://45.226.205.96:48000/play/a0ad/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Caracol TV (1080p)",
+    "url": "http://138.94.3.106:8000/play/a06z",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Caracol TV (1080p)",
+    "url": "http://167.249.23.102:8000/play/a0i1/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Caracol TV (1080p)",
+    "url": "http://168.228.44.241:9997/play/a03t/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Caracol TV (1080p)",
+    "url": "http://179.60.224.196:8000/play/a0hw/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Caracol TV (1080p)",
+    "url": "http://181.78.8.199:8000/play/a0b0/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Caracol TV (1080p)",
+    "url": "http://181.78.8.199:8000/play/a0jz/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Caracol TV (1080p)",
+    "url": "http://181.78.12.119:16123/play/ch58/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Caracol TV (1080p)",
+    "url": "http://181.78.12.119:16123/play/ch58a/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Caracol TV (1080p)",
+    "url": "http://181.78.12.119:16123/play/ch58b/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Canal N (1080p)",
+    "url": "http://170.244.209.30:8000/play/a1ib/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "pe.m3u"
+  },
+  {
+    "name": "Canal N (1080p)",
+    "url": "http://187.102.208.209:8000/play/a0az/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "pe.m3u"
+  },
+  {
+    "name": "Canal N (576p)",
+    "url": "http://190.108.91.206:9050/play/a0bd/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "pe.m3u"
+  },
+  {
+    "name": "Chikitoonz (1080p)",
+    "url": "http://45.70.201.81:8000/play/a00p/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "pe.m3u"
+  },
+  {
+    "name": "Exitosa TV (1080p)",
+    "url": "http://170.244.209.30:8000/play/a1ic/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "pe.m3u"
+  },
+  {
+    "name": "Juntos TV (576p)",
+    "url": "http://45.70.201.81:8000/play/a019/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "pe.m3u"
   }
 ]
