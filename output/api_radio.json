@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12 09:09:04",
+  "updated_at": "2026-11-12 17:54:12",
   "type": "radio",
   "count": 58,
   "channels": [
@@ -25,18 +25,18 @@
       "country": "CL"
     },
     {
+      "name": "Cooperativa",
+      "url": "https://play.cdn.enetres.net/9E9557EFCEBB43A89CEC8FBD3C500247022/028/playlist.m3u8",
+      "logo": "https://www.cooperativa.cl/img/logo.png",
+      "group": "Noticias",
+      "country": "CL"
+    },
+    {
       "name": "NPR News",
       "url": "https://npr-ice.streamguys1.com/live.mp3",
       "logo": "",
       "group": "Noticias",
       "country": "US"
-    },
-    {
-      "name": "Cooperativa",
-      "url": "https://amixtv.com:8081/talangavision/index.m3u8",
-      "logo": "https://www.cooperativa.cl/img/logo.png",
-      "group": "Noticias",
-      "country": "CL"
     },
     {
       "name": "Cadena 3 AR",
@@ -53,17 +53,17 @@
       "country": "CL"
     },
     {
-      "name": "Pudahuel FM CL",
-      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/PUDAHUEL.mp3",
-      "logo": "",
-      "group": "Radio CL",
-      "country": "CL"
-    },
-    {
       "name": "Caracol Radio CO",
       "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CARACOL_RADIO.mp3",
       "logo": "",
       "group": "Radio CO",
+      "country": "CL"
+    },
+    {
+      "name": "Pudahuel FM CL",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/PUDAHUEL.mp3",
+      "logo": "",
+      "group": "Radio CL",
       "country": "CL"
     },
     {
@@ -102,13 +102,6 @@
       "country": "XX"
     },
     {
-      "name": "7 RadioVisione (720p)",
-      "url": "https://cdn.pishow.tv/ott/live/1257/master.m3u8",
-      "logo": "https://radio7note.com/img/favicon/android-icon-192x192.png",
-      "group": "Music",
-      "country": "XX"
-    },
-    {
       "name": "Radio Suyai TV (1080p)",
       "url": "https://cl-2.backend.energeek.cl/RadioSuyai-Neo/index.m3u8",
       "logo": "",
@@ -123,6 +116,13 @@
       "country": "XX"
     },
     {
+      "name": "BPX TV Radio",
+      "url": "https://video1.getstreamhosting.com:1936/8212/8212/playlist.m3u8",
+      "logo": "",
+      "group": "General",
+      "country": "XX"
+    },
+    {
       "name": "Azahares Radio Multimedia (720p)",
       "url": "https://streamyes.alsolnet.com/azaharesfm/live/playlist.m3u8",
       "logo": "",
@@ -130,8 +130,8 @@
       "country": "XX"
     },
     {
-      "name": "BPX TV Radio",
-      "url": "https://video1.getstreamhosting.com:1936/8212/8212/playlist.m3u8",
+      "name": "Beats Radio (480p)",
+      "url": "https://videostream.shockmedia.com.ar:19360/beatsradio/beatsradio.m3u8",
       "logo": "",
       "group": "General",
       "country": "XX"
@@ -144,15 +144,15 @@
       "country": "XX"
     },
     {
-      "name": "Power Max Radio TV (720p)",
-      "url": "https://videostream.shockmedia.com.ar:19360/radio1045/radio1045.m3u8",
-      "logo": "",
-      "group": "General",
+      "name": "7 RadioVisione (720p)",
+      "url": "https://cdn.pishow.tv/ott/live/1257/master.m3u8",
+      "logo": "https://radio7note.com/img/favicon/android-icon-192x192.png",
+      "group": "Music",
       "country": "XX"
     },
     {
-      "name": "Beats Radio (480p)",
-      "url": "https://videostream.shockmedia.com.ar:19360/beatsradio/beatsradio.m3u8",
+      "name": "Power Max Radio TV (720p)",
+      "url": "https://videostream.shockmedia.com.ar:19360/radio1045/radio1045.m3u8",
       "logo": "",
       "group": "General",
       "country": "XX"
@@ -193,22 +193,8 @@
       "country": "XX"
     },
     {
-      "name": "Catve FM (720p) [Not 24/7]",
-      "url": "https://5b33b873179a2.streamlock.net:1443/radiocamera/livestream/playlist.m3u8",
-      "logo": "",
-      "group": "General",
-      "country": "XX"
-    },
-    {
       "name": "MasMusica FM (720p)",
       "url": "https://video.ejeserver.com/live/masmusica.m3u8",
-      "logo": "",
-      "group": "General",
-      "country": "XX"
-    },
-    {
-      "name": "Blu Radio (720p)",
-      "url": "https://mdstrm.com/live-stream-playlist/58d1921a72e2b22e2905e493.m3u8",
       "logo": "",
       "group": "General",
       "country": "XX"
@@ -221,8 +207,15 @@
       "country": "XX"
     },
     {
-      "name": "Suram TV (720p)",
-      "url": "https://us.streaminghd.cl/suramtv/index.m3u8",
+      "name": "Blu Radio (720p)",
+      "url": "https://mdstrm.com/live-stream-playlist/58d1921a72e2b22e2905e493.m3u8",
+      "logo": "",
+      "group": "General",
+      "country": "XX"
+    },
+    {
+      "name": "Catve FM (720p) [Not 24/7]",
+      "url": "https://5b33b873179a2.streamlock.net:1443/radiocamera/livestream/playlist.m3u8",
       "logo": "",
       "group": "General",
       "country": "XX"
@@ -230,6 +223,13 @@
     {
       "name": "Suram TV (1080p)",
       "url": "https://livetv.305streamhd.com:3111/live/suramtvlive.m3u8",
+      "logo": "",
+      "group": "General",
+      "country": "XX"
+    },
+    {
+      "name": "Suram TV (720p)",
+      "url": "https://us.streaminghd.cl/suramtv/index.m3u8",
       "logo": "",
       "group": "General",
       "country": "XX"
@@ -256,43 +256,8 @@
       "country": "XX"
     },
     {
-      "name": "Top FM TV (240p) [Not 24/7]",
-      "url": "https://tvdatta.com:3084/live/toptvaguaytialive.m3u8",
-      "logo": "",
-      "group": "General",
-      "country": "XX"
-    },
-    {
       "name": "RadioTV Oriente (720p)",
       "url": "https://live.obslivestream.com/tvoriente/index.m3u8",
-      "logo": "",
-      "group": "General",
-      "country": "XX"
-    },
-    {
-      "name": "Turbo Mix Radio TV (360p) [Not 24/7]",
-      "url": "https://7.innovatestream.pe:19360/turbomixoficial/turbomixoficial.m3u8",
-      "logo": "",
-      "group": "General",
-      "country": "XX"
-    },
-    {
-      "name": "La Cheverisima Radio TV (720p)",
-      "url": "https://byecablecluster.ddns.net/neira/neira.stream/index.fmp4.m3u8",
-      "logo": "",
-      "group": "General",
-      "country": "XX"
-    },
-    {
-      "name": "Buenisima Radio TV",
-      "url": "https://canal.mediaserver.com.co/live/buenisimatv.m3u8",
-      "logo": "",
-      "group": "General",
-      "country": "XX"
-    },
-    {
-      "name": "Radio Uno Tacna (720p)",
-      "url": "https://iptv.ixfo.com.ar:30443/live/RadioUpTvStreaming/playlist.m3u8",
       "logo": "",
       "group": "General",
       "country": "XX"
@@ -305,29 +270,43 @@
       "country": "XX"
     },
     {
+      "name": "MasMusica FM (720p)",
+      "url": "https://movil.ejeserver.com/live/masmusica.m3u8",
+      "logo": "",
+      "group": "General",
+      "country": "XX"
+    },
+    {
+      "name": "Top FM TV (240p) [Not 24/7]",
+      "url": "https://tvdatta.com:3084/live/toptvaguaytialive.m3u8",
+      "logo": "",
+      "group": "General",
+      "country": "XX"
+    },
+    {
+      "name": "Turbo Mix Radio TV (360p) [Not 24/7]",
+      "url": "https://7.innovatestream.pe:19360/turbomixoficial/turbomixoficial.m3u8",
+      "logo": "",
+      "group": "General",
+      "country": "XX"
+    },
+    {
+      "name": "Buenisima Radio TV",
+      "url": "https://canal.mediaserver.com.co/live/buenisimatv.m3u8",
+      "logo": "",
+      "group": "General",
+      "country": "XX"
+    },
+    {
+      "name": "La Cheverisima Radio TV (720p)",
+      "url": "https://byecablecluster.ddns.net/neira/neira.stream/index.fmp4.m3u8",
+      "logo": "",
+      "group": "General",
+      "country": "XX"
+    },
+    {
       "name": "Emisora Comunitaria 104.1 FM",
-      "url": "https://v1.tustreaming.cl/emociontv/index.m3u8",
-      "logo": "",
-      "group": "General",
-      "country": "XX"
-    },
-    {
-      "name": "Atlantis Radio TV (720p)",
-      "url": "https://cdn.whiplash.cc/whiplash-atlas/index.m3u8",
-      "logo": "",
-      "group": "General",
-      "country": "XX"
-    },
-    {
-      "name": "AM Canal",
-      "url": "https://streaming.bitsur.cl:3534/live/vdo1102live.m3u8",
-      "logo": "",
-      "group": "General",
-      "country": "XX"
-    },
-    {
-      "name": "Estacion Limache TV (720p)",
-      "url": "https://v4.tustreaming.cl/limachemovil/index.m3u8",
+      "url": "https://104florencia.co/wp-admin/admin-ajax.php?action=frp_hls_proxy&url=https%3A%2F%2Fstreamyes.alsolnet.com%2Fcomunitariafm%2Flive%2Fplaylist.m3u8",
       "logo": "",
       "group": "General",
       "country": "XX"
@@ -340,8 +319,36 @@
       "country": "XX"
     },
     {
-      "name": "MasMusica FM (720p)",
-      "url": "https://movil.ejeserver.com/live/masmusica.m3u8",
+      "name": "Radio Uno Tacna (720p)",
+      "url": "https://live-evg7.tv360.bitel.com.pe/bitel/radiounotv/playlist.m3u8",
+      "logo": "",
+      "group": "General",
+      "country": "XX"
+    },
+    {
+      "name": "AM Canal",
+      "url": "https://streaming.bitsur.cl:3534/live/vdo1102live.m3u8",
+      "logo": "",
+      "group": "General",
+      "country": "XX"
+    },
+    {
+      "name": "Turbo Mix Radio TV (720p)",
+      "url": "https://live-evg11.tv360.bitel.com.pe/bitel/turbomixSRT/playlist.m3u8",
+      "logo": "",
+      "group": "General",
+      "country": "XX"
+    },
+    {
+      "name": "Estacion Limache TV (720p)",
+      "url": "https://v4.tustreaming.cl/limachemovil/index.m3u8",
+      "logo": "",
+      "group": "General",
+      "country": "XX"
+    },
+    {
+      "name": "Atlantis Radio TV (720p)",
+      "url": "https://live-evg8.tv360.bitel.com.pe/bitel/atlantisSRT/playlist.m3u8",
       "logo": "",
       "group": "General",
       "country": "XX"
@@ -349,13 +356,6 @@
     {
       "name": "Correa Radiovision",
       "url": "https://617c5175c970b.streamlock.net:4444/13max2/live13maxtv2026/playlist.m3u8",
-      "logo": "",
-      "group": "General",
-      "country": "XX"
-    },
-    {
-      "name": "ACE Country Radio KPVM-LD (480p)",
-      "url": "https://2-fss-1.streamhoster.com/pl_122/206858-4412960-1/playlist.m3u8",
       "logo": "",
       "group": "General",
       "country": "XX"
@@ -375,8 +375,8 @@
       "country": "XX"
     },
     {
-      "name": "Emisora Comunitaria 104.1 FM",
-      "url": "https://v1.tustreaming.cl/emociontv/index.m3u8",
+      "name": "ACE Country Radio KPVM-LD (480p)",
+      "url": "https://2-fss-1.streamhoster.com/pl_122/206858-4412960-1/playlist.m3u8",
       "logo": "",
       "group": "General",
       "country": "XX"
@@ -396,8 +396,8 @@
       "country": "XX"
     },
     {
-      "name": "Turbo Mix Radio TV (720p)",
-      "url": "https://live-evg11.tv360.bitel.com.pe/bitel/turbomixSRT/playlist.m3u8",
+      "name": "Emisora Comunitaria 104.1 FM",
+      "url": "https://104florencia.co/wp-admin/admin-ajax.php?action=frp_hls_proxy&url=https://streamyes.alsolnet.com/comunitariafm/live/playlist.m3u8",
       "logo": "",
       "group": "General",
       "country": "XX"
