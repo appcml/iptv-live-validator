@@ -125014,5 +125014,21 @@
     "group": "General",
     "country": "XX",
     "source": "es.m3u"
+  },
+  {
+    "name": "6ter (720p)",
+    "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/6ter_fr/live.livx/playlist.m3u8",
+    "logo": "https://i.imgur.com/2nd5Cox.png",
+    "group": "Entertainment",
+    "country": "XX",
+    "source": "index.m3u"
+  },
+  {
+    "name": "Golden Edge (1080p)",
+    "url": "http://168.196.127.137:6001/play/a09p/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
   }
 ]
