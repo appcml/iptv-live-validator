@@ -125046,5 +125046,109 @@
     "group": "General",
     "country": "XX",
     "source": "br.m3u"
+  },
+  {
+    "name": "5Gold",
+    "url": "https://r.il.cdn-redge.media/livehls/oil/freetv/live/sport_5_gold/live.livx/playlist.m3u8",
+    "logo": "https://i.imgur.com/zFLRfXh.png",
+    "group": "Sports",
+    "country": "XX",
+    "source": "index.m3u"
+  },
+  {
+    "name": "5Live",
+    "url": "https://r.il.cdn-redge.media/livehls/oil/freetv/live/sport_5_live/live.livx/playlist.m3u8",
+    "logo": "https://i.imgur.com/0yr3yvd.png",
+    "group": "Sports",
+    "country": "XX",
+    "source": "index.m3u"
+  },
+  {
+    "name": "5Sport 4K",
+    "url": "https://r.il.cdn-redge.media/livehls/oil/freetv/live/sport_5_4k_avc/live.livx/playlist.m3u8",
+    "logo": "https://i.imgur.com/Msfhpqd.png",
+    "group": "Sports",
+    "country": "XX",
+    "source": "index.m3u"
+  },
+  {
+    "name": "5Sport",
+    "url": "https://r.il.cdn-redge.media/livehls/oil/freetv/live/sport_5/live.livx/playlist.m3u8",
+    "logo": "https://i.imgur.com/dRVsB89.png",
+    "group": "Sports",
+    "country": "XX",
+    "source": "index.m3u"
+  },
+  {
+    "name": "A&E (1080p)",
+    "url": "https://cache0.wonvt.st/live/0c4r73315dt0we0fitn3j/master.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "ABC (1080p)",
+    "url": "https://cache0.wonvt.st/live/01qdodh1lghijw0ls22qa/master.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "AMC en Espanol (1080p) [Geo-blocked]",
+    "url": "https://amc-amcespanol-1-us.plex.wurl.tv/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "AMC Series Latin America",
+    "url": "http://45.5.118.231:5001/stream/41/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "America Internacional (720p)",
+    "url": "https://api-ott.americatv.com.pe/loggingmediaurlpassthrough/a.m3u8?version=12&id=10&partner=whaletv&tag_id=139913&app_name=Whale+TV%2B&app_store=Browser&ic=IAB1&url=&wtv_channel_id=0470&content_id=&content_genre=News&content_title=&content_series=&content_season=&content_episode=&language=&dur=&rating=12%2B&content_producer_name=OTTera_AmericaTV_AmericaTelevision&content_categories=IAB19-29%2CIAB12&content_custom_1_param=OTTera&content_custom_2_param=F%2CM&content_custom_3_param=18-20%2C21-24%2C25-29%2C30-34%2C35-39%2C40-44%2C45-49%2C50-54%2C55-59&tv_language=&device_make=&tv_vendor=&brand_name=&device_model=&tv_model=&gdpr=1&gdpr_consent=&did=&ua=&ip=&dnt=&lmt=&coppa=0&us_privacy=1YNN&min_dur=5&max_dur=30&cb=&h=&w=&content_livestream=1&placement=1&ap=1&mute=0&skip=0&ads.gdpr=0",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "pe.m3u"
+  },
+  {
+    "name": "Bicolor+ (720p)",
+    "url": "https://live-evg10.tv360.bitel.com.pe/bitel/bicolorfree_abr/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "pe.m3u"
+  },
+  {
+    "name": "Bicolor+ Premium [Geo-blocked]",
+    "url": "https://live-evg10.tv360.bitel.com.pe/bitel/bicolorpremium_abr/bitel/bicolorpremium_720p/chunks.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "pe.m3u"
+  },
+  {
+    "name": "Bicolor+ Premium 2 (720p)",
+    "url": "https://live-evg10.tv360.bitel.com.pe/bitel/bicolorpremium2_abr/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "pe.m3u"
+  },
+  {
+    "name": "Bicolor+ Premium 3 (720p)",
+    "url": "https://live-evg10.tv360.bitel.com.pe/bitel/bicolorpremium3_abr/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "pe.m3u"
   }
 ]
