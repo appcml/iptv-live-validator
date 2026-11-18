@@ -125150,5 +125150,197 @@
     "group": "General",
     "country": "XX",
     "source": "pe.m3u"
+  },
+  {
+    "name": "ChileVision (1080p)",
+    "url": "http://181.78.88.113:9800/play/a05h/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "cl.m3u"
+  },
+  {
+    "name": "La Red (720p)",
+    "url": "https://ddycmnicl95kp.cloudfront.net/live/xmw27slnrnv8/master.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "cl.m3u"
+  },
+  {
+    "name": "24 Horas (576p)",
+    "url": "https://n-5-2.eu.cdn-redge.media/livehls/oeu/mt/live/24h/live.livx/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "es.m3u"
+  },
+  {
+    "name": "Antena 3 (1080p)",
+    "url": "https://ignac16.github.io/voxel-tv-streams/a3.mpd",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "es.m3u"
+  },
+  {
+    "name": "Antena 3 (480p)",
+    "url": "https://cdn.jsdelivr.net/gh/Ignac16/voxel-tv@main/src/constants/channels/a3.mpd",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "es.m3u"
+  },
+  {
+    "name": "Atreseries (480p)",
+    "url": "https://cdn.jsdelivr.net/gh/Ignac16/voxel-tv@main/src/constants/channels/a3s.mpd",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "es.m3u"
+  },
+  {
+    "name": "Atreseries HD (1080p)",
+    "url": "https://ignac16.github.io/voxel-tv-streams/a3s.mpd",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "es.m3u"
+  },
+  {
+    "name": "AXN",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=4238619703",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "es.m3u"
+  },
+  {
+    "name": "AXN HD (1080p)",
+    "url": "http://90.170.214.40:9700/stream/avatel/axn/master.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "es.m3u"
+  },
+  {
+    "name": "AXN Movies",
+    "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2493319111",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "es.m3u"
+  },
+  {
+    "name": "Boing (1080p)",
+    "url": "http://90.170.214.40:9700/stream/avatel/boing/master.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "es.m3u"
+  },
+  {
+    "name": "Bom Cine (576p)",
+    "url": "https://cdn78-at.azotosolutions.com/cdnedge39/Canale3/master.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "es.m3u"
+  },
+  {
+    "name": "El Chavo TV (720p)",
+    "url": "https://183.giatvcdn.com/giatvplayout7/giatv-211465/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "FOX Central (1080p)",
+    "url": "http://181.78.106.127:5000/play/a009/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Canal 3 Arroyito (1080p)",
+    "url": "https://envivo.cespalarroyito.coop/live/Canal3Arroyito.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "ar.m3u"
+  },
+  {
+    "name": "Canal 9 Rio Cuarto (1080p)",
+    "url": "https://tv.streamcasthd.com:3249/live/canal9riocuartolive.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "ar.m3u"
+  },
+  {
+    "name": "Canal 10 Goya (1080p)",
+    "url": "https://tv.streamcasthd.com:3637/live/canal10goyalive.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "ar.m3u"
+  },
+  {
+    "name": "Canal 20 Villa Maria (1080p)",
+    "url": "https://stmvideo3.livecastv.com/canal20/canal20/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "ar.m3u"
+  },
+  {
+    "name": "CaliTV (1080p)",
+    "url": "https://tdcdigital-streams.github.io/iptv/CaliTV.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Canal 8 Sincelejo (720p)",
+    "url": "http://181.78.21.38:8000/play/a0df/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Caracol TV (1080p)",
+    "url": "http://45.166.93.156:9999/play/a0f5/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Caracol TV (1080p)",
+    "url": "http://167.250.223.26:9998/play/a05e/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "Caracol TV (1080p)",
+    "url": "http://179.1.199.50:9000/play/a0a1/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u"
+  },
+  {
+    "name": "America Internacional (720p)",
+    "url": "https://api-ott.americatv.com.pe/loggingmediaurlpassthrough/a.m3u8?ads.gdpr=0&ap=1&app_name=Whale+TV%2B&app_store=Browser&brand_name=&cb=&content_categories=IAB19-29%2CIAB12&content_custom_1_param=OTTera&content_custom_2_param=F%2CM&content_custom_3_param=18-20%2C21-24%2C25-29%2C30-34%2C35-39%2C40-44%2C45-49%2C50-54%2C55-59&content_episode=&content_genre=News&content_id=&content_livestream=1&content_producer_name=OTTera_AmericaTV_AmericaTelevision&content_season=&content_series=&content_title=&coppa=0&device_make=&device_model=&did=&dnt=&dur=&gdpr=1&gdpr_consent=&h=&ic=IAB1&id=10&ip=&language=&lmt=&max_dur=30&min_dur=5&mute=0&partner=whaletv&placement=1&rating=12%2B&skip=0&tag_id=139913&tv_language=&tv_model=&tv_vendor=&ua=&url=&us_privacy=1YNN&version=12&w=&wtv_channel_id=0470",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "pe.m3u"
   }
 ]
