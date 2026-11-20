@@ -125382,5 +125382,29 @@
     "group": "General",
     "country": "XX",
     "source": "cl.m3u"
+  },
+  {
+    "name": "3TV (1080p) [Geo-blocked]",
+    "url": "https://amg00312-amg00312c59-amgplt0022.playout.now3.amagi.tv/ts-us-e2-n2/playlist/amg00312-amg00312c59-amgplt0022/playlist.m3u8",
+    "logo": "https://i.imgur.com/kQ1x2yK.png",
+    "group": "Undefined",
+    "country": "XX",
+    "source": "index.m3u"
+  },
+  {
+    "name": "8XM (576p)",
+    "url": "http://116.90.120.149:8000/play/a0tw/index.m3u8",
+    "logo": "https://i.imgur.com/KLrfKRn.png",
+    "group": "Music",
+    "country": "XX",
+    "source": "index.m3u"
+  },
+  {
+    "name": "ChileVision (1080p) [Geo-blocked]",
+    "url": "https://redirector.dps.live/hls/chv/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "cl.m3u"
   }
 ]
