@@ -125406,5 +125406,13 @@
     "group": "General",
     "country": "XX",
     "source": "cl.m3u"
+  },
+  {
+    "name": "AXN (1080p)",
+    "url": "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fgeil.to%2Flive%2Fplay%2F4238619703",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "es.m3u"
   }
 ]
