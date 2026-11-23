@@ -10,24 +10,8 @@
       "url": "https://amg00654-itv-amg00654c35-rakuten-gb-7598.playouts.now.amagi.tv/playlist.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.03,
-      "checked_at": "2026-11-23 01:22:49",
-      "error": ""
-    }
-  },
-  {
-    "name": "Pratham Khabar 24x7",
-    "url": "https://livelegitpro.in/hls2/newstime/index.m3u8",
-    "logo": "https://a.jsrdn.com/hls/23215/pratham-khabar-24x7/logo_20250813_201110_68.png",
-    "group": "Undefined",
-    "country": "CL",
-    "source": "cic-tv",
-    "validation": {
-      "url": "https://livelegitpro.in/hls2/newstime/index.m3u8",
-      "online": true,
-      "status_code": 200,
-      "response_time": 1.2,
-      "checked_at": "2026-11-23 01:22:51",
+      "response_time": 0.04,
+      "checked_at": "2026-11-23 10:11:38",
       "error": ""
     }
   },
@@ -42,24 +26,24 @@
       "url": "https://vglivessai.akamaized.net/ptnr-lg/title-News_Malayalam_LGIndia/us/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/23b1b63f-0419-4eb7-8816-d502a77d3f50/index.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.35,
-      "checked_at": "2026-11-23 01:22:53",
+      "response_time": 0.4,
+      "checked_at": "2026-11-23 10:11:40",
       "error": ""
     }
   },
   {
-    "name": "NPR News",
-    "url": "https://npr-ice.streamguys1.com/live.mp3",
-    "logo": "",
-    "group": "Noticias",
-    "country": "US",
-    "source": "static",
+    "name": "Pratham Khabar 24x7",
+    "url": "https://livelegitpro.in/hls2/newstime/index.m3u8",
+    "logo": "https://a.jsrdn.com/hls/23215/pratham-khabar-24x7/logo_20250813_201110_68.png",
+    "group": "Undefined",
+    "country": "CL",
+    "source": "cic-tv",
     "validation": {
-      "url": "https://npr-ice.streamguys1.com/live.mp3",
+      "url": "https://livelegitpro.in/hls2/newstime/index.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.36,
-      "checked_at": "2026-11-23 01:22:49",
+      "response_time": 0.99,
+      "checked_at": "2026-11-23 10:11:41",
       "error": ""
     }
   },
@@ -75,7 +59,7 @@
       "online": true,
       "status_code": 200,
       "response_time": 0.18,
-      "checked_at": "2026-11-23 01:22:55",
+      "checked_at": "2026-11-23 10:11:43",
       "error": ""
     }
   },
@@ -90,8 +74,8 @@
       "url": "https://cadena3.com/stream/cadena3.aac",
       "online": true,
       "status_code": 200,
-      "response_time": 0.33,
-      "checked_at": "2026-11-23 01:22:49",
+      "response_time": 0.32,
+      "checked_at": "2026-11-23 10:11:38",
       "error": ""
     }
   },
@@ -106,24 +90,8 @@
       "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/ADN.mp3",
       "online": true,
       "status_code": 200,
-      "response_time": 0.82,
-      "checked_at": "2026-11-23 01:22:49",
-      "error": ""
-    }
-  },
-  {
-    "name": "Pudahuel FM CL",
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/PUDAHUEL.mp3",
-    "logo": "",
-    "group": "Radio CL",
-    "country": "CL",
-    "source": "cic-tv",
-    "validation": {
-      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/PUDAHUEL.mp3",
-      "online": true,
-      "status_code": 200,
-      "response_time": 0.49,
-      "checked_at": "2026-11-23 01:22:49",
+      "response_time": 0.89,
+      "checked_at": "2026-11-23 10:11:38",
       "error": ""
     }
   },
@@ -138,8 +106,24 @@
       "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CARACOL_RADIO.mp3",
       "online": true,
       "status_code": 200,
-      "response_time": 0.49,
-      "checked_at": "2026-11-23 01:22:49",
+      "response_time": 0.45,
+      "checked_at": "2026-11-23 10:11:38",
+      "error": ""
+    }
+  },
+  {
+    "name": "Pudahuel FM CL",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/PUDAHUEL.mp3",
+    "logo": "",
+    "group": "Radio CL",
+    "country": "CL",
+    "source": "cic-tv",
+    "validation": {
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/PUDAHUEL.mp3",
+      "online": true,
+      "status_code": 200,
+      "response_time": 0.76,
+      "checked_at": "2026-11-23 10:11:38",
       "error": ""
     }
   },
@@ -154,8 +138,8 @@
       "url": "https://3abn.bozztv.com/3abn2/d2d_live/smil:d2d_live.smil/playlist.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.42,
-      "checked_at": "2026-11-23 01:22:49",
+      "response_time": 0.29,
+      "checked_at": "2026-11-23 10:11:39",
       "error": ""
     }
   },
@@ -170,8 +154,8 @@
       "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40.mp3",
       "online": true,
       "status_code": 200,
-      "response_time": 0.86,
-      "checked_at": "2026-11-23 01:22:49",
+      "response_time": 0.61,
+      "checked_at": "2026-11-23 10:11:38",
       "error": ""
     }
   },
@@ -186,8 +170,8 @@
       "url": "https://5eaccbab48461.streamlock.net:1936/dancefm_1/dancefm_1/playlist.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.57,
-      "checked_at": "2026-11-23 01:22:50",
+      "response_time": 0.47,
+      "checked_at": "2026-11-23 10:11:39",
       "error": ""
     }
   },
@@ -202,40 +186,8 @@
       "url": "https://cl-2.backend.energeek.cl/RadioSuyai-Neo/index.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.57,
-      "checked_at": "2026-11-23 01:22:58",
-      "error": ""
-    }
-  },
-  {
-    "name": "7 RadioVisione (720p)",
-    "url": "https://cdn.pishow.tv/ott/live/1257/master.m3u8",
-    "logo": "https://radio7note.com/img/favicon/android-icon-192x192.png",
-    "group": "Music",
-    "country": "XX",
-    "source": "index.m3u",
-    "validation": {
-      "url": "https://cdn.pishow.tv/ott/live/1257/master.m3u8",
-      "online": true,
-      "status_code": 200,
-      "response_time": 0.72,
-      "checked_at": "2026-11-23 01:23:01",
-      "error": ""
-    }
-  },
-  {
-    "name": "BPX TV Radio",
-    "url": "https://video1.getstreamhosting.com:1936/8212/8212/playlist.m3u8",
-    "logo": "",
-    "group": "General",
-    "country": "XX",
-    "source": "us.m3u",
-    "validation": {
-      "url": "https://video1.getstreamhosting.com:1936/8212/8212/playlist.m3u8",
-      "online": true,
-      "status_code": 200,
-      "response_time": 0.22,
-      "checked_at": "2026-11-23 01:22:50",
+      "response_time": 0.44,
+      "checked_at": "2026-11-23 10:11:48",
       "error": ""
     }
   },
@@ -250,8 +202,56 @@
       "url": "https://stream.ontvmx.com/ontv/Wn3jgo4UYNSmwRDIev/playlist.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.28,
-      "checked_at": "2026-11-23 01:22:50",
+      "response_time": 0.17,
+      "checked_at": "2026-11-23 10:11:39",
+      "error": ""
+    }
+  },
+  {
+    "name": "7 RadioVisione (720p)",
+    "url": "https://cdn.pishow.tv/ott/live/1257/master.m3u8",
+    "logo": "https://radio7note.com/img/favicon/android-icon-192x192.png",
+    "group": "Music",
+    "country": "XX",
+    "source": "index.m3u",
+    "validation": {
+      "url": "https://cdn.pishow.tv/ott/live/1257/master.m3u8",
+      "online": true,
+      "status_code": 200,
+      "response_time": 0.74,
+      "checked_at": "2026-11-23 10:11:51",
+      "error": ""
+    }
+  },
+  {
+    "name": "BPX TV Radio",
+    "url": "https://video1.getstreamhosting.com:1936/8212/8212/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u",
+    "validation": {
+      "url": "https://video1.getstreamhosting.com:1936/8212/8212/playlist.m3u8",
+      "online": true,
+      "status_code": 200,
+      "response_time": 0.3,
+      "checked_at": "2026-11-23 10:11:39",
+      "error": ""
+    }
+  },
+  {
+    "name": "13 Siam Thai (1080p)",
+    "url": "https://live.x2.co.th/live/13livetv-th.m3u8",
+    "logo": "https://i.imgur.com/FvEp1S2.png",
+    "group": "News",
+    "country": "XX",
+    "source": "index.m3u",
+    "validation": {
+      "url": "https://live.x2.co.th/live/13livetv-th.m3u8",
+      "online": true,
+      "status_code": 200,
+      "response_time": 0.91,
+      "checked_at": "2026-11-23 10:11:39",
       "error": ""
     }
   },
@@ -266,8 +266,8 @@
       "url": "https://streamyes.alsolnet.com/azaharesfm/live/playlist.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.36,
-      "checked_at": "2026-11-23 01:22:50",
+      "response_time": 0.25,
+      "checked_at": "2026-11-23 10:11:40",
       "error": ""
     }
   },
@@ -282,8 +282,24 @@
       "url": "https://videostream.shockmedia.com.ar:19360/beatsradio/beatsradio.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.37,
-      "checked_at": "2026-11-23 01:22:50",
+      "response_time": 0.32,
+      "checked_at": "2026-11-23 10:11:40",
+      "error": ""
+    }
+  },
+  {
+    "name": "Más FM 95.9 (720p)",
+    "url": "https://vivo.solumedia.com:19360/masfm/masfm.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "ar.m3u",
+    "validation": {
+      "url": "https://vivo.solumedia.com:19360/masfm/masfm.m3u8",
+      "online": true,
+      "status_code": 200,
+      "response_time": 0.23,
+      "checked_at": "2026-11-23 10:11:40",
       "error": ""
     }
   },
@@ -299,23 +315,7 @@
       "online": true,
       "status_code": 200,
       "response_time": 0.32,
-      "checked_at": "2026-11-23 01:22:51",
-      "error": ""
-    }
-  },
-  {
-    "name": "Más FM 95.9 (720p)",
-    "url": "https://vivo.solumedia.com:19360/masfm/masfm.m3u8",
-    "logo": "",
-    "group": "General",
-    "country": "XX",
-    "source": "ar.m3u",
-    "validation": {
-      "url": "https://vivo.solumedia.com:19360/masfm/masfm.m3u8",
-      "online": true,
-      "status_code": 200,
-      "response_time": 0.55,
-      "checked_at": "2026-11-23 01:22:51",
+      "checked_at": "2026-11-23 10:11:40",
       "error": ""
     }
   },
@@ -330,24 +330,8 @@
       "url": "https://vivo.solumedia.com:19360/realpolitik/realpolitik.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.37,
-      "checked_at": "2026-11-23 01:22:51",
-      "error": ""
-    }
-  },
-  {
-    "name": "Radio Conexion Web TV (720p)",
-    "url": "https://tuvideoonline.com.ar:3391/live/radioconexionlive.m3u8",
-    "logo": "",
-    "group": "General",
-    "country": "XX",
-    "source": "ar.m3u",
-    "validation": {
-      "url": "https://tuvideoonline.com.ar:3391/live/radioconexionlive.m3u8",
-      "online": true,
-      "status_code": 200,
-      "response_time": 0.79,
-      "checked_at": "2026-11-23 01:22:51",
+      "response_time": 0.27,
+      "checked_at": "2026-11-23 10:11:40",
       "error": ""
     }
   },
@@ -362,8 +346,24 @@
       "url": "https://live.enhdtv.com:8081/radioiguazutv/index.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.43,
-      "checked_at": "2026-11-23 01:22:51",
+      "response_time": 0.35,
+      "checked_at": "2026-11-23 10:11:40",
+      "error": ""
+    }
+  },
+  {
+    "name": "Radio Conexion Web TV (720p)",
+    "url": "https://tuvideoonline.com.ar:3391/live/radioconexionlive.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "ar.m3u",
+    "validation": {
+      "url": "https://tuvideoonline.com.ar:3391/live/radioconexionlive.m3u8",
+      "online": true,
+      "status_code": 200,
+      "response_time": 0.76,
+      "checked_at": "2026-11-23 10:11:40",
       "error": ""
     }
   },
@@ -378,24 +378,8 @@
       "url": "http://204.199.3.2/.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.42,
-      "checked_at": "2026-11-23 01:22:52",
-      "error": ""
-    }
-  },
-  {
-    "name": "Radio TV Neuquén (720p) [Not 24/7]",
-    "url": "https://media.neuquen.gov.ar/rtn/television/playlist.m3u8",
-    "logo": "",
-    "group": "General",
-    "country": "XX",
-    "source": "ar.m3u",
-    "validation": {
-      "url": "https://media.neuquen.gov.ar/rtn/television/playlist.m3u8",
-      "online": true,
-      "status_code": 200,
-      "response_time": 1.17,
-      "checked_at": "2026-11-23 01:22:51",
+      "response_time": 0.35,
+      "checked_at": "2026-11-23 10:11:41",
       "error": ""
     }
   },
@@ -410,8 +394,8 @@
       "url": "https://movil.ejeserver.com/live/lamoradatv.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.26,
-      "checked_at": "2026-11-23 01:22:52",
+      "response_time": 0.23,
+      "checked_at": "2026-11-23 10:11:41",
       "error": ""
     }
   },
@@ -426,56 +410,24 @@
       "url": "https://movil.ejeserver.com/live/masmusica.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.26,
-      "checked_at": "2026-11-23 01:22:52",
+      "response_time": 0.19,
+      "checked_at": "2026-11-23 10:11:41",
       "error": ""
     }
   },
   {
-    "name": "Catve FM (720p) [Not 24/7]",
-    "url": "https://5b33b873179a2.streamlock.net:1443/radiocamera/livestream/playlist.m3u8",
+    "name": "Radio TV Neuquén (720p) [Not 24/7]",
+    "url": "https://media.neuquen.gov.ar/rtn/television/playlist.m3u8",
     "logo": "",
     "group": "General",
     "country": "XX",
-    "source": "br.m3u",
+    "source": "ar.m3u",
     "validation": {
-      "url": "https://5b33b873179a2.streamlock.net:1443/radiocamera/livestream/playlist.m3u8",
+      "url": "https://media.neuquen.gov.ar/rtn/television/playlist.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 1.02,
-      "checked_at": "2026-11-23 01:22:52",
-      "error": ""
-    }
-  },
-  {
-    "name": "Blu Radio (720p)",
-    "url": "https://mdstrm.com/live-stream-playlist/58d1921a72e2b22e2905e493.m3u8",
-    "logo": "",
-    "group": "General",
-    "country": "XX",
-    "source": "co.m3u",
-    "validation": {
-      "url": "https://mdstrm.com/live-stream-playlist/58d1921a72e2b22e2905e493.m3u8",
-      "online": true,
-      "status_code": 200,
-      "response_time": 0.72,
-      "checked_at": "2026-11-23 01:22:52",
-      "error": ""
-    }
-  },
-  {
-    "name": "Suram TV (1080p)",
-    "url": "https://livetv.305streamhd.com:3111/live/suramtvlive.m3u8",
-    "logo": "",
-    "group": "General",
-    "country": "XX",
-    "source": "co.m3u",
-    "validation": {
-      "url": "https://livetv.305streamhd.com:3111/live/suramtvlive.m3u8",
-      "online": true,
-      "status_code": 200,
-      "response_time": 0.15,
-      "checked_at": "2026-11-23 01:22:53",
+      "response_time": 1.07,
+      "checked_at": "2026-11-23 10:11:40",
       "error": ""
     }
   },
@@ -490,8 +442,24 @@
       "url": "https://video.ejeserver.com/live/masmusica.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.3,
-      "checked_at": "2026-11-23 01:22:52",
+      "response_time": 0.22,
+      "checked_at": "2026-11-23 10:11:41",
+      "error": ""
+    }
+  },
+  {
+    "name": "Catve FM (720p) [Not 24/7]",
+    "url": "https://5b33b873179a2.streamlock.net:1443/radiocamera/livestream/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "br.m3u",
+    "validation": {
+      "url": "https://5b33b873179a2.streamlock.net:1443/radiocamera/livestream/playlist.m3u8",
+      "online": true,
+      "status_code": 200,
+      "response_time": 0.84,
+      "checked_at": "2026-11-23 10:11:41",
       "error": ""
     }
   },
@@ -506,8 +474,24 @@
       "url": "https://us.streaminghd.cl/suramtv/index.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.3,
-      "checked_at": "2026-11-23 01:22:53",
+      "response_time": 0.2,
+      "checked_at": "2026-11-23 10:11:41",
+      "error": ""
+    }
+  },
+  {
+    "name": "Suram TV (1080p)",
+    "url": "https://livetv.305streamhd.com:3111/live/suramtvlive.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u",
+    "validation": {
+      "url": "https://livetv.305streamhd.com:3111/live/suramtvlive.m3u8",
+      "online": true,
+      "status_code": 200,
+      "response_time": 0.38,
+      "checked_at": "2026-11-23 10:11:41",
       "error": ""
     }
   },
@@ -522,8 +506,8 @@
       "url": "https://videoserver.tmcreativos.com:19360/radiomaster/radiomaster.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.38,
-      "checked_at": "2026-11-23 01:22:53",
+      "response_time": 0.34,
+      "checked_at": "2026-11-23 10:11:41",
       "error": ""
     }
   },
@@ -538,8 +522,8 @@
       "url": "https://videoserver.tmcreativos.com:19360/raditropical/raditropical.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.38,
-      "checked_at": "2026-11-23 01:22:53",
+      "response_time": 0.22,
+      "checked_at": "2026-11-23 10:11:42",
       "error": ""
     }
   },
@@ -554,40 +538,8 @@
       "url": "https://live.obslivestream.com/tvoriente/index.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.37,
-      "checked_at": "2026-11-23 01:22:53",
-      "error": ""
-    }
-  },
-  {
-    "name": "Top FM TV (240p) [Not 24/7]",
-    "url": "https://tvdatta.com:3084/live/toptvaguaytialive.m3u8",
-    "logo": "",
-    "group": "General",
-    "country": "XX",
-    "source": "pe.m3u",
-    "validation": {
-      "url": "https://tvdatta.com:3084/live/toptvaguaytialive.m3u8",
-      "online": true,
-      "status_code": 200,
-      "response_time": 0.32,
-      "checked_at": "2026-11-23 01:22:53",
-      "error": ""
-    }
-  },
-  {
-    "name": "Turbo Mix Radio TV (360p) [Not 24/7]",
-    "url": "https://7.innovatestream.pe:19360/turbomixoficial/turbomixoficial.m3u8",
-    "logo": "",
-    "group": "General",
-    "country": "XX",
-    "source": "pe.m3u",
-    "validation": {
-      "url": "https://7.innovatestream.pe:19360/turbomixoficial/turbomixoficial.m3u8",
-      "online": true,
-      "status_code": 200,
-      "response_time": 0.37,
-      "checked_at": "2026-11-23 01:22:53",
+      "response_time": 0.2,
+      "checked_at": "2026-11-23 10:11:42",
       "error": ""
     }
   },
@@ -602,72 +554,56 @@
       "url": "https://eu1.servers10.com:8081/8004/index.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.82,
-      "checked_at": "2026-11-23 01:22:53",
+      "response_time": 0.64,
+      "checked_at": "2026-11-23 10:11:41",
       "error": ""
     }
   },
   {
-    "name": "Turbo Mix Radio TV (720p)",
-    "url": "https://dash3.antik.sk/live/turbo_tv_avc_25p/playlist.m3u8",
+    "name": "Top FM TV (240p) [Not 24/7]",
+    "url": "https://tvdatta.com:3084/live/toptvaguaytialive.m3u8",
     "logo": "",
     "group": "General",
     "country": "XX",
     "source": "pe.m3u",
     "validation": {
-      "url": "https://dash3.antik.sk/live/turbo_tv_avc_25p/playlist.m3u8",
+      "url": "https://tvdatta.com:3084/live/toptvaguaytialive.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.58,
-      "checked_at": "2026-11-23 01:23:06",
+      "response_time": 0.24,
+      "checked_at": "2026-11-23 10:11:42",
       "error": ""
     }
   },
   {
-    "name": "Radio Uno Tacna (720p)",
-    "url": "https://iptv.ixfo.com.ar:30443/live/RadioUpTvStreaming/playlist.m3u8",
-    "logo": "",
-    "group": "General",
-    "country": "XX",
-    "source": "pe.m3u",
-    "validation": {
-      "url": "https://iptv.ixfo.com.ar:30443/live/RadioUpTvStreaming/playlist.m3u8",
-      "online": true,
-      "status_code": 200,
-      "response_time": 1.21,
-      "checked_at": "2026-11-23 01:23:08",
-      "error": ""
-    }
-  },
-  {
-    "name": "Buenisima Radio TV",
-    "url": "https://canal.mediaserver.com.co/live/buenisimatv.m3u8",
+    "name": "Blu Radio (720p)",
+    "url": "https://mdstrm.com/live-stream-playlist/58d1921a72e2b22e2905e493.m3u8",
     "logo": "",
     "group": "General",
     "country": "XX",
     "source": "co.m3u",
     "validation": {
-      "url": "https://canal.mediaserver.com.co/live/buenisimatv.m3u8",
+      "url": "https://mdstrm.com/live-stream-playlist/58d1921a72e2b22e2905e493.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.09,
-      "checked_at": "2026-11-23 01:22:54",
+      "response_time": 1.44,
+      "checked_at": "2026-11-23 10:11:41",
       "error": ""
     }
   },
   {
-    "name": "Atlantis Radio TV (720p)",
-    "url": "https://cdn.whiplash.cc/whiplash-atlas/index.m3u8",
+    "name": "Turbo Mix Radio TV (360p) [Not 24/7]",
+    "url": "https://7.innovatestream.pe:19360/turbomixoficial/turbomixoficial.m3u8",
     "logo": "",
     "group": "General",
     "country": "XX",
     "source": "pe.m3u",
     "validation": {
-      "url": "https://cdn.whiplash.cc/whiplash-atlas/index.m3u8",
+      "url": "https://7.innovatestream.pe:19360/turbomixoficial/turbomixoficial.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.11,
-      "checked_at": "2026-11-23 01:23:11",
+      "response_time": 0.4,
+      "checked_at": "2026-11-23 10:11:42",
       "error": ""
     }
   },
@@ -682,8 +618,24 @@
       "url": "https://byecablecluster.ddns.net/neira/neira.stream/index.fmp4.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 1.1,
-      "checked_at": "2026-11-23 01:22:53",
+      "response_time": 0.66,
+      "checked_at": "2026-11-23 10:11:42",
+      "error": ""
+    }
+  },
+  {
+    "name": "Buenisima Radio TV",
+    "url": "https://canal.mediaserver.com.co/live/buenisimatv.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u",
+    "validation": {
+      "url": "https://canal.mediaserver.com.co/live/buenisimatv.m3u8",
+      "online": true,
+      "status_code": 200,
+      "response_time": 0.23,
+      "checked_at": "2026-11-23 10:11:43",
       "error": ""
     }
   },
@@ -698,8 +650,40 @@
       "url": "https://v1.tustreaming.cl/emociontv/index.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.57,
-      "checked_at": "2026-11-23 01:23:12",
+      "response_time": 0.43,
+      "checked_at": "2026-11-23 10:11:54",
+      "error": ""
+    }
+  },
+  {
+    "name": "Radio Uno Tacna (720p)",
+    "url": "https://iptv.ixfo.com.ar:30443/live/RadioUpTvStreaming/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "pe.m3u",
+    "validation": {
+      "url": "https://iptv.ixfo.com.ar:30443/live/RadioUpTvStreaming/playlist.m3u8",
+      "online": true,
+      "status_code": 200,
+      "response_time": 0.89,
+      "checked_at": "2026-11-23 10:11:56",
+      "error": ""
+    }
+  },
+  {
+    "name": "Turbo Mix Radio TV (720p)",
+    "url": "https://dash3.antik.sk/live/turbo_tv_avc_25p/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "pe.m3u",
+    "validation": {
+      "url": "https://dash3.antik.sk/live/turbo_tv_avc_25p/playlist.m3u8",
+      "online": true,
+      "status_code": 200,
+      "response_time": 0.39,
+      "checked_at": "2026-11-23 10:11:58",
       "error": ""
     }
   },
@@ -714,8 +698,24 @@
       "url": "https://amg00654-itv-amg00654c1-samsung-au-1072.playouts.now.amagi.tv/itv-hellskitchen-samsung/playlist.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.03,
-      "checked_at": "2026-11-23 01:23:13",
+      "response_time": 0.05,
+      "checked_at": "2026-11-23 10:11:59",
+      "error": ""
+    }
+  },
+  {
+    "name": "Atlantis Radio TV (720p)",
+    "url": "https://cdn.whiplash.cc/whiplash-atlas/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "pe.m3u",
+    "validation": {
+      "url": "https://cdn.whiplash.cc/whiplash-atlas/index.m3u8",
+      "online": true,
+      "status_code": 200,
+      "response_time": 0.07,
+      "checked_at": "2026-11-23 10:12:00",
       "error": ""
     }
   },
@@ -730,8 +730,8 @@
       "url": "https://5eaccbab48461.streamlock.net:1936/8180/8180/playlist.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.55,
-      "checked_at": "2026-11-23 01:22:55",
+      "response_time": 0.43,
+      "checked_at": "2026-11-23 10:11:44",
       "error": ""
     }
   },
@@ -746,8 +746,8 @@
       "url": "https://v4.tustreaming.cl/limachemovil/index.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.28,
-      "checked_at": "2026-11-23 01:22:55",
+      "response_time": 0.26,
+      "checked_at": "2026-11-23 10:11:44",
       "error": ""
     }
   },
@@ -762,24 +762,8 @@
       "url": "https://stream.arcast.net:4443/correadigital/canal12/playlist.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.26,
-      "checked_at": "2026-11-23 01:22:55",
-      "error": ""
-    }
-  },
-  {
-    "name": "ACE Country Radio KPVM-LD (480p)",
-    "url": "https://2-fss-1.streamhoster.com/pl_122/206858-4412960-1/playlist.m3u8",
-    "logo": "",
-    "group": "General",
-    "country": "XX",
-    "source": "us.m3u",
-    "validation": {
-      "url": "https://2-fss-1.streamhoster.com/pl_122/206858-4412960-1/playlist.m3u8",
-      "online": true,
-      "status_code": 200,
-      "response_time": 0.14,
-      "checked_at": "2026-11-23 01:22:56",
+      "response_time": 0.18,
+      "checked_at": "2026-11-23 10:11:45",
       "error": ""
     }
   },
@@ -794,24 +778,24 @@
       "url": "https://v2.tustreaming.cl/fmplus/index.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.65,
-      "checked_at": "2026-11-23 01:22:55",
+      "response_time": 0.44,
+      "checked_at": "2026-11-23 10:11:44",
       "error": ""
     }
   },
   {
-    "name": "Emisora Comunitaria 104.1 FM",
-    "url": "https://v1.tustreaming.cl/emociontv/index.m3u8",
+    "name": "ACE Country Radio KPVM-LD (480p)",
+    "url": "https://2-fss-1.streamhoster.com/pl_122/206858-4412960-1/playlist.m3u8",
     "logo": "",
     "group": "General",
     "country": "XX",
-    "source": "co.m3u",
+    "source": "us.m3u",
     "validation": {
-      "url": "https://v1.tustreaming.cl/emociontv/index.m3u8",
+      "url": "https://2-fss-1.streamhoster.com/pl_122/206858-4412960-1/playlist.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.58,
-      "checked_at": "2026-11-23 01:23:16",
+      "response_time": 0.18,
+      "checked_at": "2026-11-23 10:11:45",
       "error": ""
     }
   },
@@ -826,8 +810,24 @@
       "url": "https://cl-2.backend.energeek.cl/bkp/egradio/mobile/index.m3u8?token=IPTVgh26",
       "online": true,
       "status_code": 200,
-      "response_time": 0.59,
-      "checked_at": "2026-11-23 01:22:55",
+      "response_time": 0.43,
+      "checked_at": "2026-11-23 10:11:45",
+      "error": ""
+    }
+  },
+  {
+    "name": "Emisora Comunitaria 104.1 FM",
+    "url": "https://v1.tustreaming.cl/emociontv/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "co.m3u",
+    "validation": {
+      "url": "https://v1.tustreaming.cl/emociontv/index.m3u8",
+      "online": true,
+      "status_code": 200,
+      "response_time": 0.52,
+      "checked_at": "2026-11-23 10:12:03",
       "error": ""
     }
   },
@@ -842,8 +842,8 @@
       "url": "https://scl.edge.grupoz.cl/miradio2/live/playlist.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.81,
-      "checked_at": "2026-11-23 01:22:55",
+      "response_time": 0.62,
+      "checked_at": "2026-11-23 10:11:45",
       "error": ""
     }
   },
@@ -858,8 +858,8 @@
       "url": "https://unlimited1-cl-isp.dps.live/supersonikatv/supersonikatv.smil/playlist.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 1.3,
-      "checked_at": "2026-11-23 01:22:55",
+      "response_time": 1.02,
+      "checked_at": "2026-11-23 10:11:44",
       "error": ""
     }
   },
@@ -874,8 +874,8 @@
       "url": "https://cl-2.backend.energeek.cl/RadioSuyai-Neo/index.m3u8",
       "online": true,
       "status_code": 200,
-      "response_time": 0.81,
-      "checked_at": "2026-11-23 01:23:22",
+      "response_time": 0.52,
+      "checked_at": "2026-11-23 10:12:08",
       "error": ""
     }
   }
