@@ -125462,5 +125462,37 @@
     "group": "General",
     "country": "XX",
     "source": "cl.m3u"
+  },
+  {
+    "name": "2M Monde HD",
+    "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/2m_monde/live.livx/playlist.m3u8",
+    "logo": "https://i.imgur.com/MvpntzA.png",
+    "group": "General",
+    "country": "XX",
+    "source": "index.m3u"
+  },
+  {
+    "name": "FOX",
+    "url": "https://lilac19.pontiscloud.com/live/gt/FOX/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Golden Edge (1080p)",
+    "url": "http://181.78.12.119:16123/play/ch47/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "mx.m3u"
+  },
+  {
+    "name": "Canal 11 Machagai (1080i)",
+    "url": "https://srv2.zcast.com.br/machagay/machagay/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "ar.m3u"
   }
 ]
