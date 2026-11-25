@@ -125494,5 +125494,45 @@
     "group": "General",
     "country": "XX",
     "source": "ar.m3u"
+  },
+  {
+    "name": "3.16 Channel (1080p)",
+    "url": "https://316hls.wns.live/hls/stream.m3u8",
+    "logo": "https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/3.16%20Channel.jpeg",
+    "group": "General",
+    "country": "XX",
+    "source": "index.m3u"
+  },
+  {
+    "name": "101tv Cádiz (720p) [Geo-blocked]",
+    "url": "https://liveingesta318.cdnmedia.tv/101weblive/smil:CADIZ.smil/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "es.m3u"
+  },
+  {
+    "name": "101tv Malaga (720p) [Geo-blocked]",
+    "url": "https://liveingesta318.cdnmedia.tv/101televisionlive/smil:malagaott.smil/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "es.m3u"
+  },
+  {
+    "name": "101tv Sevilla (720p) [Geo-blocked]",
+    "url": "https://liveingesta318.cdnmedia.tv/101televisionlive/smil:sevillaott.smil/playlist.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "es.m3u"
+  },
+  {
+    "name": "Chacra TV (1080p)",
+    "url": "https://media.cdnvid.com/public/1tgsjc7hs1kv.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "ar.m3u"
   }
 ]
