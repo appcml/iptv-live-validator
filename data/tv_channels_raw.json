@@ -125534,5 +125534,77 @@
     "group": "General",
     "country": "XX",
     "source": "ar.m3u"
+  },
+  {
+    "name": "ABC News Live 1 (1080p)",
+    "url": "https://abcnews-livestreams.akamaized.net/out/v1/42a9b78d0a1f4b6599bbdfb1ae512bc4/abcn-live-01-cmaf-manifest/abcn-live-01-index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "ABC News Live 6 (1080p)",
+    "url": "https://abcnews-livestreams.akamaized.net/out/v1/9a9ee355c85a41139f57059aa69e2dbb/abcn-live-06-cmaf-manifest/abcn-live-06-index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "ABC News Live 7 (1080p)",
+    "url": "https://abcnews-livestreams.akamaized.net/out/v1/154d2c2958f641ebaff682b130320ea5/abcn-live-07-cmaf-manifest/abcn-live-07-index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "ABC News Live 8 (1080p)",
+    "url": "https://abcnews-livestreams.akamaized.net/out/v1/b95119c72ad7477ca49c4d9dfd1271d5/abcn-live-08-cmaf-manifest/abcn-live-08-index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "ABC News Live 9 (1080p)",
+    "url": "https://abcnews-livestreams.akamaized.net/out/v1/4122fc2fd19e4064861b3c6a096286fb/abcn-live-09-cmaf-manifest/abcn-live-09-index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "ABC News Live 10 (1080p)",
+    "url": "https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "AXN Black Romania (576i)",
+    "url": "https://rundle.tv/proxy5.php?src=https://saruman1.tharen001.cfd/axyblack/usergenrxi6s93hs2.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "us.m3u"
+  },
+  {
+    "name": "Atlantico Television (1080p)",
+    "url": "https://live.atlanticotelevision.com/hls/hi/index.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "es.m3u"
+  },
+  {
+    "name": "AXN CEE Romania HD (576i)",
+    "url": "https://rundle.tv/proxy5.php?src=https://cronos.mangora1.cfd/axy/usergend3h5jkc9rnd.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "es.m3u"
   }
 ]
