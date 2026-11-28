@@ -125622,5 +125622,21 @@
     "group": "General",
     "country": "XX",
     "source": "es.m3u"
+  },
+  {
+    "name": "Alterna TV (720p) [Not 24/7]",
+    "url": "https://tv.alterna.ar/live.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "ar.m3u"
+  },
+  {
+    "name": "Alterna TV (720p) [Not 24/7]",
+    "url": "https://tv.alterna.ar/web/live.m3u8",
+    "logo": "",
+    "group": "General",
+    "country": "XX",
+    "source": "ar.m3u"
   }
 ]
